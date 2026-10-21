@@ -1,0 +1,73 @@
+*{
+    font-family: 'Josefin Sans';
+}
+.openningMenu {
+    transition: all 0.2s ease;
+    left: 0px;
+    opacity: 1;
+}
+.ClosedSidebar{
+    left: -300px;
+    opacity: 0;
+}
+.font-bebas {
+    font-family: 'Bebas Neue', sans-serif;
+  }
+.font-Orbitron{
+    font-family: 'Orbitron';
+}
+html{
+    scroll-behavior: smooth;
+}
+.headerSlider {
+    transition: opacity 0.3s ease;
+}
+@media (min-width: 768px) {
+    .casts {
+        scrollbar-width: none; 
+        -ms-overflow-style: none;
+    }
+    .casts::-webkit-scrollbar {
+        display: none;
+    }
+}
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(5px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+    animation: fadeIn 0.3s ease-in-out forwards;
+}
+.active-tab{
+    color: #ffaa00;
+}
+.topDetails{
+    width: 80%;
+    display: block;
+}
+.sky.topDetails .details{
+    display: block;
+}
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+.ActiveSearch{
+    display: block;
+    width: 0;
+}
+.SinputAnim{
+    width: 100%;
+    transition: all 0.3s ease;
+    padding: 5px;
+    background-color: inherit;
+    outline: none;
+
+}
+
+/* movies.html */
+.filterPanel li{
+    padding: 0 5px;
+    color: #fff;
+    font-size: 1.1rem;
+}

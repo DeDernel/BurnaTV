@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100..700&family=Ubuntu:wght@300..700&display=swap" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Burna/Movie</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-950 moviesPage">
+    <section class="grid grid-cols-[auto_1fr]">
+        <aside>
+            <div class="">
+                <h1 class="text-2xl text-purple-500 font-bold w-fit p-1">Burna</h1>
+                <span></span>
+            </div>
+            <div class="w-64">
+                <ul class="filterPanel">
+                    <li class="cursor-pointer" data-tab="year">
+                        <i class="fa-regular fa-calendar-days text-gray-500"></i> 
+                        <span>Year</span>
+                        <i class="fa-solid fa-angle-down text-sm"></i>
+                        <div class="years-filter hidden opacity-0 transition-all flex flex-col">
+
+                        </div>
+                    </li>
+                    <li class="cursor-pointer" data-tab="genre">
+                        <i class="fa-solid fa-masks-theater text-gray-500"></i> 
+                        <span>Genre </span>
+                        <i class="fa-solid fa-angle-down text-sm"></i>
+                        <div class="genres-filter hidden opacity-0 transition-all flex flex-col">
+
+                        </div>
+                    </li>
+                    <li class="cursor-pointer" data-tab="family">
+                        <i class="fa-solid fa-people-group text-gray-500"></i> 
+                        <span>family</span>
+                        <i class="fa-solid fa-angle-down text-sm"></i>
+                        <div class="family-filter hidden opacity-0 transition-all flex flex-col">
+
+                        </div>
+                    </li>
+                    <li class="cursor-pointer" data-tab="trends">
+                        <i class="fa-solid fa-arrow-trend-up text-gray-500"></i> 
+                        <span>Trends</span>
+                        <i class="fa-solid fa-angle-down text-sm"></i>
+                    </li>
+                    <li class="cursor-pointer group" data-tab="rating">
+                        <i class="fa-solid fa-ranking-star text-gray-500"></i> 
+                        <span>Rating</span>
+                        <i class="fa-solid fa-angle-down text-sm"></i>
+                        <div class="rating-filter hidden opacity-0 transition-all flex flex-col">
+
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+        <section>
+            <nav class="text-2xl text-gray-100">
+                
+                
+            </nav>
+            <article class="bg-gray-800 movies grid grid-cols-[repeat(auto-fit,minmax(200px,1fr))] items-start gap-2 text-3xl text-gray-100 p-2">
+                
+                2
+            </article>       
+        </section>
+    </section>
+
+    <script type="module" src="Src/main.js"></script>
+</body>
+</html>
