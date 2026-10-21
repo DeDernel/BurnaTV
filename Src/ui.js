@@ -2,18 +2,16 @@ class MovieComponent{
     static variants = {
         default : {
             showImage: true,
-            titleClass: 'text-gray-100 line-clamp-1 m-2 text-sm absolute bottom-0 z-20',
+            titleClass: 'text-gray-100 line-clamp-1 text-sm absolute bottom-0 z-20',
             year: 'text-sm text-gray-500',
             showInfo: true,
-            image: 'w-full h-80 object-cover'
-
+            image: 'w-full h-64 object-cover rounded-lg'
         },
         slider: {
             sliderHero: true,
             titleClass: 'text-gray-100 text-2xl md:text-6xl font-bebas',
             year: 'text-sm text-gray-100',
             showInfo: false,
-
         },
         moviesList : {
             titleClass: 'text-gray-100 line-clamp-1 m-2 absolute bottom-0 z-20',
@@ -26,10 +24,9 @@ class MovieComponent{
     static createCard(movie , options = {} , extraClass){
         const variantName = options.variant || 'default';
         const config = {...this.variants[variantName]}
-        const card = document.createElement('div');
+        const card = document.createElement('a');
         const scoAge = document.querySelector('.scoAge');
         const title = document.createElement('p');
-
 
         card.className = `relative shadow-2xl p-2 ${extraClass}`;
 
@@ -51,10 +48,10 @@ class MovieComponent{
         if(config.showInfo){
             const rating = document.createElement('span');
             const overlay = document.createElement('div');
-            overlay.className = 'absolute bottom-0 py-3 w-32 rounded-r-xl bg-gray-900 z-10';
+            overlay.className = 'absolute py-4 rounded-r-xl z-10';
             rating.textContent = movie.rating.score;
             rating.className = 'text-yellow-500 absolute text-xs top-2 m-2 left-2 font-bold bg-gray-950/70 p-2 rounded-xl';
-
+            
             card.removeChild(title);
             card.append(overlay , rating);
         }
