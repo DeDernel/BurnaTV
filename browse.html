@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100..700&family=Ubuntu:wght@300..700&display=swap" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Orbitron:wght@700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Burna/Movie</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/Burna.jpg">
+</head>
+<body class="bg-gray-950 moviesPage">
+
+        <nav class="bg-gray-900 w-full max-w-[1100px] mx-auto pb-5">
+            <div class="flex items-center gap-2 rounded-xl bg-gray-200 m-2">
+                <button class="px-2 border-r border-gray-400"><i class="fa-solid fa-magnifying-glass text-xl text-gray-900 cursor-pointer"></i></button>
+                <input type="text" id="searchInput" placeholder="Search..." class="p-2 rounded-xl w-full bg-inherit outline-none">
+            </div>
+            <ul class="recomendedSearch my-2 flex flex-col gap-1">
+
+            </ul>
+            <h2 class="text-xs font-semibold uppercase tracking-wider text-gray-400 mt-4 mb-1 ml-2">Filter by</h2>
+            <ul class="recomendedFilters flex flex-wrap gap-2 mt-2 w-96 m-2">
+            </ul>
+
+            <button class="text-gray-100 ActiveFilter bg-gray-800 hover:bg-white hover:text-black transition p-2 ml-4 mt-5 rounded-xl flex items-center justify-center">
+                <i class="fa-solid fa-filter"></i>
+            </button>
+
+            <div class="mt-3 mb-2 py-3 advancedFilters">
+                <div class="FilterDropDowns flex flex-col gap-2 pb-4 max-w-[500px] w-full">
+
+                </div>
+                <button class="ml-12 text-left bg-blue-500 py-1 px-2 rounded text-white">
+                    <span>Search</span>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+        </nav>
+        <article class="allMS w-full max-w-[1200px] justify-center mx-auto grid grid-cols-[repeat(auto-fit,205px)] gap-2 mt-5">
+
+        </article>
+    <script type="module" src="Src/main.js"></script>
+</body>
+</html>

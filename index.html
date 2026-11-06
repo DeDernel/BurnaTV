@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burna</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100..700&family=Ubuntu:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Orbitron:wght@700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/Burna.jpg">
+
+</head>
+<body class="bg-gray-950 overflow-x-hidden mainPage">
+
+<div class="wrapper max-w-[1700px] mx-auto">
+    <header class="relative">
+
+        <nav class="py-3 gap-3 text-gray-100 flex items-center justify-between bg-gray-900 relative">
+
+            <!-- left Drawer -->
+            <section class="w-fit flex items-center px-5">
+                <!-- Toggle Menu -->
+                <i class="fa-solid fa-bars text-2xl cursor-pointer openMenu"></i>
+
+
+                <!-- Drawer Content -->
+                <div class="SideBar pl-2 gap-1 flex flex-col fixed bg-gray-900 border-r-2 border-purple-600 top-0 ClosedSidebar w-64 h-[100vh] z-40">
+                    <!-- Close Menu -->
+                    <span class="flex items-center justify-end">
+                        <i class="fa-solid fa-xmark text-2xl p-4 mx-4 my-1 cursor-pointer closeMenu"></i>
+                    </span>
+
+
+                    <div class="flex justify-between activeMoviesNav cursor-pointer">
+                        <button class="flex"><svg class="w-5 h-5 text-gray-500 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z"></path></svg> - Movies </button>
+                        <i class="fa-solid fa-angle-down mr-5 arrow"></i>
+                    </div>
+                    <div class="flex flex-col moviesNav">
+                        <a href="browse.html?type=movies&filter=250" class="ml-5">250 Top Movies</a>
+                        <a href="browse.html?type=movies&filter=new" class="ml-5">New Movies</a>
+                        <a href="browse.html?type=movies&filter=trends" class="ml-5">Trending movies</a>
+                        <a href="browse.html?type=movies&filter=calendar" class="ml-5">Release calender</a>
+                    </div>
+
+
+
+                    <div class="flex justify-between activeSeriesNav cursor-pointer">
+                        <button class="flex"><svg class="w-5 h-5 text-gray-500 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg> - TV Series</button>   
+                        <i class="fa-solid fa-angle-down mr-5 arrow"></i>
+                    </div>
+                    <div class="flex flex-col seriesNav">
+                        <a href="browse.html?type=series&filter=trends" class="ml-5">Trending Series</a>
+                        <a href="browse.html?type=series&filter=new" class="ml-5">New Series</a>
+                    </div>
+ 
+                    <a href="browse.html?filter=trends" class="trendsBtn block cursor-pointer mr-1"><i class="fa-solid fa-arrow-trend-up text-gray-500"></i> - Trending Now</a>
+                </div>
+
+                <h1 class="text-xl bg-purple-500 px-2 py-1 rounded ml-7">Burna</h1>
+
+                <!-- Search box -->
+                <a href="browse.html" class="p-[3px] ml-3">
+                    <i class="fa-solid fa-magnifying-glass text-xl cursor-pointer"></i>
+                </a>
+            </section>
+
+            
+            <div class="flex items-center gap-5 mr-5">
+                <div class="relative p-[3px]">
+                    <i class="fa-regular fa-bell text-xl"></i>
+                    <span class="absolute top-0 rounded-xl text-xs bg-red-600 p-[1px]">1</span>
+                </div>
+                <button class="border border-gray-300 px-2 py-1 rounded-xl hover:bg-gray-800 transition">
+                    <span>Sign up</span>
+                </button>
+            </div>
+
+        </nav>
+
+        <!-- T Slider -->
+        <section class="topSlider flex shadow-lg gap-3 h-[80dvh] md:h-[90dvh]">
+            <div class="imgLoader relative group flex flex-col rounded-xl">
+                <img src="" loading="lazy" class="w-[100vw] h-full headerSlider object-cover" alt="">
+                <h1 class="text-gray-100 my-3 ml-4 absolute top-2"><i class="fa-solid fa-arrow-trend-up"></i> Trends | 2026</h1>
+                <button aria-label="Next Slide" class="cursor-pointer hidden group-hover:block back absolute left-5 text-gray-400 top-[50%]"><i class="fa-solid fa-arrow-left text-2xl"></i></button>
+                <button aria-label="Prev Slide" class="cursor-pointer hidden group-hover:block forward absolute right-5 text-gray-400 top-[50%]"><i class="fa-solid fa-arrow-right text-2xl"></i></button>
+
+                
+                <div class="z-10 flex gap-3 absolute md:left-20 bottom-10 md:top-1/2 lg:w-[700px]  w-96 py-2 SliderHeroSection">
+                </div>
+                <div class="absolute scoAge right-10 top-10 flex gap-6 text-3xl font-bold font-bebas">
+                </div>
+                <div class="absolute inset-0 bg-gradient-to-t from-zinc-950 via-zinc-950/40 to-transparent pointer-events-none"></div>
+            </div>
+        </section>
+
+    </header>
+</div>
+
+
+
+
+    <div class="wrapper max-w-[1300px] mx-auto">
+        <div class="mx-5 w-fit">
+            <div class="flex items-center gap-3">
+                <span class="h-2 w-2 rounded-full ArticleStatusColorDotted inline-block"></span>
+                <h2 class="text-xl md:text-2xl text-white">Trending This Week</h2>
+              </div>
+              <span class="text-xs md:text-sm text-gray-500 font-medium flex items-center gap-1">
+                <span class=" rounded-full text-purple-700 text-xl">/</span>
+                <span>Weekly Updates</span>
+              </span>
+        </div>
+    <!-- trends scroll -->
+    <article class="weeklyTrends relative">
+        
+    </article>
+
+    <!-- Cast Explore -->
+    <article class="relative group bg-gradient-to-l from-black to-transparent">
+        <div class="ml-2 py-5">
+            <div class="text-2xl castsRefrence text-gray-100"></div>
+        </div>
+        <button aria-label="Next Cast" class="nextRight cursor-pointer absolute top-1/2 right-2 -translate-y-1/2 p-2 opacity-0 group-hover:opacity-100 transition-opacity rounded-full w-12 h-12 z-10">
+            <i aria-label="Prev Cast" class="fa-solid fa-angle-right text-gray-100 text-2xl font-bold"></i>
+        </button>
+        <button class="nextleft cursor-pointer absolute top-1/2 left-2 -translate-y-1/2 p-2 opacity-0 group-hover:opacity-100 transition-opacity rounded-full w-12 h-12 z-10">
+            <i class="fa-solid fa-angle-left text-gray-100 text-2xl"></i>
+        </button>
+
+        <!-- Cast list -->
+        <section class="casts flex pb-12 gap-5 overflow-x-auto no-scrollbar snap-mandatory snap-x w-full">
+        
+        </section>
+        <div class="absolute top-0 right-0 h-full w-20 bg-gradient-to-l from-black to-transparent pointer-events-none"></div>
+    </article>
+    
+    
+    <!-- TL Trend -->
+    <div class=" mx-5 w-fit">
+        <div class="flex items-center gap-3">
+            <span class="h-7 w-2 rounded-full bg-red-600"></span>
+            <h2 class="text-xl md:text-2xl text-white">Recently Released</h2>
+          </div>
+          <span class="text-xs md:text-sm text-gray-400 font-medium tracking-wider uppercase">
+            Updated Daily
+          </span>
+    </div>
+    <article class="newReleased relative">
+        
+    </article>
+
+    </div>
+
+    <script type="module" src="Src/main.js"></script>
+</body>
+</html>
+
+
+
