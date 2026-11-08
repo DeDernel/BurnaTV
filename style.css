@@ -40,7 +40,8 @@ html{
     animation: fadeIn 0.3s ease-in-out forwards;
 }
 .active-tab{
-    color: #ffaa00;
+    background-color: #8429a2 !important;
+    border: none;
 }
 .topDetails{
     width: 80%;

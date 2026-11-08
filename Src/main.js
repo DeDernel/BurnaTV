@@ -1,5 +1,5 @@
 import { movies } from "./data.js";
-import { MoviesPage , AdvanceSearchUI } from "./moviesPageUI.js";
+import { MoviesPage , FilterOperation} from "./moviesPageUI.js";
 import 
 { 
     Sliders , 
@@ -16,9 +16,10 @@ function init(){
         let OperateCasts = new Casts().init(movies);
     }
     if(document.body.classList.contains('moviesPage')){
-        let moviePage = new MoviesPage().init(movies);
-        let advanceSearch = new AdvanceSearchUI().init(movies);
+        let filterLogic = new FilterOperation();
+        filterLogic.init(movies);
+        let moviePage = new MoviesPage(filterLogic).init(movies);
     }
-    
+
 }
 init();

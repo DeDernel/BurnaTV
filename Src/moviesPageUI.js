@@ -2,98 +2,108 @@ import { MovieComponent } from "./ui.js";
 
 
 export class MoviesPage{
-    constructor(){
+    constructor(FilterClass){
         this.param = new window.URLSearchParams(window.location.search);
+        this.filterLogic = FilterClass;
 
-        this.type = this.param.get('type');
-        this.filter = this.param.get('filter');
+        this.filterLogic.currentFilterStatus.type = this.param.get('type');
+        this.filterLogic.currentFilterStatus.filter = this.param.get('filter');
 
         this.allContainer = document.querySelector('.allMS');
         this.movies = [];
         
-        this.changeTabTimer = null;
-
-
-        // Recomended
-        this.searchInput = document.getElementById('searchInput');
+        
+        // CreateDefaultFilterTabs
         this.RFContainer = document.querySelector('.recomendedFilters');
-        this.RSConatiner = document.querySelector('.recomendedSearch');
         this.filterTabs = [
             { label: 'All',         value: 'all',      icon: 'fa-layer-group'   },
             { label: 'New',         value: 'new',      icon: 'fa-certificate'   },
-            { label: 'Trending',    value: 'trends',   icon: 'fa-arrow-trend-up'},
+            { label: 'Trending',    value: 'trending',   icon: 'fa-arrow-trend-up'},
             { label: 'Top Rated',   value: 'topRated', icon: 'fa-star'          },
             { label: 'Coming Soon', value: 'upcoming', icon: 'fa-calendar-plus' },
-            { label: 'Movies',      value: 'movies', icon: 'fa-calendar-days' },
-            { label: 'TV Series',   value: 'series', icon: 'fa-calendar-days' },
           ];
-          this.RSConatiner.addEventListener('click' , event => {
-                const li = event.target.closest('li');
-                if(!li) return;
-                this.searchInput.value = li.textContent.trim();
-                this.recomendSearch();
-          });
+
           this.RFContainer.addEventListener('click' , event => {
-                const tab = event.target.closest('li');
-                const tabValue = tab.dataset.value;
-                this.filter = tabValue;
+                const getClickedTab = event.target.closest('li');
+                if(!getClickedTab) return;
+                const tabValue = getClickedTab.dataset.value;
 
-                const tabs = this.RFContainer.querySelectorAll('li');
-                tabs.forEach(rm => rm.classList.remove('bg-purple-500'));
-
-                tab.classList.toggle('bg-purple-500');
-                this.RFContainer.prepend(tab);
-                this.getMovieList();
+                this.RFContainer.querySelectorAll('li').forEach(rm => rm.classList.remove('active-tab'));
+                getClickedTab.classList.add('active-tab');
+                
+                this.filterLogic.setFilter('' , tabValue);
+                this.filterLogic.applyFilter(this.filterLogic.currentFilterStatus);
           });
-          this.searchInput.addEventListener('input' , () => {
+          
+        
+        // CreateDefaultSearchOptions
+        this.RSConatiner = document.querySelector('.recomendedSearch');
+        this.searchInput = document.getElementById('searchInput');
+        this.searchTimer = null;
 
-            console.log(this.searchInput.value.length);
-                if(this.searchInput.value.length <= 0){
-                    this.RSConatiner.innerHTML = '';
-                    this.RFContainer.innerHTML = '';
-                    this.getMovieList();
-                    this.createRecomended();
-                }
-                this.recomendSearch();
-          });
+        this.searchInput.addEventListener('input' , () => {
+            clearTimeout(this.searchTimer);
+            this.searchTimer = setTimeout(() => {
+                this.setSearch(this.searchInput.value);
+            },450);
+            
+        });
 
+        this.RSConatiner.addEventListener('click' , event => {
+            const getClickedSearch = event.target.closest('li');
+            if(!getClickedSearch) return;
+            const txtValue = getClickedSearch.textContent;
+            this.setSearch(txtValue);
+            this.searchInput.value = txtValue
+        });
+
+
+
+        // CreateAdvancedSearchOptions
+        this.container = document.querySelector('.FilterDropDowns');
+        this.ActiveFilterSection = document.querySelector('.ActiveFilter');
+        this.advancedFilters = document.querySelector('.advancedFilters');
+
+        this.dropDowns = [
+            {name: 'Media'   , value: 'Media' , icon: 'fa-regular fa-calendar text-gray-500 text-xl w-8'},
+            {name: 'Year'   , value: 'Year' , icon: 'fa-regular fa-calendar text-gray-500 text-xl w-8'},
+            {name: 'Genre'  , value: 'Genre' , icon: 'fa-solid fa-masks-theater text-gray-500 text-xl w-8 '},
+            {name: 'Rate'   , value: 'Rate' , icon: 'fa-regular fa-calendar text-gray-500 text-xl w-8'},
+            {name: 'Age'    , value: 'Age' , icon: 'fa-solid fa-people-group text-gray-500 text-xl w-8'},
+            {name: 'Country', value: 'Country' , icon: 'fa-solid fa-earth-europe text-gray-500 text-xl w-8 '},
+        ]
+        this.ActiveFilterSection.addEventListener('click' , () => {
+            this.ActiveFilterSection.classList.toggle('filterDropdownIsActive');
+            this.advancedFilters.classList.toggle('hidden');
+            this.advancedFilters.classList.toggle('filterBoxes');
+        });
+
+        this.container.addEventListener('click' , event => {
+            const li = event.target.closest('li');
+            if(!li) return;
+            const list = li.closest('ul');
+            if(!list) return;
+
+            const box = list.previousElementSibling;
+            const btn = box.querySelector('button');
+
+            const selectedOpt = btn.textContent = li.textContent;
+            const selectedSection = box.dataset.section;
+            
+            
+            this.filterLogic.setFilter(selectedSection,selectedOpt)
+
+            
+        });
 
     }
-    recomendSearch(){
-        let clearInput = this.searchInput.value.trim().toLowerCase();
-        if(clearInput.length <= 0) return;
-        const filtered = this.movies.filter(get => get.title.toLowerCase().includes(clearInput)).slice(0,8);
-        this.RSConatiner.innerHTML = '';
-        this.RSConatiner.innerHTML = filtered.map(get => {
-            return `
-                <li class="flex gap-2 border-b border-gray-500 text-sm p-2 text-gray-400 hover:text-white transition-colors cursor-pointer">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                    <span>${get.title}</span>
-                </li>
-            `
-        }).join('');
-        this.allContainer.innerHTML = '';
-        if(filtered.length === 0){
-           
-        }
-        filtered.forEach(get => {
-            const moviesCard = MovieComponent.createCard(get , {variant: 'default'}, 'w-52 relative flex flex-col flex-shrink-0');
-            this.allContainer.append(moviesCard);
-        });
+    setSearch(value){
+        let searchValue = value.trim().toLowerCase();
+        this.filterLogic.currentFilterStatus.search = searchValue;
+        this.filterLogic.setFilter('SearchBox' , searchValue);
+        this.filterLogic.applyFilter(this.filterLogic.currentFilterStatus);
     }
-    createRecomended(){
-        this.filterTabs.forEach(item => {
-            const Tab = document.createElement('li');
-            Tab.dataset.value = item.value;
-            Tab.className = 'flex items-center gap-1.5 border border-gray-600 text-sm py-1 px-2 rounded-lg text-gray-200 hover:bg-purple-500 hover:border-gray-300 hover:text-white transition-colors cursor-pointer';
-
-            const i = document.createElement('i');
-            i.className = `fa-solid ${item.icon} -translate-y-px text-gray-100`;
-            const span = document.createElement('span');
-            span.textContent = item.label;
-            Tab.append(i , span);
-            this.RFContainer.append(Tab);
-        });
+    CreateDefaultSearchOptions(){
         this.movies.filter(get => get.isTrending).map(get => get.title).slice(0,5).forEach(search => {
             const box = document.createElement('li');
             const searchRecomend = document.createElement('span');
@@ -104,89 +114,37 @@ export class MoviesPage{
             box.append(i , searchRecomend);
             this.RSConatiner.append(box);
         });
-    }
-    getMovieList(){
-        let toFilter = this.movies;
-        if( this.type === 'series'  || this.filter === 'series'){
-            toFilter = toFilter.filter(get => get.mediaType === 'series');
-        }
-        if(this.type === 'movies' || this.filter === 'movies'){
-            toFilter = toFilter.filter(get => get.mediaType === 'movie');
-        }
+    };
 
-        
+    CreateDefaultFilterTabs(){
+        this.filterTabs.forEach(item => {
+            const Tab = document.createElement('li');
+            Tab.dataset.value = item.value;
+            Tab.className = 'flex items-center gap-1.5 border border-gray-600 text-sm py-1 px-2 rounded-lg text-gray-200  hover:border-purple-600 hover:text-white transition-colors cursor-pointer';
 
-
-        if(this.filter === 'trends'){
-            toFilter = toFilter.filter(get => get.isTrending);
-        }else if(this.filter === 'topRated'){
-            toFilter = toFilter.filter(get => get.rating?.score > 7.5);
-        }else if(this.filter ==='upcoming'){
-            toFilter = toFilter.filter(get => get.status === 'upcoming');
-        }else if(this.filter === 'new'){
-            toFilter = toFilter.filter(get => {
-                const today = new Date();
-                const contentDate = new Date(get.releaseDate);
-
-                const latestContent = (today.getFullYear() - contentDate.getFullYear()) * 12 +
-                                      (today.getMonth() - contentDate.getMonth());
-                return latestContent <= 1;
-            });
-        }else if(this.filter === 'all'){
-            toFilter = this.movies;
-        }
-
-
-        this.allContainer.innerHTML = '';
-        toFilter.forEach(get => {
-            const movieCard = MovieComponent.createCard(get , {variant: 'default'} , 'w-52 relative flex flex-col flex-shrink-0');
-            this.allContainer.append(movieCard);
+            const i = document.createElement('i');
+            i.className = `fa-solid ${item.icon} -translate-y-px text-gray-100`;
+            const span = document.createElement('span');
+            span.textContent = item.label;
+            Tab.append(i , span);
+            this.RFContainer.append(Tab);
         });
-        
-        
-
     }
-    init(moviesData){
-        this.movies = moviesData;
-        this.getMovieList();
-        this.createRecomended();
-    }
-}
 
-export class AdvanceSearchUI{
-    constructor(){
-        this.container = document.querySelector('.FilterDropDowns');
-        this.ActiveFilterSection = document.querySelector('.ActiveFilter');
-        this.advancedFilters = document.querySelector('.advancedFilters');
-        
-        this.data = [];
-        this.dropDowns = [
-            {name: 'By Year'   , value: 'Year' , icon: 'fa-regular fa-calendar text-gray-500 text-xl w-8'},
-            {name: 'By Genre'  , value: '' , icon: 'fa-solid fa-masks-theater text-gray-500 text-xl w-8 '},
-            {name: 'By Age'    , value: '' , icon: 'fa-solid fa-people-group text-gray-500 text-xl w-8'},
-            {name: 'By Country', value: '' , icon: 'fa-solid fa-earth-europe text-gray-500 text-xl w-8 '},
-        ]
-
-        // this.ActiveFilterSection.addEventListener('click' , () => {
-        //     this.ActiveFilterSection.classList.toggle('filterDropdownIsActive');
-        //     this.advancedFilters.classList.toggle('hidden');
-        //     this.advancedFilters.classList.toggle('filterBoxes');
-        // });
-    }
-    initalDropDownsHTML(){
+    CreateAdvancedSearchOptions(){
         const extract = {
-            'By Year'    : [...new Set(this.data.flatMap(get => new Date(get.releaseDate).getFullYear()).sort((a , b) => b - a))],
-            'By Genre'   : [...new Set(this.data.flatMap(get => get.genres).filter(C => C.length < 7))],
-            'By Age'     : [...new Set(this.data.map(movie => movie.minAge).sort())],
-            'By Country' : [...new Set(this.data.flatMap(movie => movie.countries).map(get => get.name).sort())]
+            'Media'   : [...new Set(this.movies.map(get => get.mediaType))],
+            'Year'    : [...new Set(this.movies.flatMap(get => new Date(get.releaseDate).getFullYear()).sort((a , b) => b - a))],
+            'Genre'   : [...new Set(this.movies.flatMap(get => get.genres).filter(C => C.length < 7))],
+            'Rate'   : [...new Set(this.movies.map(get => get.rating.score.toFixed(0)))],
+            'Age'     : [...new Set(this.movies.map(movie => movie.minAge).sort())],
+            'Country' : [...new Set(this.movies.flatMap(movie => movie.countries).map(get => get.name).sort())]
         }
         this.dropDowns.forEach(field => {
             const box = document.createElement('div');
             box.dataset.section = field.value;
             const i = document.createElement('i');
             const btn = document.createElement('button');
-
-            
 
             box.className = 'section flex items-center justify-between gap-2 border mx-2 rounded text-white pl-2 py-1 cursor-pointer';
             btn.textContent = field.name;
@@ -224,14 +182,138 @@ export class AdvanceSearchUI{
             box.append(wrapper , arrowDown);
             this.container.append(box , list);
         });
-        this.container.addEventListener('click' , event => {
-                const currentClick = event.target.closest('li');
-                if(!currentClick) return;
-                console.log(currentClick.textContent);
+    }
+
+    
+    init(moviesData){
+        this.movies = moviesData;
+        this.CreateDefaultSearchOptions()
+        this.CreateDefaultFilterTabs();
+        this.CreateAdvancedSearchOptions();
+    }
+}
+
+
+export class FilterOperation{
+    constructor(){
+        this.allContainer = document.querySelector('.allMS');
+        this.searchBtn = document.querySelector('.StartSeach');
+        this.resetSearch = document.querySelector('.resetSearch');
+        this.currentFilterStatus = {
+                type: null, filter: null, search: null, 
+                year: null, age: null, genre: null,
+                rate: null, country: null
+            };
+        this.data = [];
+        this.timer =  null;
+
+        this.searchBtn.addEventListener('click' , () => {
+            this.applyFilter(this.currentFilterStatus);
+        });
+        this.resetSearch.addEventListener('click' , () => {
+            this.clearUI();
+        });
+    }
+    defaultStatus(){
+        return {
+            type: null, filter: null, search: null, 
+            year: null, age: null, genre: null,
+            rate: null, country: null
+        }
+    }
+    clearUI(){
+        this.currentFilterStatus = this.defaultStatus();
+        document.querySelectorAll('.FilterDropDowns .section').forEach(box => {
+            const btn = box.querySelector('button');
+            btn.textContent = box.dataset.section;
+        });
+        document.querySelectorAll('.recomendedFilters li').forEach(rm => rm.classList.remove('active-tab'));
+        this.renderMovies();
+
+    }
+    setFilter(section , option){
+        let list = this.data;
+        if(section === 'Year') this.currentFilterStatus.year = option;
+        else if(section === 'Genre') this.currentFilterStatus.genre = option;  
+        else if(section === 'Age') this.currentFilterStatus.age = option;
+        else if(section === 'Country') this.currentFilterStatus.country = option;
+        else if(section === 'Media') this.currentFilterStatus.type = option;
+        else if(section === 'Rate') this.currentFilterStatus.rate = option;
+
+        else if (section === 'SearchBox'){
+            this.currentFilterStatus.search = option;
+        }
+        
+        else if(
+           option === 'new'
+        || option === 'trending'
+        || option === 'topRated'
+        || option === 'upcoming'
+        || option === 'all'
+        ){
+            this.currentFilterStatus.filter = option;
+        }
+
+        console.log(this.currentFilterStatus);
+    }
+    applyFilter(f){
+        const list = this.data.filter(movie => {
+
+            if(f.filter === 'topRated' && !(movie.rating.score > 8)) return false;
+            if(f.filter === 'trending' && !movie.isTrending) return false;
+            if(f.filter === 'upcoming' && movie.status !== 'upcoming') return false;
+            
+            if(f.filter === 'new') {
+                const today = new Date();
+                const movieDate = new Date(movie.releaseDate);
+
+                const limitDate = (today.getFullYear() - movieDate.getFullYear()) * 12 + (today.getMonth() - movieDate.getMonth());
+                if (limitDate > 3) return false;
+            }
+
+            if(f.type && movie.mediaType !== f.type) return false;
+            if(f.rate && movie.rating.score < Number(f.rate)) return false;
+            if(f.search && !(movie.title.toLowerCase().includes(f.search))) return false;
+            if(f.year && new Date(movie.releaseDate).getFullYear() !== Number(f.year)) return false;
+            if(f.genre && !movie.genres.includes(f.genre)) return false;
+            if(f.age && movie.minAge !== Number(f.age)) return false;
+            if(f.country && movie.countries.some(c => c.name !== f.country)) return false;
+
+            return true;
+        });
+        this.renderMovies(list);
+    }
+    renderMovies(list = this.data){
+        this.allContainer.innerHTML = '';
+        if (!list.length) {
+            this.allContainer.innerHTML = `
+                <div class="w-full flex flex-col items-center justify-center gap-2 py-16 text-center">
+                    <p class="text-gray-200 text-lg font-medium">No results found</p>
+                    <p class="text-gray-500 text-sm">Try changing your search or filters</p>
+                </div>
+            `;
+            return;
+          };
+        this.allContainer.innerHTML = `
+            <div class="flex justify-center mt-10">
+            <div class="w-12 h-12 rounded-full border-4 border-transparent border-t-blue-500 border-b-purple-500 animate-spin"></div>
+            </div>
+        `;
+        let frag = document.createDocumentFragment();
+        clearTimeout(this.timer);
+        this.timer = setTimeout(() => {
+            this.allContainer.innerHTML = '';
+            list.forEach(movie => {
+                const movieBox = MovieComponent.createCard(movie , {variant: 'default'} , 'relative w-52 flex flex-col flex-shrink-0');
+                frag.append(movieBox);
             });
+            this.allContainer.appendChild(frag);
+        },600);
     }
     init(moviesData){
         this.data = moviesData;
-        this.initalDropDownsHTML();
+        this.renderMovies();
     }
 }
+
+

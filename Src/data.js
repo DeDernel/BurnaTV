@@ -1,4 +1,4 @@
-export const movies = 
+export let movies = 
 [
   {
     "id": 1,
