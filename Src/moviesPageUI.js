@@ -1,4 +1,4 @@
-import { MovieComponent } from "./ui.js";
+import { MovieComponent } from "./components/movieCard.js";
 
 
 export class MoviesPage{
@@ -6,8 +6,8 @@ export class MoviesPage{
         this.param = new window.URLSearchParams(window.location.search);
         this.filterLogic = FilterClass;
 
-        this.filterLogic.currentFilterStatus.type = this.param.get('type');
-        this.filterLogic.currentFilterStatus.filter = this.param.get('filter');
+        // this.filterLogic.currentFilterStatus.type = this.param.get('type');
+        // this.filterLogic.currentFilterStatus.filter = this.param.get('filter');
 
         this.allContainer = document.querySelector('.allMS');
         this.movies = [];
@@ -73,9 +73,9 @@ export class MoviesPage{
             {name: 'Country', value: 'Country' , icon: 'fa-solid fa-earth-europe text-gray-500 text-xl w-8 '},
         ]
         this.ActiveFilterSection.addEventListener('click' , () => {
-            this.ActiveFilterSection.classList.toggle('filterDropdownIsActive');
+            this.ActiveFilterSection.classList.toggle('filterActive');
             this.advancedFilters.classList.toggle('hidden');
-            this.advancedFilters.classList.toggle('filterBoxes');
+            this.advancedFilters.classList.toggle('filterSections');
         });
 
         this.container.addEventListener('click' , event => {
@@ -162,16 +162,16 @@ export class MoviesPage{
             box.addEventListener('click' , event => {
                 if(!isOpen){
                     isOpen = true;
-                    list.classList.remove('closeAnim2')
-                    list.classList.add('openAnim2');
+                    list.classList.remove('closeAnim')
+                    list.classList.add('openAnim');
                     list.classList.remove('hidden');
                 }else{
                     isOpen = false;
                     setTimeout(() => {
                         list.classList.add('hidden');
                     }, 300);
-                    list.classList.add('closeAnim2');
-                    list.classList.remove('openAnim2');
+                    list.classList.add('closeAnim');
+                    list.classList.remove('openAnim');
                 }
             });
             const wrapper = document.createElement('div');
@@ -206,6 +206,7 @@ export class FilterOperation{
             };
         this.data = [];
         this.timer =  null;
+        console.log(this.data);
 
         this.searchBtn.addEventListener('click' , () => {
             this.applyFilter(this.currentFilterStatus);
@@ -312,6 +313,7 @@ export class FilterOperation{
     }
     init(moviesData){
         this.data = moviesData;
+        console.log(moviesData);
         this.renderMovies();
     }
 }
