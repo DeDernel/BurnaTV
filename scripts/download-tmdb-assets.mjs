@@ -27,7 +27,7 @@ async function search(item) {
 
 async function saveImage(imagePath, destination) {
   if (!imagePath) return false;
-  const response = await fetch(`https://image.tmdb.org/t/p/original${imagePath}`);
+  const response = await fetch(`https://image.tmdb.org/t/p/500${imagePath}`);
   if (!response.ok) return false;
   await fs.mkdir(path.dirname(destination), { recursive: true });
   await fs.writeFile(destination, Buffer.from(await response.arrayBuffer()));
