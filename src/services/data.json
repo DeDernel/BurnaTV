@@ -16,7 +16,7 @@
     "director": "Christopher Nolan",
     "poster_url": "images/Inception/InceptionPoster.jpg",
     "backdrop_url": "images/Inception/InceptionBackdrop.jpg",
-    "summary": "Cobb, a skilled thief who commits corporate espionage by infiltrating the subconscious of his targets is offered a chance to regain his old life as payment for a task considered to be impossible: \"inception\", the implantation of another person's idea into a target's subconscious.",
+    "summary": "Inception is a science fiction, action movie directed or created by Christopher Nolan. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
     "countries": [
       {
         "name": "US",
@@ -29,12 +29,12 @@
     ],
     "minAge": 13,
     "rating": {
-      "score": 8.4,
-      "vote_count": 40690
+      "score": 8.8,
+      "vote_count": 2500000
     },
     "runtime": 148,
     "isTrending": false,
-    "releaseDate": "July 15, 2010",
+    "releaseDate": "July 16, 2010",
     "episodeRuntime": null,
     "status": "released",
     "trailerKey": "",
@@ -58,7 +58,7 @@
     "director": "Christopher Nolan",
     "poster_url": "images/Interstellar/InterstellarPoster.jpg",
     "backdrop_url": "images/Interstellar/InterstellarBackdrop.jpg",
-    "summary": "The adventures of a group of explorers who make use of a newly discovered wormhole to surpass the limitations on human space travel and conquer the vast distances involved in an interstellar voyage.",
+    "summary": "Interstellar is a science fiction, drama movie directed or created by Christopher Nolan. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
     "countries": [
       {
         "name": "US",
@@ -71,12 +71,12 @@
     ],
     "minAge": 13,
     "rating": {
-      "score": 8.5,
-      "vote_count": 41825
+      "score": 8.7,
+      "vote_count": 2300000
     },
     "runtime": 169,
     "isTrending": false,
-    "releaseDate": "November 4, 2014",
+    "releaseDate": "November 7, 2014",
     "episodeRuntime": null,
     "status": "released",
     "trailerKey": "",
@@ -100,7 +100,7 @@
     "director": "Christopher Nolan",
     "poster_url": "images/TheDarkKnight/TheDarkKnightPoster.jpg",
     "backdrop_url": "images/TheDarkKnight/TheDarkKnightBackdrop.jpg",
-    "summary": "Batman raises the stakes in his war on crime. With the help of Lt. Jim Gordon and District Attorney Harvey Dent, Batman sets out to dismantle the remaining criminal organizations that plague the streets. The partnership proves to be effective, but they soon find themselves prey to a reign of chaos unleashed by a rising criminal mastermind known to the terrified citizens of Gotham as the Joker.",
+    "summary": "The Dark Knight is a action, crime movie directed or created by Christopher Nolan. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
     "countries": [
       {
         "name": "US",
@@ -113,12 +113,12 @@
     ],
     "minAge": 13,
     "rating": {
-      "score": 8.5,
-      "vote_count": 37284
+      "score": 9.0,
+      "vote_count": 3000000
     },
     "runtime": 152,
     "isTrending": false,
-    "releaseDate": "July 16, 2008",
+    "releaseDate": "July 18, 2008",
     "episodeRuntime": null,
     "status": "released",
     "trailerKey": "",
@@ -140,7 +140,7 @@
     "director": "Frank Darabont",
     "poster_url": "images/TheShawshankRedemption/TheShawshankRedemptionPoster.jpg",
     "backdrop_url": "images/TheShawshankRedemption/TheShawshankRedemptionBackdrop.jpg",
-    "summary": "Imprisoned in the 1940s for the double murder of his wife and her lover, upstanding banker Andy Dufresne begins a new life at the Shawshank prison, where he puts his accounting skills to work for an amoral warden. During his long stretch in prison, Dufresne comes to be admired by the other inmates -- including an older prisoner named Red -- for his integrity and unquenchable sense of hope.",
+    "summary": "The Shawshank Redemption is a drama movie directed or created by Frank Darabont. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
     "countries": [
       {
         "name": "US",
@@ -149,8 +149,8 @@
     ],
     "minAge": 17,
     "rating": {
-      "score": 8.7,
-      "vote_count": 31804
+      "score": 9.3,
+      "vote_count": 3000000
     },
     "runtime": 142,
     "isTrending": false,
@@ -177,7 +177,7 @@
     "director": "Francis Ford Coppola",
     "poster_url": "images/TheGodfather/TheGodfatherPoster.jpg",
     "backdrop_url": "images/TheGodfather/TheGodfatherBackdrop.jpg",
-    "summary": "Spanning the years 1945 to 1955, a chronicle of the fictional Italian-American Corleone crime family. When organized crime family patriarch, Vito Corleone barely survives an attempt on his life, his youngest son, Michael steps in to take care of the would-be killers, launching a campaign of bloody revenge.",
+    "summary": "The Godfather is a crime, drama movie directed or created by Francis Ford Coppola. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
     "countries": [
       {
         "name": "US",
@@ -186,12 +186,12 @@
     ],
     "minAge": 17,
     "rating": {
-      "score": 8.7,
-      "vote_count": 23945
+      "score": 9.2,
+      "vote_count": 2100000
     },
     "runtime": 175,
     "isTrending": false,
-    "releaseDate": "March 14, 1972",
+    "releaseDate": "March 24, 1972",
     "episodeRuntime": null,
     "status": "released",
     "trailerKey": "",
@@ -215,7 +215,7 @@
     "director": "Quentin Tarantino",
     "poster_url": "images/PulpFiction/PulpFictionPoster.jpg",
     "backdrop_url": "images/PulpFiction/PulpFictionBackdrop.jpg",
-    "summary": "A burger-loving hit man, his philosophical partner, a drug-addled gangster's moll and a washed-up boxer converge in this sprawling, comedic crime caper. Their adventures unfurl in three stories that ingeniously trip back and forth in time.",
+    "summary": "Pulp Fiction is a crime, drama movie directed or created by Quentin Tarantino. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
     "countries": [
       {
         "name": "US",
@@ -224,12 +224,12 @@
     ],
     "minAge": 18,
     "rating": {
-      "score": 8.5,
-      "vote_count": 31284
+      "score": 8.9,
+      "vote_count": 2300000
     },
     "runtime": 154,
     "isTrending": false,
-    "releaseDate": "September 10, 1994",
+    "releaseDate": "October 14, 1994",
     "episodeRuntime": null,
     "status": "released",
     "trailerKey": "",
@@ -252,7 +252,7 @@
     "director": "David Fincher",
     "poster_url": "images/FightClub/FightClubPoster.jpg",
     "backdrop_url": "images/FightClub/FightClubBackdrop.jpg",
-    "summary": "A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground \"fight clubs\" forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion.",
+    "summary": "Fight Club is a drama, thriller movie directed or created by David Fincher. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
     "countries": [
       {
         "name": "US",
@@ -265,8 +265,8 @@
     ],
     "minAge": 18,
     "rating": {
-      "score": 8.4,
-      "vote_count": 33290
+      "score": 8.8,
+      "vote_count": 2400000
     },
     "runtime": 139,
     "isTrending": false,
@@ -293,7 +293,7 @@
     "director": "Robert Zemeckis",
     "poster_url": "images/ForrestGump/ForrestGumpPoster.jpg",
     "backdrop_url": "images/ForrestGump/ForrestGumpBackdrop.jpg",
-    "summary": "A man with a low IQ has accomplished great things in his life and been present during significant historic events—in each case, far exceeding what anyone imagined he could do. But despite all he has achieved, his one true love eludes him.",
+    "summary": "Forrest Gump is a drama, romance movie directed or created by Robert Zemeckis. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
     "countries": [
       {
         "name": "US",
@@ -302,12 +302,12 @@
     ],
     "minAge": 13,
     "rating": {
-      "score": 8.5,
-      "vote_count": 30851
+      "score": 8.8,
+      "vote_count": 2300000
     },
     "runtime": 142,
     "isTrending": false,
-    "releaseDate": "June 23, 1994",
+    "releaseDate": "July 6, 1994",
     "episodeRuntime": null,
     "status": "released",
     "trailerKey": "",
@@ -330,7 +330,7 @@
     "director": "Lana Wachowski, Lilly Wachowski",
     "poster_url": "images/TheMatrix/TheMatrixPoster.jpg",
     "backdrop_url": "images/TheMatrix/TheMatrixBackdrop.jpg",
-    "summary": "Set in the 22nd century, The Matrix tells the story of a computer hacker who joins a group of underground insurgents fighting the vast and powerful computers who now rule the earth.",
+    "summary": "The Matrix is a science fiction, action movie directed or created by Lana Wachowski, Lilly Wachowski. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
     "countries": [
       {
         "name": "US",
@@ -339,8 +339,8 @@
     ],
     "minAge": 17,
     "rating": {
-      "score": 8.3,
-      "vote_count": 29197
+      "score": 8.7,
+      "vote_count": 2100000
     },
     "runtime": 136,
     "isTrending": false,
@@ -368,7 +368,7 @@
     "director": "Ridley Scott",
     "poster_url": "images/Gladiator/GladiatorPoster.jpg",
     "backdrop_url": "images/Gladiator/GladiatorBackdrop.jpg",
-    "summary": "After the death of Emperor Marcus Aurelius, his devious son takes power and demotes Maximus, one of Rome's most capable generals who Marcus preferred. Eventually, Maximus is forced to become a gladiator and battle to the death against other men for the amusement of paying audiences.",
+    "summary": "Gladiator is a action, drama movie directed or created by Ridley Scott. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
     "countries": [
       {
         "name": "US",
@@ -381,12 +381,12 @@
     ],
     "minAge": 17,
     "rating": {
-      "score": 8.2,
-      "vote_count": 21829
+      "score": 8.5,
+      "vote_count": 1700000
     },
     "runtime": 155,
     "isTrending": false,
-    "releaseDate": "May 4, 2000",
+    "releaseDate": "May 5, 2000",
     "episodeRuntime": null,
     "status": "released",
     "trailerKey": "",
@@ -410,7 +410,7 @@
     "director": "Bong Joon-ho",
     "poster_url": "images/Parasite/ParasitePoster.jpg",
     "backdrop_url": "images/Parasite/ParasiteBackdrop.jpg",
-    "summary": "All unemployed, Ki-taek's family takes peculiar interest in the wealthy and glamorous Parks for their livelihood until they get entangled in an unexpected incident.",
+    "summary": "Parasite is a thriller, drama movie directed or created by Bong Joon-ho. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
     "countries": [
       {
         "name": "South Korea",
@@ -420,7 +420,7 @@
     "minAge": 17,
     "rating": {
       "score": 8.5,
-      "vote_count": 21664
+      "vote_count": 1000000
     },
     "runtime": 132,
     "isTrending": false,
@@ -447,7 +447,7 @@
     "director": "Damien Chazelle",
     "poster_url": "images/Whiplash/WhiplashPoster.jpg",
     "backdrop_url": "images/Whiplash/WhiplashBackdrop.jpg",
-    "summary": "Under the direction of a ruthless instructor, a talented young drummer begins to pursue perfection at any cost, even his humanity.",
+    "summary": "Whiplash is a drama, music movie directed or created by Damien Chazelle. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
     "countries": [
       {
         "name": "US",
@@ -456,8 +456,8 @@
     ],
     "minAge": 17,
     "rating": {
-      "score": 8.4,
-      "vote_count": 17365
+      "score": 8.5,
+      "vote_count": 1000000
     },
     "runtime": 107,
     "isTrending": false,
@@ -485,7 +485,7 @@
     "director": "Todd Phillips",
     "poster_url": "images/Joker/JokerPoster.jpg",
     "backdrop_url": "images/Joker/JokerBackdrop.jpg",
-    "summary": "During the 1980s, a failed stand-up comedian is driven insane and turns to a life of crime and chaos in Gotham City while becoming an infamous psychopathic crime figure.",
+    "summary": "Joker is a crime, drama movie directed or created by Todd Phillips. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
     "countries": [
       {
         "name": "US",
@@ -498,12 +498,12 @@
     ],
     "minAge": 18,
     "rating": {
-      "score": 8.1,
-      "vote_count": 28666
+      "score": 8.4,
+      "vote_count": 1600000
     },
     "runtime": 122,
     "isTrending": false,
-    "releaseDate": "October 1, 2019",
+    "releaseDate": "October 4, 2019",
     "episodeRuntime": null,
     "status": "released",
     "trailerKey": "",
@@ -527,7 +527,7 @@
     "director": "Denis Villeneuve",
     "poster_url": "images/DunePartTwo/DunePartTwoPoster.jpg",
     "backdrop_url": "images/DunePartTwo/DunePartTwoBackdrop.jpg",
-    "summary": "Follow the mythic journey of Paul Atreides as he unites with Chani and the Fremen while on a path of revenge against the conspirators who destroyed his family. Facing a choice between the love of his life and the fate of the known universe, Paul endeavors to prevent a terrible future only he can foresee.",
+    "summary": "Dune: Part Two is a science fiction, adventure movie directed or created by Denis Villeneuve. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
     "countries": [
       {
         "name": "US",
@@ -540,12 +540,12 @@
     ],
     "minAge": 13,
     "rating": {
-      "score": 8.1,
-      "vote_count": 8931
+      "score": 8.5,
+      "vote_count": 800000
     },
     "runtime": 166,
     "isTrending": true,
-    "releaseDate": "February 27, 2024",
+    "releaseDate": "March 1, 2024",
     "episodeRuntime": null,
     "status": "released",
     "trailerKey": "",
@@ -569,7 +569,7 @@
     "director": "Christopher Nolan",
     "poster_url": "images/Oppenheimer/OppenheimerPoster.jpg",
     "backdrop_url": "images/Oppenheimer/OppenheimerBackdrop.jpg",
-    "summary": "The story of J. Robert Oppenheimer's role in the development of the atomic bomb during World War II.",
+    "summary": "Oppenheimer is a drama, history movie directed or created by Christopher Nolan. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
     "countries": [
       {
         "name": "US",
@@ -582,12 +582,12 @@
     ],
     "minAge": 17,
     "rating": {
-      "score": 8,
-      "vote_count": 12866
+      "score": 8.3,
+      "vote_count": 900000
     },
     "runtime": 180,
     "isTrending": true,
-    "releaseDate": "July 19, 2023",
+    "releaseDate": "July 21, 2023",
     "episodeRuntime": null,
     "status": "released",
     "trailerKey": "",
@@ -611,7 +611,7 @@
     "director": "Bob Persichetti, Peter Ramsey, Rodney Rothman",
     "poster_url": "images/SpiderManIntotheSpiderVerse/SpiderManIntotheSpiderVersePoster.jpg",
     "backdrop_url": "images/SpiderManIntotheSpiderVerse/SpiderManIntotheSpiderVerseBackdrop.jpg",
-    "summary": "Struggling to find his place in the world while juggling school and family, Brooklyn teenager Miles Morales is unexpectedly bitten by a radioactive spider and develops unfathomable powers just like the one and only Spider-Man. While wrestling with the implications of his new abilities, Miles discovers a super collider created by the madman Wilson \"Kingpin\" Fisk, causing others from across the Spider-Verse to be inadvertently transported to his dimension.",
+    "summary": "Spider-Man: Into the Spider-Verse is a animation, action movie directed or created by Bob Persichetti, Peter Ramsey, Rodney Rothman. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
     "countries": [
       {
         "name": "US",
@@ -621,11 +621,11 @@
     "minAge": 10,
     "rating": {
       "score": 8.4,
-      "vote_count": 18176
+      "vote_count": 700000
     },
     "runtime": 117,
     "isTrending": false,
-    "releaseDate": "December 6, 2018",
+    "releaseDate": "December 14, 2018",
     "episodeRuntime": null,
     "status": "released",
     "trailerKey": "",
@@ -649,7 +649,7 @@
     "director": "Peter Jackson",
     "poster_url": "images/TheLordoftheRingsTheFellowshipoftheRing/TheLordoftheRingsTheFellowshipoftheRingPoster.jpg",
     "backdrop_url": "images/TheLordoftheRingsTheFellowshipoftheRing/TheLordoftheRingsTheFellowshipoftheRingBackdrop.jpg",
-    "summary": "Young hobbit Frodo Baggins, after inheriting a mysterious ring from his uncle Bilbo, must leave his home in order to keep it from falling into the hands of its evil creator. Along the way, a fellowship is formed to protect the ringbearer and make sure that the ring arrives at its final destination: Mt. Doom, the only place where it can be destroyed.",
+    "summary": "The Lord of the Rings: The Fellowship of the Ring is a fantasy, adventure movie directed or created by Peter Jackson. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
     "countries": [
       {
         "name": "US",
@@ -662,12 +662,12 @@
     ],
     "minAge": 13,
     "rating": {
-      "score": 8.4,
-      "vote_count": 28821
+      "score": 8.9,
+      "vote_count": 2000000
     },
     "runtime": 178,
     "isTrending": false,
-    "releaseDate": "December 18, 2001",
+    "releaseDate": "December 19, 2001",
     "episodeRuntime": null,
     "status": "released",
     "trailerKey": "",
@@ -691,7 +691,7 @@
     "director": "Peter Jackson",
     "poster_url": "images/TheLordoftheRingsTheReturnoftheKing/TheLordoftheRingsTheReturnoftheKingPoster.jpg",
     "backdrop_url": "images/TheLordoftheRingsTheReturnoftheKing/TheLordoftheRingsTheReturnoftheKingBackdrop.jpg",
-    "summary": "As armies mass for a final battle that will decide the fate of the world--and powerful, ancient forces of Light and Dark compete to determine the outcome--one member of the Fellowship of the Ring is revealed as the noble heir to the throne of the Kings of Men. Yet, the sole hope for triumph over evil lies with a brave hobbit, Frodo, who, accompanied by his loyal friend Sam and the hideous, wretched Gollum, ventures deep into the very dark heart of Mordor on his seemingly impossible quest to destroy the Ring of Power.​",
+    "summary": "The Lord of the Rings: The Return of the King is a fantasy, adventure movie directed or created by Peter Jackson. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
     "countries": [
       {
         "name": "US",
@@ -704,8 +704,8 @@
     ],
     "minAge": 13,
     "rating": {
-      "score": 8.5,
-      "vote_count": 27782
+      "score": 9.0,
+      "vote_count": 2000000
     },
     "runtime": 201,
     "isTrending": false,
@@ -733,7 +733,7 @@
     "director": "Frank Darabont",
     "poster_url": "images/TheGreenMile/TheGreenMilePoster.jpg",
     "backdrop_url": "images/TheGreenMile/TheGreenMileBackdrop.jpg",
-    "summary": "A supernatural tale set on death row in a Southern prison, where gentle giant John Coffey possesses the mysterious power to heal people's ailments. When the cell block's head guard, Paul Edgecomb, recognizes Coffey's miraculous gift, he tries desperately to help stave off the condemned man's execution.",
+    "summary": "The Green Mile is a drama, fantasy movie directed or created by Frank Darabont. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
     "countries": [
       {
         "name": "US",
@@ -742,8 +742,8 @@
     ],
     "minAge": 17,
     "rating": {
-      "score": 8.5,
-      "vote_count": 20107
+      "score": 8.6,
+      "vote_count": 1400000
     },
     "runtime": 189,
     "isTrending": false,
@@ -771,7 +771,7 @@
     "director": "David Fincher",
     "poster_url": "images/Se7en/Se7enPoster.jpg",
     "backdrop_url": "images/Se7en/Se7enBackdrop.jpg",
-    "summary": "Two homicide detectives are on a desperate hunt for a serial killer whose crimes are based on the \"seven deadly sins\" in this dark and haunting film that takes viewers from the tortured remains of one victim to the next. The seasoned Det. Somerset researches each sin in an effort to get inside the killer's mind, while his novice partner, Mills, scoffs at his efforts to unravel the case.",
+    "summary": "Se7en is a crime, mystery movie directed or created by David Fincher. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
     "countries": [
       {
         "name": "US",
@@ -780,8 +780,8 @@
     ],
     "minAge": 18,
     "rating": {
-      "score": 8.4,
-      "vote_count": 24175
+      "score": 8.6,
+      "vote_count": 1800000
     },
     "runtime": 127,
     "isTrending": false,
@@ -809,7 +809,7 @@
     "director": "Jonathan Demme",
     "poster_url": "images/TheSilenceoftheLambs/TheSilenceoftheLambsPoster.jpg",
     "backdrop_url": "images/TheSilenceoftheLambs/TheSilenceoftheLambsBackdrop.jpg",
-    "summary": "Clarice Starling is a top student at the FBI's training academy.  Jack Crawford wants Clarice to interview Dr. Hannibal Lecter, a brilliant psychiatrist who is also a violent psychopath, serving life behind bars for various acts of murder and cannibalism.  Crawford believes that Lecter may have insight into a case and that Starling, as an attractive young woman, may be just the bait to draw him out.",
+    "summary": "The Silence of the Lambs is a thriller, crime movie directed or created by Jonathan Demme. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
     "countries": [
       {
         "name": "US",
@@ -818,8 +818,8 @@
     ],
     "minAge": 18,
     "rating": {
-      "score": 8.3,
-      "vote_count": 18818
+      "score": 8.6,
+      "vote_count": 1600000
     },
     "runtime": 118,
     "isTrending": false,
@@ -847,7 +847,7 @@
     "director": "Christopher Nolan",
     "poster_url": "images/ThePrestige/ThePrestigePoster.jpg",
     "backdrop_url": "images/ThePrestige/ThePrestigeBackdrop.jpg",
-    "summary": "A mysterious story of two magicians whose intense rivalry leads them on a life-long battle for supremacy -- full of obsession, deceit and jealousy with dangerous and deadly consequences.",
+    "summary": "The Prestige is a drama, mystery movie directed or created by Christopher Nolan. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
     "countries": [
       {
         "name": "US",
@@ -860,12 +860,12 @@
     ],
     "minAge": 13,
     "rating": {
-      "score": 8.2,
-      "vote_count": 18424
+      "score": 8.5,
+      "vote_count": 1400000
     },
     "runtime": 130,
     "isTrending": false,
-    "releaseDate": "October 19, 2006",
+    "releaseDate": "October 20, 2006",
     "episodeRuntime": null,
     "status": "released",
     "trailerKey": "",
@@ -889,7 +889,7 @@
     "director": "Martin Scorsese",
     "poster_url": "images/TheDeparted/TheDepartedPoster.jpg",
     "backdrop_url": "images/TheDeparted/TheDepartedBackdrop.jpg",
-    "summary": "To take down South Boston's Irish Mafia, the police send in one of their own to infiltrate the underworld, not realizing the syndicate has done likewise. While an undercover cop curries favor with the mob kingpin, a career criminal rises through the police ranks. But both sides soon discover there's a mole among them.",
+    "summary": "The Departed is a crime, drama movie directed or created by Martin Scorsese. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
     "countries": [
       {
         "name": "US",
@@ -898,12 +898,12 @@
     ],
     "minAge": 18,
     "rating": {
-      "score": 8.2,
-      "vote_count": 16898
+      "score": 8.5,
+      "vote_count": 1400000
     },
     "runtime": 151,
     "isTrending": false,
-    "releaseDate": "October 4, 2006",
+    "releaseDate": "October 6, 2006",
     "episodeRuntime": null,
     "status": "released",
     "trailerKey": "",
@@ -927,7 +927,7 @@
     "director": "Hayao Miyazaki",
     "poster_url": "images/SpiritedAway/SpiritedAwayPoster.jpg",
     "backdrop_url": "images/SpiritedAway/SpiritedAwayBackdrop.jpg",
-    "summary": "A young girl, Chihiro, becomes trapped in a strange new world of spirits. When her parents undergo a mysterious transformation, she must call upon the courage she never knew she had to free her family.",
+    "summary": "Spirited Away is a animation, fantasy movie directed or created by Hayao Miyazaki. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
     "countries": [
       {
         "name": "Japan",
@@ -936,8 +936,8 @@
     ],
     "minAge": 10,
     "rating": {
-      "score": 8.5,
-      "vote_count": 19194
+      "score": 8.6,
+      "vote_count": 900000
     },
     "runtime": 125,
     "isTrending": false,
@@ -965,7 +965,7 @@
     "director": "Lee Unkrich, Adrian Molina",
     "poster_url": "images/Coco/CocoPoster.jpg",
     "backdrop_url": "images/Coco/CocoBackdrop.jpg",
-    "summary": "Despite his family’s baffling generations-old ban on music, Miguel dreams of becoming an accomplished musician like his idol, Ernesto de la Cruz. Desperate to prove his talent, Miguel finds himself in the stunning and colorful Land of the Dead following a mysterious chain of events. Along the way, he meets charming trickster Hector, and together, they set off on an extraordinary journey to unlock the real story behind Miguel's family history.",
+    "summary": "Coco is a animation, family movie directed or created by Lee Unkrich, Adrian Molina. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
     "countries": [
       {
         "name": "US",
@@ -974,12 +974,12 @@
     ],
     "minAge": 7,
     "rating": {
-      "score": 8.2,
-      "vote_count": 21826
+      "score": 8.4,
+      "vote_count": 600000
     },
     "runtime": 105,
     "isTrending": false,
-    "releaseDate": "October 27, 2017",
+    "releaseDate": "November 22, 2017",
     "episodeRuntime": null,
     "status": "released",
     "trailerKey": "",
@@ -1003,7 +1003,7 @@
     "director": "Wes Anderson",
     "poster_url": "images/TheGrandBudapestHotel/TheGrandBudapestHotelPoster.jpg",
     "backdrop_url": "images/TheGrandBudapestHotel/TheGrandBudapestHotelBackdrop.jpg",
-    "summary": "The Grand Budapest Hotel tells of a legendary concierge at a famous European hotel between the wars and his friendship with a young employee who becomes his trusted protégé. The story involves the theft and recovery of a priceless Renaissance painting, the battle for an enormous family fortune and the slow and then sudden upheavals that transformed Europe during the first half of the 20th century.",
+    "summary": "The Grand Budapest Hotel is a comedy, drama movie directed or created by Wes Anderson. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
     "countries": [
       {
         "name": "US",
@@ -1016,12 +1016,12 @@
     ],
     "minAge": 13,
     "rating": {
-      "score": 8,
-      "vote_count": 16724
+      "score": 8.1,
+      "vote_count": 900000
     },
     "runtime": 99,
     "isTrending": false,
-    "releaseDate": "February 8, 2014",
+    "releaseDate": "March 28, 2014",
     "episodeRuntime": null,
     "status": "released",
     "trailerKey": "",
@@ -1045,7 +1045,7 @@
     "director": "George Miller",
     "poster_url": "images/MadMaxFuryRoad/MadMaxFuryRoadPoster.jpg",
     "backdrop_url": "images/MadMaxFuryRoad/MadMaxFuryRoadBackdrop.jpg",
-    "summary": "An apocalyptic story set in the furthest reaches of our planet, in a stark desert landscape where humanity is broken, and most everyone is crazed fighting for the necessities of life. Within this world exist two rebels on the run who just might be able to restore order.",
+    "summary": "Mad Max: Fury Road is a action, adventure movie directed or created by George Miller. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
     "countries": [
       {
         "name": "Australia",
@@ -1058,12 +1058,12 @@
     ],
     "minAge": 17,
     "rating": {
-      "score": 7.6,
-      "vote_count": 24927
+      "score": 8.1,
+      "vote_count": 1100000
     },
     "runtime": 120,
     "isTrending": false,
-    "releaseDate": "May 13, 2015",
+    "releaseDate": "May 15, 2015",
     "episodeRuntime": null,
     "status": "released",
     "trailerKey": "",
@@ -1087,7 +1087,7 @@
     "director": "Denis Villeneuve",
     "poster_url": "images/Arrival/ArrivalPoster.jpg",
     "backdrop_url": "images/Arrival/ArrivalBackdrop.jpg",
-    "summary": "Taking place after alien crafts land around the world, an expert linguist is recruited by the military to determine whether they come in peace or are a threat.",
+    "summary": "Arrival is a science fiction, drama movie directed or created by Denis Villeneuve. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
     "countries": [
       {
         "name": "US",
@@ -1100,12 +1100,12 @@
     ],
     "minAge": 13,
     "rating": {
-      "score": 7.6,
-      "vote_count": 20146
+      "score": 7.9,
+      "vote_count": 800000
     },
     "runtime": 116,
     "isTrending": false,
-    "releaseDate": "November 10, 2016",
+    "releaseDate": "November 11, 2016",
     "episodeRuntime": null,
     "status": "released",
     "trailerKey": "",
@@ -1128,7 +1128,7 @@
     "director": "David Fincher",
     "poster_url": "images/TheSocialNetwork/TheSocialNetworkPoster.jpg",
     "backdrop_url": "images/TheSocialNetwork/TheSocialNetworkBackdrop.jpg",
-    "summary": "In 2003, Harvard undergrad and computer programmer Mark Zuckerberg begins work on a new concept that eventually turns into the global social network known as Facebook. Six years later, Mark is one of the youngest billionaires ever, but his unprecedented success leads to both personal and legal complications when he ends up on the receiving end of two lawsuits, one involving his former friend.",
+    "summary": "The Social Network is a drama, biography movie directed or created by David Fincher. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
     "countries": [
       {
         "name": "US",
@@ -1137,8 +1137,8 @@
     ],
     "minAge": 13,
     "rating": {
-      "score": 7.4,
-      "vote_count": 13743
+      "score": 7.8,
+      "vote_count": 700000
     },
     "runtime": 120,
     "isTrending": false,
@@ -1166,7 +1166,7 @@
     "director": "Daniel Kwan, Daniel Scheinert",
     "poster_url": "images/EverythingEverywhereAllatOnce/EverythingEverywhereAllatOncePoster.jpg",
     "backdrop_url": "images/EverythingEverywhereAllatOnce/EverythingEverywhereAllatOnceBackdrop.jpg",
-    "summary": "An aging Chinese immigrant is swept up in an insane adventure, where she alone can save what's important to her by connecting with the lives she could have led in other universes.",
+    "summary": "Everything Everywhere All at Once is a science fiction, action movie directed or created by Daniel Kwan, Daniel Scheinert. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
     "countries": [
       {
         "name": "US",
@@ -1175,12 +1175,12 @@
     ],
     "minAge": 17,
     "rating": {
-      "score": 7.7,
-      "vote_count": 8634
+      "score": 7.8,
+      "vote_count": 500000
     },
     "runtime": 139,
     "isTrending": false,
-    "releaseDate": "March 24, 2022",
+    "releaseDate": "March 25, 2022",
     "episodeRuntime": null,
     "status": "released",
     "trailerKey": "",
@@ -1204,7 +1204,7 @@
     "director": "Vince Gilligan",
     "poster_url": "images/BreakingBad/BreakingBadPoster.jpg",
     "backdrop_url": "images/BreakingBad/BreakingBadBackdrop.jpg",
-    "summary": "Walter White, a New Mexico chemistry teacher, is diagnosed with Stage III cancer and given a prognosis of only two years left to live. He becomes filled with a sense of fearlessness and an unrelenting desire to secure his family's financial future at any cost as he enters the dangerous world of drugs and crime.",
+    "summary": "Breaking Bad is a crime, drama series directed or created by Vince Gilligan. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
     "countries": [
       {
         "name": "US",
@@ -1213,8 +1213,8 @@
     ],
     "minAge": 18,
     "rating": {
-      "score": 9,
-      "vote_count": 19067
+      "score": 9.5,
+      "vote_count": 2300000
     },
     "runtime": null,
     "isTrending": false,
@@ -1263,7 +1263,7 @@
     "director": "David Benioff, D. B. Weiss",
     "poster_url": "images/GameofThrones/GameofThronesPoster.jpg",
     "backdrop_url": "images/GameofThrones/GameofThronesBackdrop.jpg",
-    "summary": "Seven noble families fight for control of the mythical land of Westeros. Friction between the houses leads to full-scale war. All while a very ancient evil awakens in the farthest north. Amidst the war, a neglected military order of misfits, the Night's Watch, is all that stands between the realms of men and icy horrors beyond.",
+    "summary": "Game of Thrones is a fantasy, drama series directed or created by David Benioff, D. B. Weiss. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
     "countries": [
       {
         "name": "US",
@@ -1276,8 +1276,8 @@
     ],
     "minAge": 18,
     "rating": {
-      "score": 8.5,
-      "vote_count": 28142
+      "score": 9.2,
+      "vote_count": 2300000
     },
     "runtime": null,
     "isTrending": false,
@@ -1338,7 +1338,7 @@
     "director": "Craig Mazin, Neil Druckmann",
     "poster_url": "images/TheLastofUs/TheLastofUsPoster.jpg",
     "backdrop_url": "images/TheLastofUs/TheLastofUsBackdrop.jpg",
-    "summary": "Twenty years after modern civilization has been destroyed, Joel, a hardened survivor, is hired to smuggle Ellie, a 14-year-old girl, out of an oppressive quarantine zone. What starts as a small job soon becomes a brutal, heartbreaking journey, as they both must traverse the United States and depend on each other for survival.",
+    "summary": "The Last of Us is a drama, action series directed or created by Craig Mazin, Neil Druckmann. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
     "countries": [
       {
         "name": "US",
@@ -1351,8 +1351,8 @@
     ],
     "minAge": 18,
     "rating": {
-      "score": 8.4,
-      "vote_count": 7496
+      "score": 8.7,
+      "vote_count": 600000
     },
     "runtime": null,
     "isTrending": true,
@@ -1380,7 +1380,7 @@
     "director": "The Duffer Brothers",
     "poster_url": "images/StrangerThings/StrangerThingsPoster.jpg",
     "backdrop_url": "images/StrangerThings/StrangerThingsBackdrop.jpg",
-    "summary": "When a young boy vanishes, a small town uncovers a mystery involving secret experiments, terrifying supernatural forces, and one strange little girl.",
+    "summary": "Stranger Things is a science fiction, horror series directed or created by The Duffer Brothers. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
     "countries": [
       {
         "name": "US",
@@ -1389,8 +1389,8 @@
     ],
     "minAge": 15,
     "rating": {
-      "score": 8.5,
-      "vote_count": 22104
+      "score": 8.7,
+      "vote_count": 1400000
     },
     "runtime": null,
     "isTrending": true,
@@ -1435,7 +1435,7 @@
     "director": "Johan Renck",
     "poster_url": "images/Chernobyl/ChernobylPoster.jpg",
     "backdrop_url": "images/Chernobyl/ChernobylBackdrop.jpg",
-    "summary": "The true story of one of the worst man-made catastrophes in history: the catastrophic nuclear accident at Chernobyl. A tale of the brave men and women who sacrificed to save Europe from unimaginable disaster.",
+    "summary": "Chernobyl is a drama, history series directed or created by Johan Renck. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
     "countries": [
       {
         "name": "US",
@@ -1448,8 +1448,8 @@
     ],
     "minAge": 18,
     "rating": {
-      "score": 8.7,
-      "vote_count": 8516
+      "score": 9.3,
+      "vote_count": 900000
     },
     "runtime": null,
     "isTrending": false,
@@ -1481,7 +1481,7 @@
     "director": "David Chase",
     "poster_url": "images/TheSopranos/TheSopranosPoster.jpg",
     "backdrop_url": "images/TheSopranos/TheSopranosBackdrop.jpg",
-    "summary": "The story of New Jersey-based Italian-American mobster Tony Soprano and the difficulties he faces as he tries to balance the conflicting requirements of his home life and the criminal organization he heads. Those difficulties are often highlighted through his ongoing professional relationship with psychiatrist Jennifer Melfi. The show features Tony's family members and Mafia associates in prominent roles and story arcs, most notably his wife Carmela and his cousin and protégé Christopher Moltisanti.",
+    "summary": "The Sopranos is a crime, drama series directed or created by David Chase. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
     "countries": [
       {
         "name": "US",
@@ -1490,8 +1490,8 @@
     ],
     "minAge": 18,
     "rating": {
-      "score": 8.7,
-      "vote_count": 3784
+      "score": 9.2,
+      "vote_count": 500000
     },
     "runtime": null,
     "isTrending": false,
@@ -1519,7 +1519,7 @@
     "director": "Mark Gatiss, Steven Moffat",
     "poster_url": "images/Sherlock/SherlockPoster.jpg",
     "backdrop_url": "images/Sherlock/SherlockBackdrop.jpg",
-    "summary": "A modern update finds the famous sleuth and his doctor partner solving crime in 21st century London.",
+    "summary": "Sherlock is a crime, drama series directed or created by Mark Gatiss, Steven Moffat. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
     "countries": [
       {
         "name": "UK",
@@ -1528,8 +1528,8 @@
     ],
     "minAge": 15,
     "rating": {
-      "score": 8.5,
-      "vote_count": 6848
+      "score": 9.1,
+      "vote_count": 1000000
     },
     "runtime": null,
     "isTrending": false,
@@ -1557,7 +1557,7 @@
     "director": "Baran bo Odar, Jantje Friese",
     "poster_url": "images/Dark/DarkPoster.jpg",
     "backdrop_url": "images/Dark/DarkBackdrop.jpg",
-    "summary": "Dark Shadows is an American gothic soap opera that originally aired weekdays on the ABC television network, from June 27, 1966, to April 2, 1971. The show was created by Dan Curtis. The story bible, which was written by Art Wallace, does not mention any supernatural elements. It was unprecedented in daytime television when ghosts were introduced about six months after it began.\n\nThe series became hugely popular when vampire Barnabas Collins appeared a year into its run. Dark Shadows also featured werewolves, zombies, man-made monsters, witches, warlocks, time travel, and a parallel universe. A small company of actors each played many roles; indeed, as actors came and went, some characters were played by more than one actor. Major writers besides Art Wallace included Malcolm Marmorstein, Sam Hall, Gordon Russell, and Violet Welles.",
+    "summary": "Dark is a science fiction, mystery series directed or created by Baran bo Odar, Jantje Friese. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
     "countries": [
       {
         "name": "Germany",
@@ -1566,12 +1566,12 @@
     ],
     "minAge": 16,
     "rating": {
-      "score": 7.4,
-      "vote_count": 98
+      "score": 8.7,
+      "vote_count": 450000
     },
     "runtime": null,
     "isTrending": false,
-    "releaseDate": "June 27, 1966",
+    "releaseDate": "December 1, 2017",
     "episodeRuntime": 60,
     "status": "ended",
     "trailerKey": "",
@@ -1593,7 +1593,7 @@
     "director": "Greg Daniels",
     "poster_url": "images/TheOffice/TheOfficePoster.jpg",
     "backdrop_url": "images/TheOffice/TheOfficeBackdrop.jpg",
-    "summary": "The everyday lives of office employees in the Scranton, Pennsylvania branch of the fictional Dunder Mifflin Paper Company.",
+    "summary": "The Office is a comedy series directed or created by Greg Daniels. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
     "countries": [
       {
         "name": "US",
@@ -1602,8 +1602,8 @@
     ],
     "minAge": 13,
     "rating": {
-      "score": 8.6,
-      "vote_count": 5683
+      "score": 9.0,
+      "vote_count": 750000
     },
     "runtime": null,
     "isTrending": false,
@@ -1630,7 +1630,7 @@
     "director": "Jesse Armstrong",
     "poster_url": "images/Succession/SuccessionPoster.jpg",
     "backdrop_url": "images/Succession/SuccessionBackdrop.jpg",
-    "summary": "Follow the lives of the Roy family as they contemplate their future once their aging father begins to step back from the media and entertainment conglomerate they control.",
+    "summary": "Succession is a drama, comedy series directed or created by Jesse Armstrong. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
     "countries": [
       {
         "name": "US",
@@ -1639,8 +1639,8 @@
     ],
     "minAge": 18,
     "rating": {
-      "score": 8.3,
-      "vote_count": 1845
+      "score": 8.8,
+      "vote_count": 350000
     },
     "runtime": null,
     "isTrending": false,
@@ -1667,7 +1667,7 @@
     "director": "Christopher Storer",
     "poster_url": "images/TheBear/TheBearPoster.jpg",
     "backdrop_url": "images/TheBear/TheBearBackdrop.jpg",
-    "summary": "Carmy, a young fine-dining chef, comes home to Chicago to run his family sandwich shop. As he fights to transform the shop and himself, he works alongside a rough-around-the-edges crew that ultimately reveal themselves as his chosen family.",
+    "summary": "The Bear is a drama, comedy series directed or created by Christopher Storer. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
     "countries": [
       {
         "name": "US",
@@ -1676,8 +1676,8 @@
     ],
     "minAge": 16,
     "rating": {
-      "score": 8.2,
-      "vote_count": 2033
+      "score": 8.5,
+      "vote_count": 250000
     },
     "runtime": null,
     "isTrending": true,
@@ -1704,7 +1704,7 @@
     "director": "Steven Knight",
     "poster_url": "images/PeakyBlinders/PeakyBlindersPoster.jpg",
     "backdrop_url": "images/PeakyBlinders/PeakyBlindersBackdrop.jpg",
-    "summary": "A gangster family epic set in 1919 Birmingham, England and centered on a gang who sew razor blades in the peaks of their caps, and their fierce boss Tommy Shelby, who means to move up in the world.",
+    "summary": "Peaky Blinders is a crime, drama series directed or created by Steven Knight. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
     "countries": [
       {
         "name": "UK",
@@ -1713,8 +1713,8 @@
     ],
     "minAge": 18,
     "rating": {
-      "score": 8.5,
-      "vote_count": 11514
+      "score": 8.7,
+      "vote_count": 700000
     },
     "runtime": null,
     "isTrending": false,
@@ -1742,7 +1742,7 @@
     "director": "Joe Penhall",
     "poster_url": "images/Mindhunter/MindhunterPoster.jpg",
     "backdrop_url": "images/Mindhunter/MindhunterBackdrop.jpg",
-    "summary": "An agent in the FBI's Elite Serial Crime Unit develops profiling techniques as he pursues notorious serial killers and rapists.",
+    "summary": "Mindhunter is a crime, drama series directed or created by Joe Penhall. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
     "countries": [
       {
         "name": "US",
@@ -1751,8 +1751,8 @@
     ],
     "minAge": 18,
     "rating": {
-      "score": 8.2,
-      "vote_count": 3198
+      "score": 8.6,
+      "vote_count": 350000
     },
     "runtime": null,
     "isTrending": false,
@@ -1780,7 +1780,7 @@
     "director": "Nic Pizzolatto",
     "poster_url": "images/TrueDetective/TrueDetectivePoster.jpg",
     "backdrop_url": "images/TrueDetective/TrueDetectiveBackdrop.jpg",
-    "summary": "An American anthology police detective series utilizing multiple timelines in which investigations seem to unearth personal and professional secrets of those involved, both within or outside the law.",
+    "summary": "True Detective is a crime, drama series directed or created by Nic Pizzolatto. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
     "countries": [
       {
         "name": "US",
@@ -1789,8 +1789,8 @@
     ],
     "minAge": 18,
     "rating": {
-      "score": 8.3,
-      "vote_count": 4474
+      "score": 8.9,
+      "vote_count": 700000
     },
     "runtime": null,
     "isTrending": false,
@@ -1816,7 +1816,7 @@
     "director": "Scott Frank",
     "poster_url": "images/TheQueensGambit/TheQueensGambitPoster.jpg",
     "backdrop_url": "images/TheQueensGambit/TheQueensGambitBackdrop.jpg",
-    "summary": "In a 1950s orphanage, a young girl reveals an astonishing talent for chess and begins an unlikely journey to stardom while grappling with addiction.",
+    "summary": "The Queen's Gambit is a drama series directed or created by Scott Frank. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
     "countries": [
       {
         "name": "US",
@@ -1825,8 +1825,8 @@
     ],
     "minAge": 16,
     "rating": {
-      "score": 8.4,
-      "vote_count": 5900
+      "score": 8.5,
+      "vote_count": 450000
     },
     "runtime": null,
     "isTrending": false,
@@ -1859,7 +1859,7 @@
     "director": "Jon Favreau",
     "poster_url": "images/TheMandalorian/TheMandalorianPoster.jpg",
     "backdrop_url": "images/TheMandalorian/TheMandalorianBackdrop.jpg",
-    "summary": "After the fall of the Galactic Empire, lawlessness has spread throughout the galaxy. A lone gunfighter makes his way through the outer reaches, earning his keep as a bounty hunter.",
+    "summary": "The Mandalorian is a science fiction, adventure series directed or created by Jon Favreau. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
     "countries": [
       {
         "name": "US",
@@ -1868,8 +1868,8 @@
     ],
     "minAge": 13,
     "rating": {
-      "score": 8.4,
-      "vote_count": 11378
+      "score": 8.6,
+      "vote_count": 600000
     },
     "runtime": null,
     "isTrending": false,
@@ -1897,7 +1897,7 @@
     "director": "Christian Linke, Alex Yee",
     "poster_url": "images/Arcane/ArcanePoster.jpg",
     "backdrop_url": "images/Arcane/ArcaneBackdrop.jpg",
-    "summary": "Amid the stark discord of twin cities Piltover and Zaun, two sisters fight on rival sides of a war between magic technologies and clashing convictions.",
+    "summary": "Arcane is a animation, action series directed or created by Christian Linke, Alex Yee. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
     "countries": [
       {
         "name": "US",
@@ -1910,8 +1910,8 @@
     ],
     "minAge": 15,
     "rating": {
-      "score": 8.7,
-      "vote_count": 6306
+      "score": 9.0,
+      "vote_count": 350000
     },
     "runtime": null,
     "isTrending": false,
@@ -1939,7 +1939,7 @@
     "director": "Eric Kripke",
     "poster_url": "images/TheBoys/TheBoysPoster.jpg",
     "backdrop_url": "images/TheBoys/TheBoysBackdrop.jpg",
-    "summary": "A group of vigilantes known informally as “The Boys” set out to take down corrupt superheroes with no more than blue-collar grit and a willingness to fight dirty.",
+    "summary": "The Boys is a action, comedy series directed or created by Eric Kripke. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
     "countries": [
       {
         "name": "US",
@@ -1948,12 +1948,12 @@
     ],
     "minAge": 18,
     "rating": {
-      "score": 8.4,
-      "vote_count": 13651
+      "score": 8.6,
+      "vote_count": 750000
     },
     "runtime": null,
     "isTrending": false,
-    "releaseDate": "July 25, 2019",
+    "releaseDate": "July 26, 2019",
     "episodeRuntime": 60,
     "status": "ongoing",
     "trailerKey": "",
@@ -1977,7 +1977,7 @@
     "director": "Guy Ritchie",
     "poster_url": "images/MobLand/MobLandPoster.jpg",
     "backdrop_url": "images/MobLand/MobLandBackdrop.jpg",
-    "summary": "Two mob families clash in a war that threatens to topple empires and lives.",
+    "summary": "MobLand is a crime, drama series directed or created by Guy Ritchie. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
     "countries": [
       {
         "name": "UK",
@@ -1990,8 +1990,8 @@
     ],
     "minAge": 18,
     "rating": {
-      "score": 8.6,
-      "vote_count": 1188
+      "score": 8.3,
+      "vote_count": 126000
     },
     "runtime": null,
     "isTrending": true,
@@ -2024,7 +2024,7 @@
     "director": "Ryan Condal, George R. R. Martin",
     "poster_url": "images/HouseoftheDragon/HouseoftheDragonPoster.jpg",
     "backdrop_url": "images/HouseoftheDragon/HouseoftheDragonBackdrop.jpg",
-    "summary": "The Targaryen dynasty is at the absolute apex of its power, with more than 15 dragons under their yoke. Most empires crumble from such heights. In the case of the Targaryens, their slow fall begins when King Viserys breaks with a century of tradition by naming his daughter Rhaenyra heir to the Iron Throne. But when Viserys later fathers a son, the court is shocked when Rhaenyra retains her status as his heir, and seeds of division sow friction across the realm.",
+    "summary": "House of the Dragon is a fantasy, drama series directed or created by Ryan Condal, George R. R. Martin. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
     "countries": [
       {
         "name": "US",
@@ -2038,7 +2038,7 @@
     "minAge": 18,
     "rating": {
       "score": 8.4,
-      "vote_count": 7299
+      "vote_count": 450000
     },
     "runtime": null,
     "isTrending": false,
@@ -2056,6 +2056,2406 @@
         "episode": 8
       }
     ],
+    "mediaType": "series"
+  },
+  {
+    "id": 51,
+    "title": "The Dutchman",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/TheDutchman/TheDutchmanPoster.jpg",
+    "backdrop_url": "images/TheDutchman/TheDutchmanBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "January 2, 2026",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 52,
+    "title": "We Bury the Dead",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/WeBurytheDead/WeBurytheDeadPoster.jpg",
+    "backdrop_url": "images/WeBurytheDead/WeBurytheDeadBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "January 2, 2026",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 53,
+    "title": "Greenland 2: Migration",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/Greenland2Migration/Greenland2MigrationPoster.jpg",
+    "backdrop_url": "images/Greenland2Migration/Greenland2MigrationBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "January 9, 2026",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 54,
+    "title": "Primate",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/Primate/PrimatePoster.jpg",
+    "backdrop_url": "images/Primate/PrimateBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "January 9, 2026",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 55,
+    "title": "Dead Man's Wire",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/DeadMansWire/DeadMansWirePoster.jpg",
+    "backdrop_url": "images/DeadMansWire/DeadMansWireBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "January 9, 2026",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 56,
+    "title": "People We Meet on Vacation",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/PeopleWeMeetonVacation/PeopleWeMeetonVacationPoster.jpg",
+    "backdrop_url": "images/PeopleWeMeetonVacation/PeopleWeMeetonVacationBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "January 9, 2026",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 57,
+    "title": "28 Years Later: The Bone Temple",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/28YearsLaterTheBoneTemple/28YearsLaterTheBoneTemplePoster.jpg",
+    "backdrop_url": "images/28YearsLaterTheBoneTemple/28YearsLaterTheBoneTempleBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "January 16, 2026",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 58,
+    "title": "The Rip",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/TheRip/TheRipPoster.jpg",
+    "backdrop_url": "images/TheRip/TheRipBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "January 16, 2026",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 59,
+    "title": "Mercy",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/Mercy/MercyPoster.jpg",
+    "backdrop_url": "images/Mercy/MercyBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "January 23, 2026",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 60,
+    "title": "Return to Silent Hill",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/ReturntoSilentHill/ReturntoSilentHillPoster.jpg",
+    "backdrop_url": "images/ReturntoSilentHill/ReturntoSilentHillBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "January 23, 2026",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 61,
+    "title": "Wuthering Heights",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/WutheringHeights/WutheringHeightsPoster.jpg",
+    "backdrop_url": "images/WutheringHeights/WutheringHeightsBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "February 13, 2026",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 62,
+    "title": "Crime 101",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/Crime101/Crime101Poster.jpg",
+    "backdrop_url": "images/Crime101/Crime101Backdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "February 13, 2026",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 63,
+    "title": "GOAT",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/GOAT/GOATPoster.jpg",
+    "backdrop_url": "images/GOAT/GOATBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "February 13, 2026",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 64,
+    "title": "Cold Storage",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/ColdStorage/ColdStoragePoster.jpg",
+    "backdrop_url": "images/ColdStorage/ColdStorageBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "February 13, 2026",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 65,
+    "title": "Scream 7",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/Scream7/Scream7Poster.jpg",
+    "backdrop_url": "images/Scream7/Scream7Backdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "February 27, 2026",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 66,
+    "title": "EPiC: Elvis Presley in Concert",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/EPiCElvisPresleyinConcert/EPiCElvisPresleyinConcertPoster.jpg",
+    "backdrop_url": "images/EPiCElvisPresleyinConcert/EPiCElvisPresleyinConcertBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "February 27, 2026",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 67,
+    "title": "The Bride!",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/TheBride/TheBridePoster.jpg",
+    "backdrop_url": "images/TheBride/TheBrideBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "March 6, 2026",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 68,
+    "title": "Hoppers",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/Hoppers/HoppersPoster.jpg",
+    "backdrop_url": "images/Hoppers/HoppersBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "March 6, 2026",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 69,
+    "title": "War Machine",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/WarMachine/WarMachinePoster.jpg",
+    "backdrop_url": "images/WarMachine/WarMachineBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "March 6, 2026",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 70,
+    "title": "Youngblood",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/Youngblood/YoungbloodPoster.jpg",
+    "backdrop_url": "images/Youngblood/YoungbloodBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "March 6, 2026",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 71,
+    "title": "Project Hail Mary",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/ProjectHailMary/ProjectHailMaryPoster.jpg",
+    "backdrop_url": "images/ProjectHailMary/ProjectHailMaryBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "March 20, 2026",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 72,
+    "title": "Reminders of Him",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/RemindersofHim/RemindersofHimPoster.jpg",
+    "backdrop_url": "images/RemindersofHim/RemindersofHimBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "March 13, 2026",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 73,
+    "title": "Peaky Blinders: The Immortal Man",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/PeakyBlindersTheImmortalMan/PeakyBlindersTheImmortalManPoster.jpg",
+    "backdrop_url": "images/PeakyBlindersTheImmortalMan/PeakyBlindersTheImmortalManBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "March 20, 2026",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 74,
+    "title": "Ready or Not 2: Here I Come",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/ReadyorNot2HereICome/ReadyorNot2HereIComePoster.jpg",
+    "backdrop_url": "images/ReadyorNot2HereICome/ReadyorNot2HereIComeBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "March 27, 2026",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 75,
+    "title": "They Will Kill You",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/TheyWillKillYou/TheyWillKillYouPoster.jpg",
+    "backdrop_url": "images/TheyWillKillYou/TheyWillKillYouBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "March 27, 2026",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 76,
+    "title": "The Drama",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/TheDrama/TheDramaPoster.jpg",
+    "backdrop_url": "images/TheDrama/TheDramaBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "April 3, 2026",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 77,
+    "title": "The Super Mario Galaxy Movie",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/TheSuperMarioGalaxyMovie/TheSuperMarioGalaxyMoviePoster.jpg",
+    "backdrop_url": "images/TheSuperMarioGalaxyMovie/TheSuperMarioGalaxyMovieBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "April 3, 2026",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 78,
+    "title": "Beast",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/Beast/BeastPoster.jpg",
+    "backdrop_url": "images/Beast/BeastBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "April 10, 2026",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 79,
+    "title": "Michael",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/Michael/MichaelPoster.jpg",
+    "backdrop_url": "images/Michael/MichaelBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "April 24, 2026",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 80,
+    "title": "The Devil Wears Prada 2",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/TheDevilWearsPrada2/TheDevilWearsPrada2Poster.jpg",
+    "backdrop_url": "images/TheDevilWearsPrada2/TheDevilWearsPrada2Backdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "May 1, 2026",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 81,
+    "title": "The Sheep Detectives",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/TheSheepDetectives/TheSheepDetectivesPoster.jpg",
+    "backdrop_url": "images/TheSheepDetectives/TheSheepDetectivesBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "May 8, 2026",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 82,
+    "title": "Mortal Kombat II",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/MortalKombatII/MortalKombatIIPoster.jpg",
+    "backdrop_url": "images/MortalKombatII/MortalKombatIIBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "May 8, 2026",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 83,
+    "title": "The Mandalorian & Grogu",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/TheMandalorianGrogu/TheMandalorianGroguPoster.jpg",
+    "backdrop_url": "images/TheMandalorianGrogu/TheMandalorianGroguBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "May 22, 2026",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 84,
+    "title": "Toy Story 5",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/ToyStory5/ToyStory5Poster.jpg",
+    "backdrop_url": "images/ToyStory5/ToyStory5Backdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "June 19, 2026",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 85,
+    "title": "Supergirl",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/Supergirl/SupergirlPoster.jpg",
+    "backdrop_url": "images/Supergirl/SupergirlBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "June 26, 2026",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 86,
+    "title": "Minions 3",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/Minions3/Minions3Poster.jpg",
+    "backdrop_url": "images/Minions3/Minions3Backdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "July 1, 2026",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 87,
+    "title": "Moana",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/Moana/MoanaPoster.jpg",
+    "backdrop_url": "images/Moana/MoanaBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "July 10, 2026",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 88,
+    "title": "The Odyssey",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/TheOdyssey/TheOdysseyPoster.jpg",
+    "backdrop_url": "images/TheOdyssey/TheOdysseyBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "July 17, 2026",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 89,
+    "title": "Evil Dead Burn",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/EvilDeadBurn/EvilDeadBurnPoster.jpg",
+    "backdrop_url": "images/EvilDeadBurn/EvilDeadBurnBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "July 24, 2026",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 90,
+    "title": "Spider-Man: Brand New Day",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/SpiderManBrandNewDay/SpiderManBrandNewDayPoster.jpg",
+    "backdrop_url": "images/SpiderManBrandNewDay/SpiderManBrandNewDayBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "July 31, 2026",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 91,
+    "title": "Coyote vs. Acme",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/CoyotevsAcme/CoyotevsAcmePoster.jpg",
+    "backdrop_url": "images/CoyotevsAcme/CoyotevsAcmeBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "August 28, 2026",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 92,
+    "title": "Resident Evil",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/ResidentEvil/ResidentEvilPoster.jpg",
+    "backdrop_url": "images/ResidentEvil/ResidentEvilBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "September 18, 2026",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 93,
+    "title": "Verity",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/Verity/VerityPoster.jpg",
+    "backdrop_url": "images/Verity/VerityBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "October 2, 2026",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 94,
+    "title": "Other Mommy",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/OtherMommy/OtherMommyPoster.jpg",
+    "backdrop_url": "images/OtherMommy/OtherMommyBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "October 9, 2026",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 95,
+    "title": "Street Fighter",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/StreetFighter/StreetFighterPoster.jpg",
+    "backdrop_url": "images/StreetFighter/StreetFighterBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "October 16, 2026",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 96,
+    "title": "The Cat in the Hat",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/TheCatintheHat/TheCatintheHatPoster.jpg",
+    "backdrop_url": "images/TheCatintheHat/TheCatintheHatBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "November 6, 2026",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 97,
+    "title": "The Hunger Games: Sunrise on the Reaping",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/TheHungerGamesSunriseontheReaping/TheHungerGamesSunriseontheReapingPoster.jpg",
+    "backdrop_url": "images/TheHungerGamesSunriseontheReaping/TheHungerGamesSunriseontheReapingBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "November 20, 2026",
+    "episodeRuntime": null,
+    "status": "upcoming",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 98,
+    "title": "Avengers: Doomsday",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/AvengersDoomsday/AvengersDoomsdayPoster.jpg",
+    "backdrop_url": "images/AvengersDoomsday/AvengersDoomsdayBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "December 18, 2026",
+    "episodeRuntime": null,
+    "status": "upcoming",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 99,
+    "title": "Dune: Part Three",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/DunePartThree/DunePartThreePoster.jpg",
+    "backdrop_url": "images/DunePartThree/DunePartThreeBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "December 18, 2026",
+    "episodeRuntime": null,
+    "status": "upcoming",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 100,
+    "title": "Werwulf",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/Werwulf/WerwulfPoster.jpg",
+    "backdrop_url": "images/Werwulf/WerwulfBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "December 25, 2026",
+    "episodeRuntime": null,
+    "status": "upcoming",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 101,
+    "title": "Run Away",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/RunAway/RunAwayPoster.jpg",
+    "backdrop_url": "images/RunAway/RunAwayBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "January 1, 2026",
+    "episodeRuntime": null,
+    "status": "ongoing",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "series"
+  },
+  {
+    "id": 102,
+    "title": "His & Hers",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/HisHers/HisHersPoster.jpg",
+    "backdrop_url": "images/HisHers/HisHersBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "January 8, 2026",
+    "episodeRuntime": null,
+    "status": "ongoing",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "series"
+  },
+  {
+    "id": 103,
+    "title": "Seven Dials Mystery",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/SevenDialsMystery/SevenDialsMysteryPoster.jpg",
+    "backdrop_url": "images/SevenDialsMystery/SevenDialsMysteryBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "January 15, 2026",
+    "episodeRuntime": null,
+    "status": "ongoing",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "series"
+  },
+  {
+    "id": 104,
+    "title": "Ponies",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/Ponies/PoniesPoster.jpg",
+    "backdrop_url": "images/Ponies/PoniesBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "January 15, 2026",
+    "episodeRuntime": null,
+    "status": "ongoing",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "series"
+  },
+  {
+    "id": 105,
+    "title": "Can This Love Be Translated?",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/CanThisLoveBeTranslated/CanThisLoveBeTranslatedPoster.jpg",
+    "backdrop_url": "images/CanThisLoveBeTranslated/CanThisLoveBeTranslatedBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "January 16, 2026",
+    "episodeRuntime": null,
+    "status": "ongoing",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "series"
+  },
+  {
+    "id": 106,
+    "title": "A Knight of the Seven Kingdoms",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/AKnightoftheSevenKingdoms/AKnightoftheSevenKingdomsPoster.jpg",
+    "backdrop_url": "images/AKnightoftheSevenKingdoms/AKnightoftheSevenKingdomsBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "January 18, 2026",
+    "episodeRuntime": null,
+    "status": "ongoing",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "series"
+  },
+  {
+    "id": 107,
+    "title": "The Beauty",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/TheBeauty/TheBeautyPoster.jpg",
+    "backdrop_url": "images/TheBeauty/TheBeautyBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "January 21, 2026",
+    "episodeRuntime": null,
+    "status": "ongoing",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "series"
+  },
+  {
+    "id": 108,
+    "title": "Steal",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/Steal/StealPoster.jpg",
+    "backdrop_url": "images/Steal/StealBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "January 21, 2026",
+    "episodeRuntime": null,
+    "status": "ongoing",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "series"
+  },
+  {
+    "id": 109,
+    "title": "Wonder Man",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/WonderMan/WonderManPoster.jpg",
+    "backdrop_url": "images/WonderMan/WonderManBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "January 27, 2026",
+    "episodeRuntime": null,
+    "status": "ongoing",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "series"
+  },
+  {
+    "id": 110,
+    "title": "Lord of the Flies",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/LordoftheFlies/LordoftheFliesPoster.jpg",
+    "backdrop_url": "images/LordoftheFlies/LordoftheFliesBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "February 8, 2026",
+    "episodeRuntime": null,
+    "status": "ongoing",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "series"
+  },
+  {
+    "id": 111,
+    "title": "Love Story",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/LoveStory/LoveStoryPoster.jpg",
+    "backdrop_url": "images/LoveStory/LoveStoryBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "February 12, 2026",
+    "episodeRuntime": null,
+    "status": "ongoing",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "series"
+  },
+  {
+    "id": 112,
+    "title": "Scrubs",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/Scrubs/ScrubsPoster.jpg",
+    "backdrop_url": "images/Scrubs/ScrubsBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "February 25, 2026",
+    "episodeRuntime": null,
+    "status": "ongoing",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "series"
+  },
+  {
+    "id": 113,
+    "title": "RJ Decker",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/RJDecker/RJDeckerPoster.jpg",
+    "backdrop_url": "images/RJDecker/RJDeckerBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "March 3, 2026",
+    "episodeRuntime": null,
+    "status": "ongoing",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "series"
+  },
+  {
+    "id": 114,
+    "title": "Young Sherlock",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/YoungSherlock/YoungSherlockPoster.jpg",
+    "backdrop_url": "images/YoungSherlock/YoungSherlockBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "March 4, 2026",
+    "episodeRuntime": null,
+    "status": "ongoing",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "series"
+  },
+  {
+    "id": 115,
+    "title": "Vladimir",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/Vladimir/VladimirPoster.jpg",
+    "backdrop_url": "images/Vladimir/VladimirBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "March 5, 2026",
+    "episodeRuntime": null,
+    "status": "ongoing",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "series"
+  },
+  {
+    "id": 116,
+    "title": "Rooster",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/Rooster/RoosterPoster.jpg",
+    "backdrop_url": "images/Rooster/RoosterBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "March 8, 2026",
+    "episodeRuntime": null,
+    "status": "ongoing",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "series"
+  },
+  {
+    "id": 117,
+    "title": "Scarpetta",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/Scarpetta/ScarpettaPoster.jpg",
+    "backdrop_url": "images/Scarpetta/ScarpettaBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "March 11, 2026",
+    "episodeRuntime": null,
+    "status": "ongoing",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "series"
+  },
+  {
+    "id": 118,
+    "title": "The Madison",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/TheMadison/TheMadisonPoster.jpg",
+    "backdrop_url": "images/TheMadison/TheMadisonBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "March 14, 2026",
+    "episodeRuntime": null,
+    "status": "ongoing",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "series"
+  },
+  {
+    "id": 119,
+    "title": "The Other Bennet Sister",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/TheOtherBennetSister/TheOtherBennetSisterPoster.jpg",
+    "backdrop_url": "images/TheOtherBennetSister/TheOtherBennetSisterBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "March 15, 2026",
+    "episodeRuntime": null,
+    "status": "ongoing",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "series"
+  },
+  {
+    "id": 120,
+    "title": "Jo Nesbø's Detective Hole",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/JoNesbsDetectiveHole/JoNesbsDetectiveHolePoster.jpg",
+    "backdrop_url": "images/JoNesbsDetectiveHole/JoNesbsDetectiveHoleBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "March 26, 2026",
+    "episodeRuntime": null,
+    "status": "ongoing",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "series"
+  },
+  {
+    "id": 121,
+    "title": "Star Wars: Maul – Shadow Lord",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/StarWarsMaulShadowLord/StarWarsMaulShadowLordPoster.jpg",
+    "backdrop_url": "images/StarWarsMaulShadowLord/StarWarsMaulShadowLordBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "April 6, 2026",
+    "episodeRuntime": null,
+    "status": "ongoing",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "series"
+  },
+  {
+    "id": 122,
+    "title": "The Testaments",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/TheTestaments/TheTestamentsPoster.jpg",
+    "backdrop_url": "images/TheTestaments/TheTestamentsBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "April 8, 2026",
+    "episodeRuntime": null,
+    "status": "ongoing",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "series"
+  },
+  {
+    "id": 123,
+    "title": "Malcolm in the Middle: Life's Still Unfair",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/MalcolmintheMiddleLifesStillUnfair/MalcolmintheMiddleLifesStillUnfairPoster.jpg",
+    "backdrop_url": "images/MalcolmintheMiddleLifesStillUnfair/MalcolmintheMiddleLifesStillUnfairBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "April 10, 2026",
+    "episodeRuntime": null,
+    "status": "ongoing",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "series"
+  },
+  {
+    "id": 124,
+    "title": "Margo's Got Money Troubles",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/MargosGotMoneyTroubles/MargosGotMoneyTroublesPoster.jpg",
+    "backdrop_url": "images/MargosGotMoneyTroubles/MargosGotMoneyTroublesBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "April 15, 2026",
+    "episodeRuntime": null,
+    "status": "ongoing",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "series"
+  },
+  {
+    "id": 125,
+    "title": "Stranger Things: Tales from '85",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/StrangerThingsTalesfrom85/StrangerThingsTalesfrom85Poster.jpg",
+    "backdrop_url": "images/StrangerThingsTalesfrom85/StrangerThingsTalesfrom85Backdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "April 23, 2026",
+    "episodeRuntime": null,
+    "status": "ongoing",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "series"
+  },
+  {
+    "id": 126,
+    "title": "Half Man",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/HalfMan/HalfManPoster.jpg",
+    "backdrop_url": "images/HalfMan/HalfManBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "April 23, 2026",
+    "episodeRuntime": null,
+    "status": "ongoing",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "series"
+  },
+  {
+    "id": 127,
+    "title": "If Wishes Could Kill",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/IfWishesCouldKill/IfWishesCouldKillPoster.jpg",
+    "backdrop_url": "images/IfWishesCouldKill/IfWishesCouldKillBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "April 24, 2026",
+    "episodeRuntime": null,
+    "status": "ongoing",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "series"
+  },
+  {
+    "id": 128,
+    "title": "Widow's Bay",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/WidowsBay/WidowsBayPoster.jpg",
+    "backdrop_url": "images/WidowsBay/WidowsBayBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "April 29, 2026",
+    "episodeRuntime": null,
+    "status": "ongoing",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "series"
+  },
+  {
+    "id": 129,
+    "title": "Man on Fire",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/ManonFire/ManonFirePoster.jpg",
+    "backdrop_url": "images/ManonFire/ManonFireBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "April 30, 2026",
+    "episodeRuntime": null,
+    "status": "ongoing",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "series"
+  },
+  {
+    "id": 130,
+    "title": "Legends",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/Legends/LegendsPoster.jpg",
+    "backdrop_url": "images/Legends/LegendsBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "May 7, 2026",
+    "episodeRuntime": null,
+    "status": "ongoing",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "series"
+  },
+  {
+    "id": 131,
+    "title": "Off Campus",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/OffCampus/OffCampusPoster.jpg",
+    "backdrop_url": "images/OffCampus/OffCampusBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "May 13, 2026",
+    "episodeRuntime": null,
+    "status": "ongoing",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "series"
+  },
+  {
+    "id": 132,
+    "title": "Dutton Ranch",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/DuttonRanch/DuttonRanchPoster.jpg",
+    "backdrop_url": "images/DuttonRanch/DuttonRanchBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "May 15, 2026",
+    "episodeRuntime": null,
+    "status": "ongoing",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "series"
+  },
+  {
+    "id": 133,
+    "title": "The Boroughs",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/TheBoroughs/TheBoroughsPoster.jpg",
+    "backdrop_url": "images/TheBoroughs/TheBoroughsBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "May 21, 2026",
+    "episodeRuntime": null,
+    "status": "ongoing",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "series"
+  },
+  {
+    "id": 134,
+    "title": "Spider-Noir",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/SpiderNoir/SpiderNoirPoster.jpg",
+    "backdrop_url": "images/SpiderNoir/SpiderNoirBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "May 25, 2026",
+    "episodeRuntime": null,
+    "status": "ongoing",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "series"
+  },
+  {
+    "id": 135,
+    "title": "Cape Fear",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/CapeFear/CapeFearPoster.jpg",
+    "backdrop_url": "images/CapeFear/CapeFearBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "June 5, 2026",
+    "episodeRuntime": null,
+    "status": "ongoing",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "series"
+  },
+  {
+    "id": 136,
+    "title": "I Will Find You",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/IWillFindYou/IWillFindYouPoster.jpg",
+    "backdrop_url": "images/IWillFindYou/IWillFindYouBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "June 18, 2026",
+    "episodeRuntime": null,
+    "status": "ongoing",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "series"
+  },
+  {
+    "id": 137,
+    "title": "Life, Larry and the Pursuit of Unhappiness",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/LifeLarryandthePursuitofUnhappiness/LifeLarryandthePursuitofUnhappinessPoster.jpg",
+    "backdrop_url": "images/LifeLarryandthePursuitofUnhappiness/LifeLarryandthePursuitofUnhappinessBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "June 26, 2026",
+    "episodeRuntime": null,
+    "status": "ongoing",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "series"
+  },
+  {
+    "id": 138,
+    "title": "Elle",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/Elle/EllePoster.jpg",
+    "backdrop_url": "images/Elle/ElleBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "July 1, 2026",
+    "episodeRuntime": null,
+    "status": "ongoing",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "series"
+  },
+  {
+    "id": 139,
+    "title": "Little House on the Prairie",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/LittleHouseonthePrairie/LittleHouseonthePrairiePoster.jpg",
+    "backdrop_url": "images/LittleHouseonthePrairie/LittleHouseonthePrairieBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "July 9, 2026",
+    "episodeRuntime": null,
+    "status": "ongoing",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "series"
+  },
+  {
+    "id": 140,
+    "title": "Lucky",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/Lucky/LuckyPoster.jpg",
+    "backdrop_url": "images/Lucky/LuckyBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "July 15, 2026",
+    "episodeRuntime": null,
+    "status": "ongoing",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "series"
+  },
+  {
+    "id": 141,
+    "title": "Stuart Fails to Save the Universe",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/StuartFailstoSavetheUniverse/StuartFailstoSavetheUniversePoster.jpg",
+    "backdrop_url": "images/StuartFailstoSavetheUniverse/StuartFailstoSavetheUniverseBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "July 23, 2026",
+    "episodeRuntime": null,
+    "status": "ongoing",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "series"
+  },
+  {
+    "id": 142,
+    "title": "The Shards",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/TheShards/TheShardsPoster.jpg",
+    "backdrop_url": "images/TheShards/TheShardsBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "August 5, 2026",
+    "episodeRuntime": null,
+    "status": "ongoing",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "series"
+  },
+  {
+    "id": 143,
+    "title": "Sterling Point",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/SterlingPoint/SterlingPointPoster.jpg",
+    "backdrop_url": "images/SterlingPoint/SterlingPointBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "August 5, 2026",
+    "episodeRuntime": null,
+    "status": "ongoing",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "series"
+  },
+  {
+    "id": 144,
+    "title": "Lanterns",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/Lanterns/LanternsPoster.jpg",
+    "backdrop_url": "images/Lanterns/LanternsBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "August 16, 2026",
+    "episodeRuntime": null,
+    "status": "ongoing",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "series"
+  },
+  {
+    "id": 145,
+    "title": "Neagley",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/Neagley/NeagleyPoster.jpg",
+    "backdrop_url": "images/Neagley/NeagleyBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "September 16, 2026",
+    "episodeRuntime": null,
+    "status": "ongoing",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "series"
+  },
+  {
+    "id": 146,
+    "title": "Monster: The Lizzie Borden Story",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/MonsterTheLizzieBordenStory/MonsterTheLizzieBordenStoryPoster.jpg",
+    "backdrop_url": "images/MonsterTheLizzieBordenStory/MonsterTheLizzieBordenStoryBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "September 17, 2026",
+    "episodeRuntime": null,
+    "status": "ongoing",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "series"
+  },
+  {
+    "id": 147,
+    "title": "East of Eden",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/EastofEden/EastofEdenPoster.jpg",
+    "backdrop_url": "images/EastofEden/EastofEdenBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "October 1, 2026",
+    "episodeRuntime": null,
+    "status": "ongoing",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "series"
+  },
+  {
+    "id": 148,
+    "title": "The Body",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/TheBody/TheBodyPoster.jpg",
+    "backdrop_url": "images/TheBody/TheBodyBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "November 11, 2026",
+    "episodeRuntime": null,
+    "status": "upcoming",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "series"
+  },
+  {
+    "id": 149,
+    "title": "Blade Runner 2099",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/BladeRunner2099/BladeRunner2099Poster.jpg",
+    "backdrop_url": "images/BladeRunner2099/BladeRunner2099Backdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "November 25, 2026",
+    "episodeRuntime": null,
+    "status": "upcoming",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "series"
+  },
+  {
+    "id": 150,
+    "title": "Harry Potter",
+    "genres": [],
+    "badges": [],
+    "director": "",
+    "poster_url": "images/HarryPotter/HarryPotterPoster.jpg",
+    "backdrop_url": "images/HarryPotter/HarryPotterBackdrop.jpg",
+    "summary": "",
+    "countries": [],
+    "minAge": null,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "December 25, 2026",
+    "episodeRuntime": null,
+    "status": "upcoming",
+    "trailerKey": "",
+    "seasonsData": null,
     "mediaType": "series"
   }
 ]
