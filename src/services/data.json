@@ -113,7 +113,7 @@
     ],
     "minAge": 13,
     "rating": {
-      "score": 9.0,
+      "score": 9,
       "vote_count": 3000000
     },
     "runtime": 152,
@@ -704,7 +704,7 @@
     ],
     "minAge": 13,
     "rating": {
-      "score": 9.0,
+      "score": 9,
       "vote_count": 2000000
     },
     "runtime": 201,
@@ -1602,7 +1602,7 @@
     ],
     "minAge": 13,
     "rating": {
-      "score": 9.0,
+      "score": 9,
       "vote_count": 750000
     },
     "runtime": null,
@@ -1910,7 +1910,7 @@
     ],
     "minAge": 15,
     "rating": {
-      "score": 9.0,
+      "score": 9,
       "vote_count": 350000
     },
     "runtime": null,
@@ -2058,4 +2058,4 @@
     ],
     "mediaType": "series"
   }
-]
+]\n
