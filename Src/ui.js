@@ -138,64 +138,65 @@ export class MovieRow {
     }
 }
 
-export class Casts{
-    constructor(){
-        this.casts = document.querySelector('.casts');
-        this.CastsScroller = new Scroller(this.casts)
-        this.castsRefrence = document.querySelector('.castsRefrence');
-        document.querySelector('.nextRight').addEventListener('click' , () => this.CastsScroller.nextMovie());
-        document.querySelector('.nextleft').addEventListener('click' , () => this.CastsScroller.prevMovie());
-        this.allCasts = [];
-        this.limitControlIndex = 20;
-        this.loadTime = null;
+// export class Casts{
+//     constructor(){
+//         this.casts = document.querySelector('.casts');
+//         this.CastsScroller = new Scroller(this.casts)
+//         this.castsRefrence = document.querySelector('.castsRefrence');
+//         document.querySelector('.nextRight').addEventListener('click' , () => this.CastsScroller.nextMovie());
+//         document.querySelector('.nextleft').addEventListener('click' , () => this.CastsScroller.prevMovie());
+//         this.allCasts = [];
+//         this.limitControlIndex = 20;
+//         this.loadTime = null;
 
-        this.casts.addEventListener('click' , event => {
-            if(event.target.closest('.moreCast')){
+//         this.casts.addEventListener('click' , event => {
+//             if(event.target.closest('.moreCast')){
 
-                clearTimeout(this.loadTime);
-                this.loadTime = setTimeout(() => {
-                    this.limitControlIndex += 10;
-                    this.initCasts(this.allCasts.slice(0 , this.limitControlIndex));
-                },300);
-            }
-        });
-    }
-    init(Casts){
-        this.allCasts = Casts.flatMap(get => get.cast);
-        this.initCasts(this.allCasts.slice(0 , this.limitControlIndex));
-    }
-    initCasts(limitedCasts){
-        this.castsRefrence.innerHTML = `
-            <div class="flex">
-                <div>
-                    <i class="fa-solid fa-users text-blue-400"></i> Casts 
-                    <span class="text-sm text-gray-300">(+${limitedCasts.length})</span>
-                </div>
-            </div>
-                `;
-        this.casts.innerHTML = limitedCasts.map(C => {
-            return `
-                <div class="flex flex-col items-center flex-shrink-0 snap-start">
-                    <div class="flex flex-col items-center flex-shrink-0 snap-start">
-            ${C.photo 
-                ? `<img src="${C.photo}" class="w-24 h-24 rounded-full object-cover">` 
-                : `<div class="w-24 h-24 rounded-full bg-gray-700 flex items-center justify-center">
-                    <span class="text-xs text-gray-500">No Image</span>
-                </div>`
-            }
-                <h1 class="text-gray-400">${C.name ?? ''}</h1>
-                </div>
-            </div>
-            `
-        }).join('');
-        this.casts.innerHTML +=         
-        `
-        <a class="flex cursor-pointer flex-col items-center flex-shrink-0 snap-start mr-12 justify-center text-yellow-500">
-                <button class="mt-2 moreCast">View all</button>
-                <i class="fa-solid fa-arrow-right-long text-xl"></i>
-        </a>`;
-    }
-}
+//                 clearTimeout(this.loadTime);
+//                 this.loadTime = setTimeout(() => {
+//                     this.limitControlIndex += 10;
+//                     this.initCasts(this.allCasts.slice(0 , this.limitControlIndex));
+//                 },300);
+//             }
+//         });
+//     }
+//     init(Casts){
+//         if(!Casts || Casts.length === 0) return;
+//         this.allCasts = Casts.flatMap(get => get.cast);
+//         this.initCasts(this.allCasts.slice(0 , this.limitControlIndex));
+//     }
+//     initCasts(limitedCasts){
+//         this.castsRefrence.innerHTML = `
+//             <div class="flex">
+//                 <div>
+//                     <i class="fa-solid fa-users text-blue-400"></i> Casts 
+//                     <span class="text-sm text-gray-300">(+${limitedCasts.length})</span>
+//                 </div>
+//             </div>
+//                 `;
+//         this.casts.innerHTML = limitedCasts.map(C => {
+//             return `
+//                 <div class="flex flex-col items-center flex-shrink-0 snap-start">
+//                     <div class="flex flex-col items-center flex-shrink-0 snap-start">
+//             ${C.photo 
+//                 ? `<img src="${C.photo}" class="w-24 h-24 rounded-full object-cover">` 
+//                 : `<div class="w-24 h-24 rounded-full bg-gray-700 flex items-center justify-center">
+//                     <span class="text-xs text-gray-500">No Image</span>
+//                 </div>`
+//             }
+//                 <h1 class="text-gray-400">${C.name ?? ''}</h1>
+//                 </div>
+//             </div>
+//             `
+//         }).join('');
+//         this.casts.innerHTML +=         
+//         `
+//         <a class="flex cursor-pointer flex-col items-center flex-shrink-0 snap-start mr-12 justify-center text-yellow-500">
+//                 <button class="mt-2 moreCast">View all</button>
+//                 <i class="fa-solid fa-arrow-right-long text-xl"></i>
+//         </a>`;
+//     }
+// }
 
 class Scroller{
     constructor (Scroll){
