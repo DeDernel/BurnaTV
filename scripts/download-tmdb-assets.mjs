@@ -69,5 +69,5 @@ for (const item of data) {
     console.error(`Failed ${item.title}: ${err.message}`);
   }
 }
-await fs.writeFile(DATA_FILE, JSON.stringify(data, null, 2) + "\\n", "utf8");
+await fs.writeFile(DATA_FILE, JSON.stringify(data, null, 2) + "\n", "utf8");
 console.log(`Done. Downloaded ${count} images.`);
