@@ -8,7 +8,7 @@ let movies = [];
 
 async function loadMovies(){
     try{
-        const response = await fetch('./src/services/data.json');
+        const response = await fetch('./BurnaTV/src/services/data.json');
         if(!response.ok) throw Error('HTTP' + response.status);
         const data = await response.json();
 
@@ -22,7 +22,8 @@ async function initApp() {
     movies = await loadMovies();
 
     if (!movies.length) return;
-
+    console.log("Movies:", movies);
+console.log("Is Array:", Array.isArray(movies));
     pages[page]?.(movies);
 }
 
