@@ -1,6 +1,3 @@
-
-
-
 export let movies = 
 [
   {
@@ -33,15 +30,6 @@ export let movies =
         {"season" : 2 , "episode" : 7}
     ],
     "mediaType": 'series',
-    "cast": 
-    [
-      {"id": 1 , "name": "Tom Hardy" , "photo":"images/casts/tomHardy.jpeg"},
-      {"id": 2 , "name": "Helen Mirren" , "photo":"images/casts/helenMirren.jpeg"},
-      {"id": 3 , "name": "Pierce Brosnan" , "photo": "images/casts/PierceBrosnan.jpeg"},
-      {"id": 4 , "name": "Janet McTeer" , "photo": "images/casts/JanetMcTeer.jpeg"},
-      {"id": 5 , "name": "Anson Boon" , "photo": "images/casts/ansonBoon.jpeg"},
-      {"id": 6 , "name": "Paddy Considine" , "photo": "images/casts/PaddyConsidine.jpeg"}
-    ]
   },
   {
     "id": 2,

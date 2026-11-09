@@ -1,0 +1,2061 @@
+[
+  {
+    "id": 1,
+    "title": "Inception",
+    "genres": [
+      "Science Fiction",
+      "Action",
+      "Thriller"
+    ],
+    "badges": [
+      "images/Inception/badge1.jpg",
+      "images/Inception/badge2.jpg",
+      "images/Inception/badge3.jpg",
+      "images/Inception/badge4.jpg"
+    ],
+    "director": "Christopher Nolan",
+    "poster_url": "images/Inception/InceptionPoster.jpg",
+    "backdrop_url": "images/Inception/InceptionBackdrop.jpg",
+    "summary": "Inception is a science fiction, action movie directed or created by Christopher Nolan. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      },
+      {
+        "name": "UK",
+        "flag": "images/flags/UK.png"
+      }
+    ],
+    "minAge": 13,
+    "rating": {
+      "score": 8.8,
+      "vote_count": 2500000
+    },
+    "runtime": 148,
+    "isTrending": false,
+    "releaseDate": "July 16, 2010",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 2,
+    "title": "Interstellar",
+    "genres": [
+      "Science Fiction",
+      "Drama",
+      "Adventure"
+    ],
+    "badges": [
+      "images/Interstellar/badge1.jpg",
+      "images/Interstellar/badge2.jpg",
+      "images/Interstellar/badge3.jpg",
+      "images/Interstellar/badge4.jpg"
+    ],
+    "director": "Christopher Nolan",
+    "poster_url": "images/Interstellar/InterstellarPoster.jpg",
+    "backdrop_url": "images/Interstellar/InterstellarBackdrop.jpg",
+    "summary": "Interstellar is a science fiction, drama movie directed or created by Christopher Nolan. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      },
+      {
+        "name": "UK",
+        "flag": "images/flags/UK.png"
+      }
+    ],
+    "minAge": 13,
+    "rating": {
+      "score": 8.7,
+      "vote_count": 2300000
+    },
+    "runtime": 169,
+    "isTrending": false,
+    "releaseDate": "November 7, 2014",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 3,
+    "title": "The Dark Knight",
+    "genres": [
+      "Action",
+      "Crime",
+      "Drama"
+    ],
+    "badges": [
+      "images/TheDarkKnight/badge1.jpg",
+      "images/TheDarkKnight/badge2.jpg",
+      "images/TheDarkKnight/badge3.jpg",
+      "images/TheDarkKnight/badge4.jpg"
+    ],
+    "director": "Christopher Nolan",
+    "poster_url": "images/TheDarkKnight/TheDarkKnightPoster.jpg",
+    "backdrop_url": "images/TheDarkKnight/TheDarkKnightBackdrop.jpg",
+    "summary": "The Dark Knight is a action, crime movie directed or created by Christopher Nolan. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      },
+      {
+        "name": "UK",
+        "flag": "images/flags/UK.png"
+      }
+    ],
+    "minAge": 13,
+    "rating": {
+      "score": 9.0,
+      "vote_count": 3000000
+    },
+    "runtime": 152,
+    "isTrending": false,
+    "releaseDate": "July 18, 2008",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 4,
+    "title": "The Shawshank Redemption",
+    "genres": [
+      "Drama"
+    ],
+    "badges": [
+      "images/TheShawshankRedemption/badge1.jpg",
+      "images/TheShawshankRedemption/badge2.jpg",
+      "images/TheShawshankRedemption/badge3.jpg",
+      "images/TheShawshankRedemption/badge4.jpg"
+    ],
+    "director": "Frank Darabont",
+    "poster_url": "images/TheShawshankRedemption/TheShawshankRedemptionPoster.jpg",
+    "backdrop_url": "images/TheShawshankRedemption/TheShawshankRedemptionBackdrop.jpg",
+    "summary": "The Shawshank Redemption is a drama movie directed or created by Frank Darabont. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 17,
+    "rating": {
+      "score": 9.3,
+      "vote_count": 3000000
+    },
+    "runtime": 142,
+    "isTrending": false,
+    "releaseDate": "September 23, 1994",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 5,
+    "title": "The Godfather",
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "badges": [
+      "images/TheGodfather/badge1.jpg",
+      "images/TheGodfather/badge2.jpg",
+      "images/TheGodfather/badge3.jpg",
+      "images/TheGodfather/badge4.jpg"
+    ],
+    "director": "Francis Ford Coppola",
+    "poster_url": "images/TheGodfather/TheGodfatherPoster.jpg",
+    "backdrop_url": "images/TheGodfather/TheGodfatherBackdrop.jpg",
+    "summary": "The Godfather is a crime, drama movie directed or created by Francis Ford Coppola. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 17,
+    "rating": {
+      "score": 9.2,
+      "vote_count": 2100000
+    },
+    "runtime": 175,
+    "isTrending": false,
+    "releaseDate": "March 24, 1972",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 6,
+    "title": "Pulp Fiction",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "badges": [
+      "images/PulpFiction/badge1.jpg",
+      "images/PulpFiction/badge2.jpg",
+      "images/PulpFiction/badge3.jpg",
+      "images/PulpFiction/badge4.jpg"
+    ],
+    "director": "Quentin Tarantino",
+    "poster_url": "images/PulpFiction/PulpFictionPoster.jpg",
+    "backdrop_url": "images/PulpFiction/PulpFictionBackdrop.jpg",
+    "summary": "Pulp Fiction is a crime, drama movie directed or created by Quentin Tarantino. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 18,
+    "rating": {
+      "score": 8.9,
+      "vote_count": 2300000
+    },
+    "runtime": 154,
+    "isTrending": false,
+    "releaseDate": "October 14, 1994",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 7,
+    "title": "Fight Club",
+    "genres": [
+      "Drama",
+      "Thriller"
+    ],
+    "badges": [
+      "images/FightClub/badge1.jpg",
+      "images/FightClub/badge2.jpg",
+      "images/FightClub/badge3.jpg",
+      "images/FightClub/badge4.jpg"
+    ],
+    "director": "David Fincher",
+    "poster_url": "images/FightClub/FightClubPoster.jpg",
+    "backdrop_url": "images/FightClub/FightClubBackdrop.jpg",
+    "summary": "Fight Club is a drama, thriller movie directed or created by David Fincher. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      },
+      {
+        "name": "Germany",
+        "flag": "images/flags/Germany.png"
+      }
+    ],
+    "minAge": 18,
+    "rating": {
+      "score": 8.8,
+      "vote_count": 2400000
+    },
+    "runtime": 139,
+    "isTrending": false,
+    "releaseDate": "October 15, 1999",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 8,
+    "title": "Forrest Gump",
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "badges": [
+      "images/ForrestGump/badge1.jpg",
+      "images/ForrestGump/badge2.jpg",
+      "images/ForrestGump/badge3.jpg",
+      "images/ForrestGump/badge4.jpg"
+    ],
+    "director": "Robert Zemeckis",
+    "poster_url": "images/ForrestGump/ForrestGumpPoster.jpg",
+    "backdrop_url": "images/ForrestGump/ForrestGumpBackdrop.jpg",
+    "summary": "Forrest Gump is a drama, romance movie directed or created by Robert Zemeckis. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 13,
+    "rating": {
+      "score": 8.8,
+      "vote_count": 2300000
+    },
+    "runtime": 142,
+    "isTrending": false,
+    "releaseDate": "July 6, 1994",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 9,
+    "title": "The Matrix",
+    "genres": [
+      "Science Fiction",
+      "Action"
+    ],
+    "badges": [
+      "images/TheMatrix/badge1.jpg",
+      "images/TheMatrix/badge2.jpg",
+      "images/TheMatrix/badge3.jpg",
+      "images/TheMatrix/badge4.jpg"
+    ],
+    "director": "Lana Wachowski, Lilly Wachowski",
+    "poster_url": "images/TheMatrix/TheMatrixPoster.jpg",
+    "backdrop_url": "images/TheMatrix/TheMatrixBackdrop.jpg",
+    "summary": "The Matrix is a science fiction, action movie directed or created by Lana Wachowski, Lilly Wachowski. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 17,
+    "rating": {
+      "score": 8.7,
+      "vote_count": 2100000
+    },
+    "runtime": 136,
+    "isTrending": false,
+    "releaseDate": "March 31, 1999",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 10,
+    "title": "Gladiator",
+    "genres": [
+      "Action",
+      "Drama",
+      "Adventure"
+    ],
+    "badges": [
+      "images/Gladiator/badge1.jpg",
+      "images/Gladiator/badge2.jpg",
+      "images/Gladiator/badge3.jpg",
+      "images/Gladiator/badge4.jpg"
+    ],
+    "director": "Ridley Scott",
+    "poster_url": "images/Gladiator/GladiatorPoster.jpg",
+    "backdrop_url": "images/Gladiator/GladiatorBackdrop.jpg",
+    "summary": "Gladiator is a action, drama movie directed or created by Ridley Scott. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      },
+      {
+        "name": "UK",
+        "flag": "images/flags/UK.png"
+      }
+    ],
+    "minAge": 17,
+    "rating": {
+      "score": 8.5,
+      "vote_count": 1700000
+    },
+    "runtime": 155,
+    "isTrending": false,
+    "releaseDate": "May 5, 2000",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 11,
+    "title": "Parasite",
+    "genres": [
+      "Thriller",
+      "Drama",
+      "Comedy"
+    ],
+    "badges": [
+      "images/Parasite/badge1.jpg",
+      "images/Parasite/badge2.jpg",
+      "images/Parasite/badge3.jpg",
+      "images/Parasite/badge4.jpg"
+    ],
+    "director": "Bong Joon-ho",
+    "poster_url": "images/Parasite/ParasitePoster.jpg",
+    "backdrop_url": "images/Parasite/ParasiteBackdrop.jpg",
+    "summary": "Parasite is a thriller, drama movie directed or created by Bong Joon-ho. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
+    "countries": [
+      {
+        "name": "South Korea",
+        "flag": "images/flags/SouthKorea.png"
+      }
+    ],
+    "minAge": 17,
+    "rating": {
+      "score": 8.5,
+      "vote_count": 1000000
+    },
+    "runtime": 132,
+    "isTrending": false,
+    "releaseDate": "May 30, 2019",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 12,
+    "title": "Whiplash",
+    "genres": [
+      "Drama",
+      "Music"
+    ],
+    "badges": [
+      "images/Whiplash/badge1.jpg",
+      "images/Whiplash/badge2.jpg",
+      "images/Whiplash/badge3.jpg",
+      "images/Whiplash/badge4.jpg"
+    ],
+    "director": "Damien Chazelle",
+    "poster_url": "images/Whiplash/WhiplashPoster.jpg",
+    "backdrop_url": "images/Whiplash/WhiplashBackdrop.jpg",
+    "summary": "Whiplash is a drama, music movie directed or created by Damien Chazelle. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 17,
+    "rating": {
+      "score": 8.5,
+      "vote_count": 1000000
+    },
+    "runtime": 107,
+    "isTrending": false,
+    "releaseDate": "October 10, 2014",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 13,
+    "title": "Joker",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "badges": [
+      "images/Joker/badge1.jpg",
+      "images/Joker/badge2.jpg",
+      "images/Joker/badge3.jpg",
+      "images/Joker/badge4.jpg"
+    ],
+    "director": "Todd Phillips",
+    "poster_url": "images/Joker/JokerPoster.jpg",
+    "backdrop_url": "images/Joker/JokerBackdrop.jpg",
+    "summary": "Joker is a crime, drama movie directed or created by Todd Phillips. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      },
+      {
+        "name": "Canada",
+        "flag": "images/flags/Canada.png"
+      }
+    ],
+    "minAge": 18,
+    "rating": {
+      "score": 8.4,
+      "vote_count": 1600000
+    },
+    "runtime": 122,
+    "isTrending": false,
+    "releaseDate": "October 4, 2019",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 14,
+    "title": "Dune: Part Two",
+    "genres": [
+      "Science Fiction",
+      "Adventure",
+      "Drama"
+    ],
+    "badges": [
+      "images/DunePartTwo/badge1.jpg",
+      "images/DunePartTwo/badge2.jpg",
+      "images/DunePartTwo/badge3.jpg",
+      "images/DunePartTwo/badge4.jpg"
+    ],
+    "director": "Denis Villeneuve",
+    "poster_url": "images/DunePartTwo/DunePartTwoPoster.jpg",
+    "backdrop_url": "images/DunePartTwo/DunePartTwoBackdrop.jpg",
+    "summary": "Dune: Part Two is a science fiction, adventure movie directed or created by Denis Villeneuve. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      },
+      {
+        "name": "Canada",
+        "flag": "images/flags/Canada.png"
+      }
+    ],
+    "minAge": 13,
+    "rating": {
+      "score": 8.5,
+      "vote_count": 800000
+    },
+    "runtime": 166,
+    "isTrending": true,
+    "releaseDate": "March 1, 2024",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 15,
+    "title": "Oppenheimer",
+    "genres": [
+      "Drama",
+      "History",
+      "Thriller"
+    ],
+    "badges": [
+      "images/Oppenheimer/badge1.jpg",
+      "images/Oppenheimer/badge2.jpg",
+      "images/Oppenheimer/badge3.jpg",
+      "images/Oppenheimer/badge4.jpg"
+    ],
+    "director": "Christopher Nolan",
+    "poster_url": "images/Oppenheimer/OppenheimerPoster.jpg",
+    "backdrop_url": "images/Oppenheimer/OppenheimerBackdrop.jpg",
+    "summary": "Oppenheimer is a drama, history movie directed or created by Christopher Nolan. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      },
+      {
+        "name": "UK",
+        "flag": "images/flags/UK.png"
+      }
+    ],
+    "minAge": 17,
+    "rating": {
+      "score": 8.3,
+      "vote_count": 900000
+    },
+    "runtime": 180,
+    "isTrending": true,
+    "releaseDate": "July 21, 2023",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 16,
+    "title": "Spider-Man: Into the Spider-Verse",
+    "genres": [
+      "Animation",
+      "Action",
+      "Adventure"
+    ],
+    "badges": [
+      "images/SpiderManIntotheSpiderVerse/badge1.jpg",
+      "images/SpiderManIntotheSpiderVerse/badge2.jpg",
+      "images/SpiderManIntotheSpiderVerse/badge3.jpg",
+      "images/SpiderManIntotheSpiderVerse/badge4.jpg"
+    ],
+    "director": "Bob Persichetti, Peter Ramsey, Rodney Rothman",
+    "poster_url": "images/SpiderManIntotheSpiderVerse/SpiderManIntotheSpiderVersePoster.jpg",
+    "backdrop_url": "images/SpiderManIntotheSpiderVerse/SpiderManIntotheSpiderVerseBackdrop.jpg",
+    "summary": "Spider-Man: Into the Spider-Verse is a animation, action movie directed or created by Bob Persichetti, Peter Ramsey, Rodney Rothman. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 10,
+    "rating": {
+      "score": 8.4,
+      "vote_count": 700000
+    },
+    "runtime": 117,
+    "isTrending": false,
+    "releaseDate": "December 14, 2018",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 17,
+    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "genres": [
+      "Fantasy",
+      "Adventure",
+      "Drama"
+    ],
+    "badges": [
+      "images/TheLordoftheRingsTheFellowshipoftheRing/badge1.jpg",
+      "images/TheLordoftheRingsTheFellowshipoftheRing/badge2.jpg",
+      "images/TheLordoftheRingsTheFellowshipoftheRing/badge3.jpg",
+      "images/TheLordoftheRingsTheFellowshipoftheRing/badge4.jpg"
+    ],
+    "director": "Peter Jackson",
+    "poster_url": "images/TheLordoftheRingsTheFellowshipoftheRing/TheLordoftheRingsTheFellowshipoftheRingPoster.jpg",
+    "backdrop_url": "images/TheLordoftheRingsTheFellowshipoftheRing/TheLordoftheRingsTheFellowshipoftheRingBackdrop.jpg",
+    "summary": "The Lord of the Rings: The Fellowship of the Ring is a fantasy, adventure movie directed or created by Peter Jackson. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      },
+      {
+        "name": "New Zealand",
+        "flag": "images/flags/NewZealand.png"
+      }
+    ],
+    "minAge": 13,
+    "rating": {
+      "score": 8.9,
+      "vote_count": 2000000
+    },
+    "runtime": 178,
+    "isTrending": false,
+    "releaseDate": "December 19, 2001",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 18,
+    "title": "The Lord of the Rings: The Return of the King",
+    "genres": [
+      "Fantasy",
+      "Adventure",
+      "Drama"
+    ],
+    "badges": [
+      "images/TheLordoftheRingsTheReturnoftheKing/badge1.jpg",
+      "images/TheLordoftheRingsTheReturnoftheKing/badge2.jpg",
+      "images/TheLordoftheRingsTheReturnoftheKing/badge3.jpg",
+      "images/TheLordoftheRingsTheReturnoftheKing/badge4.jpg"
+    ],
+    "director": "Peter Jackson",
+    "poster_url": "images/TheLordoftheRingsTheReturnoftheKing/TheLordoftheRingsTheReturnoftheKingPoster.jpg",
+    "backdrop_url": "images/TheLordoftheRingsTheReturnoftheKing/TheLordoftheRingsTheReturnoftheKingBackdrop.jpg",
+    "summary": "The Lord of the Rings: The Return of the King is a fantasy, adventure movie directed or created by Peter Jackson. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      },
+      {
+        "name": "New Zealand",
+        "flag": "images/flags/NewZealand.png"
+      }
+    ],
+    "minAge": 13,
+    "rating": {
+      "score": 9.0,
+      "vote_count": 2000000
+    },
+    "runtime": 201,
+    "isTrending": false,
+    "releaseDate": "December 17, 2003",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 19,
+    "title": "The Green Mile",
+    "genres": [
+      "Drama",
+      "Fantasy",
+      "Crime"
+    ],
+    "badges": [
+      "images/TheGreenMile/badge1.jpg",
+      "images/TheGreenMile/badge2.jpg",
+      "images/TheGreenMile/badge3.jpg",
+      "images/TheGreenMile/badge4.jpg"
+    ],
+    "director": "Frank Darabont",
+    "poster_url": "images/TheGreenMile/TheGreenMilePoster.jpg",
+    "backdrop_url": "images/TheGreenMile/TheGreenMileBackdrop.jpg",
+    "summary": "The Green Mile is a drama, fantasy movie directed or created by Frank Darabont. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 17,
+    "rating": {
+      "score": 8.6,
+      "vote_count": 1400000
+    },
+    "runtime": 189,
+    "isTrending": false,
+    "releaseDate": "December 10, 1999",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 20,
+    "title": "Se7en",
+    "genres": [
+      "Crime",
+      "Mystery",
+      "Thriller"
+    ],
+    "badges": [
+      "images/Se7en/badge1.jpg",
+      "images/Se7en/badge2.jpg",
+      "images/Se7en/badge3.jpg",
+      "images/Se7en/badge4.jpg"
+    ],
+    "director": "David Fincher",
+    "poster_url": "images/Se7en/Se7enPoster.jpg",
+    "backdrop_url": "images/Se7en/Se7enBackdrop.jpg",
+    "summary": "Se7en is a crime, mystery movie directed or created by David Fincher. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 18,
+    "rating": {
+      "score": 8.6,
+      "vote_count": 1800000
+    },
+    "runtime": 127,
+    "isTrending": false,
+    "releaseDate": "September 22, 1995",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 21,
+    "title": "The Silence of the Lambs",
+    "genres": [
+      "Thriller",
+      "Crime",
+      "Drama"
+    ],
+    "badges": [
+      "images/TheSilenceoftheLambs/badge1.jpg",
+      "images/TheSilenceoftheLambs/badge2.jpg",
+      "images/TheSilenceoftheLambs/badge3.jpg",
+      "images/TheSilenceoftheLambs/badge4.jpg"
+    ],
+    "director": "Jonathan Demme",
+    "poster_url": "images/TheSilenceoftheLambs/TheSilenceoftheLambsPoster.jpg",
+    "backdrop_url": "images/TheSilenceoftheLambs/TheSilenceoftheLambsBackdrop.jpg",
+    "summary": "The Silence of the Lambs is a thriller, crime movie directed or created by Jonathan Demme. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 18,
+    "rating": {
+      "score": 8.6,
+      "vote_count": 1600000
+    },
+    "runtime": 118,
+    "isTrending": false,
+    "releaseDate": "February 14, 1991",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 22,
+    "title": "The Prestige",
+    "genres": [
+      "Drama",
+      "Mystery",
+      "Science Fiction"
+    ],
+    "badges": [
+      "images/ThePrestige/badge1.jpg",
+      "images/ThePrestige/badge2.jpg",
+      "images/ThePrestige/badge3.jpg",
+      "images/ThePrestige/badge4.jpg"
+    ],
+    "director": "Christopher Nolan",
+    "poster_url": "images/ThePrestige/ThePrestigePoster.jpg",
+    "backdrop_url": "images/ThePrestige/ThePrestigeBackdrop.jpg",
+    "summary": "The Prestige is a drama, mystery movie directed or created by Christopher Nolan. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      },
+      {
+        "name": "UK",
+        "flag": "images/flags/UK.png"
+      }
+    ],
+    "minAge": 13,
+    "rating": {
+      "score": 8.5,
+      "vote_count": 1400000
+    },
+    "runtime": 130,
+    "isTrending": false,
+    "releaseDate": "October 20, 2006",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 23,
+    "title": "The Departed",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "badges": [
+      "images/TheDeparted/badge1.jpg",
+      "images/TheDeparted/badge2.jpg",
+      "images/TheDeparted/badge3.jpg",
+      "images/TheDeparted/badge4.jpg"
+    ],
+    "director": "Martin Scorsese",
+    "poster_url": "images/TheDeparted/TheDepartedPoster.jpg",
+    "backdrop_url": "images/TheDeparted/TheDepartedBackdrop.jpg",
+    "summary": "The Departed is a crime, drama movie directed or created by Martin Scorsese. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 18,
+    "rating": {
+      "score": 8.5,
+      "vote_count": 1400000
+    },
+    "runtime": 151,
+    "isTrending": false,
+    "releaseDate": "October 6, 2006",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 24,
+    "title": "Spirited Away",
+    "genres": [
+      "Animation",
+      "Fantasy",
+      "Adventure"
+    ],
+    "badges": [
+      "images/SpiritedAway/badge1.jpg",
+      "images/SpiritedAway/badge2.jpg",
+      "images/SpiritedAway/badge3.jpg",
+      "images/SpiritedAway/badge4.jpg"
+    ],
+    "director": "Hayao Miyazaki",
+    "poster_url": "images/SpiritedAway/SpiritedAwayPoster.jpg",
+    "backdrop_url": "images/SpiritedAway/SpiritedAwayBackdrop.jpg",
+    "summary": "Spirited Away is a animation, fantasy movie directed or created by Hayao Miyazaki. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
+    "countries": [
+      {
+        "name": "Japan",
+        "flag": "images/flags/Japan.png"
+      }
+    ],
+    "minAge": 10,
+    "rating": {
+      "score": 8.6,
+      "vote_count": 900000
+    },
+    "runtime": 125,
+    "isTrending": false,
+    "releaseDate": "July 20, 2001",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 25,
+    "title": "Coco",
+    "genres": [
+      "Animation",
+      "Family",
+      "Fantasy"
+    ],
+    "badges": [
+      "images/Coco/badge1.jpg",
+      "images/Coco/badge2.jpg",
+      "images/Coco/badge3.jpg",
+      "images/Coco/badge4.jpg"
+    ],
+    "director": "Lee Unkrich, Adrian Molina",
+    "poster_url": "images/Coco/CocoPoster.jpg",
+    "backdrop_url": "images/Coco/CocoBackdrop.jpg",
+    "summary": "Coco is a animation, family movie directed or created by Lee Unkrich, Adrian Molina. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 7,
+    "rating": {
+      "score": 8.4,
+      "vote_count": 600000
+    },
+    "runtime": 105,
+    "isTrending": false,
+    "releaseDate": "November 22, 2017",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 26,
+    "title": "The Grand Budapest Hotel",
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Adventure"
+    ],
+    "badges": [
+      "images/TheGrandBudapestHotel/badge1.jpg",
+      "images/TheGrandBudapestHotel/badge2.jpg",
+      "images/TheGrandBudapestHotel/badge3.jpg",
+      "images/TheGrandBudapestHotel/badge4.jpg"
+    ],
+    "director": "Wes Anderson",
+    "poster_url": "images/TheGrandBudapestHotel/TheGrandBudapestHotelPoster.jpg",
+    "backdrop_url": "images/TheGrandBudapestHotel/TheGrandBudapestHotelBackdrop.jpg",
+    "summary": "The Grand Budapest Hotel is a comedy, drama movie directed or created by Wes Anderson. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      },
+      {
+        "name": "Germany",
+        "flag": "images/flags/Germany.png"
+      }
+    ],
+    "minAge": 13,
+    "rating": {
+      "score": 8.1,
+      "vote_count": 900000
+    },
+    "runtime": 99,
+    "isTrending": false,
+    "releaseDate": "March 28, 2014",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 27,
+    "title": "Mad Max: Fury Road",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Science Fiction"
+    ],
+    "badges": [
+      "images/MadMaxFuryRoad/badge1.jpg",
+      "images/MadMaxFuryRoad/badge2.jpg",
+      "images/MadMaxFuryRoad/badge3.jpg",
+      "images/MadMaxFuryRoad/badge4.jpg"
+    ],
+    "director": "George Miller",
+    "poster_url": "images/MadMaxFuryRoad/MadMaxFuryRoadPoster.jpg",
+    "backdrop_url": "images/MadMaxFuryRoad/MadMaxFuryRoadBackdrop.jpg",
+    "summary": "Mad Max: Fury Road is a action, adventure movie directed or created by George Miller. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
+    "countries": [
+      {
+        "name": "Australia",
+        "flag": "images/flags/Australia.png"
+      },
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 17,
+    "rating": {
+      "score": 8.1,
+      "vote_count": 1100000
+    },
+    "runtime": 120,
+    "isTrending": false,
+    "releaseDate": "May 15, 2015",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 28,
+    "title": "Arrival",
+    "genres": [
+      "Science Fiction",
+      "Drama",
+      "Mystery"
+    ],
+    "badges": [
+      "images/Arrival/badge1.jpg",
+      "images/Arrival/badge2.jpg",
+      "images/Arrival/badge3.jpg",
+      "images/Arrival/badge4.jpg"
+    ],
+    "director": "Denis Villeneuve",
+    "poster_url": "images/Arrival/ArrivalPoster.jpg",
+    "backdrop_url": "images/Arrival/ArrivalBackdrop.jpg",
+    "summary": "Arrival is a science fiction, drama movie directed or created by Denis Villeneuve. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      },
+      {
+        "name": "Canada",
+        "flag": "images/flags/Canada.png"
+      }
+    ],
+    "minAge": 13,
+    "rating": {
+      "score": 7.9,
+      "vote_count": 800000
+    },
+    "runtime": 116,
+    "isTrending": false,
+    "releaseDate": "November 11, 2016",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 29,
+    "title": "The Social Network",
+    "genres": [
+      "Drama",
+      "Biography"
+    ],
+    "badges": [
+      "images/TheSocialNetwork/badge1.jpg",
+      "images/TheSocialNetwork/badge2.jpg",
+      "images/TheSocialNetwork/badge3.jpg",
+      "images/TheSocialNetwork/badge4.jpg"
+    ],
+    "director": "David Fincher",
+    "poster_url": "images/TheSocialNetwork/TheSocialNetworkPoster.jpg",
+    "backdrop_url": "images/TheSocialNetwork/TheSocialNetworkBackdrop.jpg",
+    "summary": "The Social Network is a drama, biography movie directed or created by David Fincher. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 13,
+    "rating": {
+      "score": 7.8,
+      "vote_count": 700000
+    },
+    "runtime": 120,
+    "isTrending": false,
+    "releaseDate": "October 1, 2010",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 30,
+    "title": "Everything Everywhere All at Once",
+    "genres": [
+      "Science Fiction",
+      "Action",
+      "Comedy"
+    ],
+    "badges": [
+      "images/EverythingEverywhereAllatOnce/badge1.jpg",
+      "images/EverythingEverywhereAllatOnce/badge2.jpg",
+      "images/EverythingEverywhereAllatOnce/badge3.jpg",
+      "images/EverythingEverywhereAllatOnce/badge4.jpg"
+    ],
+    "director": "Daniel Kwan, Daniel Scheinert",
+    "poster_url": "images/EverythingEverywhereAllatOnce/EverythingEverywhereAllatOncePoster.jpg",
+    "backdrop_url": "images/EverythingEverywhereAllatOnce/EverythingEverywhereAllatOnceBackdrop.jpg",
+    "summary": "Everything Everywhere All at Once is a science fiction, action movie directed or created by Daniel Kwan, Daniel Scheinert. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 17,
+    "rating": {
+      "score": 7.8,
+      "vote_count": 500000
+    },
+    "runtime": 139,
+    "isTrending": false,
+    "releaseDate": "March 25, 2022",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 31,
+    "title": "Breaking Bad",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "badges": [
+      "images/BreakingBad/badge1.jpg",
+      "images/BreakingBad/badge2.jpg",
+      "images/BreakingBad/badge3.jpg",
+      "images/BreakingBad/badge4.jpg"
+    ],
+    "director": "Vince Gilligan",
+    "poster_url": "images/BreakingBad/BreakingBadPoster.jpg",
+    "backdrop_url": "images/BreakingBad/BreakingBadBackdrop.jpg",
+    "summary": "Breaking Bad is a crime, drama series directed or created by Vince Gilligan. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 18,
+    "rating": {
+      "score": 9.5,
+      "vote_count": 2300000
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "January 20, 2008",
+    "episodeRuntime": 47,
+    "status": "ended",
+    "trailerKey": "",
+    "seasonsData": [
+      {
+        "season": 1,
+        "episode": 7
+      },
+      {
+        "season": 2,
+        "episode": 13
+      },
+      {
+        "season": 3,
+        "episode": 13
+      },
+      {
+        "season": 4,
+        "episode": 13
+      },
+      {
+        "season": 5,
+        "episode": 16
+      }
+    ],
+    "mediaType": "series"
+  },
+  {
+    "id": 32,
+    "title": "Game of Thrones",
+    "genres": [
+      "Fantasy",
+      "Drama",
+      "Action"
+    ],
+    "badges": [
+      "images/GameofThrones/badge1.jpg",
+      "images/GameofThrones/badge2.jpg",
+      "images/GameofThrones/badge3.jpg",
+      "images/GameofThrones/badge4.jpg"
+    ],
+    "director": "David Benioff, D. B. Weiss",
+    "poster_url": "images/GameofThrones/GameofThronesPoster.jpg",
+    "backdrop_url": "images/GameofThrones/GameofThronesBackdrop.jpg",
+    "summary": "Game of Thrones is a fantasy, drama series directed or created by David Benioff, D. B. Weiss. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      },
+      {
+        "name": "UK",
+        "flag": "images/flags/UK.png"
+      }
+    ],
+    "minAge": 18,
+    "rating": {
+      "score": 9.2,
+      "vote_count": 2300000
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "April 17, 2011",
+    "episodeRuntime": 57,
+    "status": "ended",
+    "trailerKey": "",
+    "seasonsData": [
+      {
+        "season": 1,
+        "episode": 10
+      },
+      {
+        "season": 2,
+        "episode": 10
+      },
+      {
+        "season": 3,
+        "episode": 10
+      },
+      {
+        "season": 4,
+        "episode": 10
+      },
+      {
+        "season": 5,
+        "episode": 10
+      },
+      {
+        "season": 6,
+        "episode": 10
+      },
+      {
+        "season": 7,
+        "episode": 7
+      },
+      {
+        "season": 8,
+        "episode": 6
+      }
+    ],
+    "mediaType": "series"
+  },
+  {
+    "id": 33,
+    "title": "The Last of Us",
+    "genres": [
+      "Drama",
+      "Action",
+      "Horror"
+    ],
+    "badges": [
+      "images/TheLastofUs/badge1.jpg",
+      "images/TheLastofUs/badge2.jpg",
+      "images/TheLastofUs/badge3.jpg",
+      "images/TheLastofUs/badge4.jpg"
+    ],
+    "director": "Craig Mazin, Neil Druckmann",
+    "poster_url": "images/TheLastofUs/TheLastofUsPoster.jpg",
+    "backdrop_url": "images/TheLastofUs/TheLastofUsBackdrop.jpg",
+    "summary": "The Last of Us is a drama, action series directed or created by Craig Mazin, Neil Druckmann. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      },
+      {
+        "name": "Canada",
+        "flag": "images/flags/Canada.png"
+      }
+    ],
+    "minAge": 18,
+    "rating": {
+      "score": 8.7,
+      "vote_count": 600000
+    },
+    "runtime": null,
+    "isTrending": true,
+    "releaseDate": "January 15, 2023",
+    "episodeRuntime": 50,
+    "status": "ongoing",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "series"
+  },
+  {
+    "id": 34,
+    "title": "Stranger Things",
+    "genres": [
+      "Science Fiction",
+      "Horror",
+      "Drama"
+    ],
+    "badges": [
+      "images/StrangerThings/badge1.jpg",
+      "images/StrangerThings/badge2.jpg",
+      "images/StrangerThings/badge3.jpg",
+      "images/StrangerThings/badge4.jpg"
+    ],
+    "director": "The Duffer Brothers",
+    "poster_url": "images/StrangerThings/StrangerThingsPoster.jpg",
+    "backdrop_url": "images/StrangerThings/StrangerThingsBackdrop.jpg",
+    "summary": "Stranger Things is a science fiction, horror series directed or created by The Duffer Brothers. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 15,
+    "rating": {
+      "score": 8.7,
+      "vote_count": 1400000
+    },
+    "runtime": null,
+    "isTrending": true,
+    "releaseDate": "July 15, 2016",
+    "episodeRuntime": 55,
+    "status": "ongoing",
+    "trailerKey": "",
+    "seasonsData": [
+      {
+        "season": 1,
+        "episode": 8
+      },
+      {
+        "season": 2,
+        "episode": 9
+      },
+      {
+        "season": 3,
+        "episode": 8
+      },
+      {
+        "season": 4,
+        "episode": 9
+      }
+    ],
+    "mediaType": "series"
+  },
+  {
+    "id": 35,
+    "title": "Chernobyl",
+    "genres": [
+      "Drama",
+      "History",
+      "Thriller"
+    ],
+    "badges": [
+      "images/Chernobyl/badge1.jpg",
+      "images/Chernobyl/badge2.jpg",
+      "images/Chernobyl/badge3.jpg",
+      "images/Chernobyl/badge4.jpg"
+    ],
+    "director": "Johan Renck",
+    "poster_url": "images/Chernobyl/ChernobylPoster.jpg",
+    "backdrop_url": "images/Chernobyl/ChernobylBackdrop.jpg",
+    "summary": "Chernobyl is a drama, history series directed or created by Johan Renck. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      },
+      {
+        "name": "UK",
+        "flag": "images/flags/UK.png"
+      }
+    ],
+    "minAge": 18,
+    "rating": {
+      "score": 9.3,
+      "vote_count": 900000
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "May 6, 2019",
+    "episodeRuntime": 60,
+    "status": "ended",
+    "trailerKey": "",
+    "seasonsData": [
+      {
+        "season": 1,
+        "episode": 5
+      }
+    ],
+    "mediaType": "series"
+  },
+  {
+    "id": 36,
+    "title": "The Sopranos",
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "badges": [
+      "images/TheSopranos/badge1.jpg",
+      "images/TheSopranos/badge2.jpg",
+      "images/TheSopranos/badge3.jpg",
+      "images/TheSopranos/badge4.jpg"
+    ],
+    "director": "David Chase",
+    "poster_url": "images/TheSopranos/TheSopranosPoster.jpg",
+    "backdrop_url": "images/TheSopranos/TheSopranosBackdrop.jpg",
+    "summary": "The Sopranos is a crime, drama series directed or created by David Chase. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 18,
+    "rating": {
+      "score": 9.2,
+      "vote_count": 500000
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "January 10, 1999",
+    "episodeRuntime": 55,
+    "status": "ended",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "series"
+  },
+  {
+    "id": 37,
+    "title": "Sherlock",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Mystery"
+    ],
+    "badges": [
+      "images/Sherlock/badge1.jpg",
+      "images/Sherlock/badge2.jpg",
+      "images/Sherlock/badge3.jpg",
+      "images/Sherlock/badge4.jpg"
+    ],
+    "director": "Mark Gatiss, Steven Moffat",
+    "poster_url": "images/Sherlock/SherlockPoster.jpg",
+    "backdrop_url": "images/Sherlock/SherlockBackdrop.jpg",
+    "summary": "Sherlock is a crime, drama series directed or created by Mark Gatiss, Steven Moffat. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
+    "countries": [
+      {
+        "name": "UK",
+        "flag": "images/flags/UK.png"
+      }
+    ],
+    "minAge": 15,
+    "rating": {
+      "score": 9.1,
+      "vote_count": 1000000
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "July 25, 2010",
+    "episodeRuntime": 90,
+    "status": "ended",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "series"
+  },
+  {
+    "id": 38,
+    "title": "Dark",
+    "genres": [
+      "Science Fiction",
+      "Mystery",
+      "Thriller"
+    ],
+    "badges": [
+      "images/Dark/badge1.jpg",
+      "images/Dark/badge2.jpg",
+      "images/Dark/badge3.jpg",
+      "images/Dark/badge4.jpg"
+    ],
+    "director": "Baran bo Odar, Jantje Friese",
+    "poster_url": "images/Dark/DarkPoster.jpg",
+    "backdrop_url": "images/Dark/DarkBackdrop.jpg",
+    "summary": "Dark is a science fiction, mystery series directed or created by Baran bo Odar, Jantje Friese. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
+    "countries": [
+      {
+        "name": "Germany",
+        "flag": "images/flags/Germany.png"
+      }
+    ],
+    "minAge": 16,
+    "rating": {
+      "score": 8.7,
+      "vote_count": 450000
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "December 1, 2017",
+    "episodeRuntime": 60,
+    "status": "ended",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "series"
+  },
+  {
+    "id": 39,
+    "title": "The Office",
+    "genres": [
+      "Comedy"
+    ],
+    "badges": [
+      "images/TheOffice/badge1.jpg",
+      "images/TheOffice/badge2.jpg",
+      "images/TheOffice/badge3.jpg",
+      "images/TheOffice/badge4.jpg"
+    ],
+    "director": "Greg Daniels",
+    "poster_url": "images/TheOffice/TheOfficePoster.jpg",
+    "backdrop_url": "images/TheOffice/TheOfficeBackdrop.jpg",
+    "summary": "The Office is a comedy series directed or created by Greg Daniels. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 13,
+    "rating": {
+      "score": 9.0,
+      "vote_count": 750000
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "March 24, 2005",
+    "episodeRuntime": 22,
+    "status": "ended",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "series"
+  },
+  {
+    "id": 40,
+    "title": "Succession",
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "badges": [
+      "images/Succession/badge1.jpg",
+      "images/Succession/badge2.jpg",
+      "images/Succession/badge3.jpg",
+      "images/Succession/badge4.jpg"
+    ],
+    "director": "Jesse Armstrong",
+    "poster_url": "images/Succession/SuccessionPoster.jpg",
+    "backdrop_url": "images/Succession/SuccessionBackdrop.jpg",
+    "summary": "Succession is a drama, comedy series directed or created by Jesse Armstrong. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 18,
+    "rating": {
+      "score": 8.8,
+      "vote_count": 350000
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "June 3, 2018",
+    "episodeRuntime": 60,
+    "status": "ended",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "series"
+  },
+  {
+    "id": 41,
+    "title": "The Bear",
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "badges": [
+      "images/TheBear/badge1.jpg",
+      "images/TheBear/badge2.jpg",
+      "images/TheBear/badge3.jpg",
+      "images/TheBear/badge4.jpg"
+    ],
+    "director": "Christopher Storer",
+    "poster_url": "images/TheBear/TheBearPoster.jpg",
+    "backdrop_url": "images/TheBear/TheBearBackdrop.jpg",
+    "summary": "The Bear is a drama, comedy series directed or created by Christopher Storer. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 16,
+    "rating": {
+      "score": 8.5,
+      "vote_count": 250000
+    },
+    "runtime": null,
+    "isTrending": true,
+    "releaseDate": "June 23, 2022",
+    "episodeRuntime": 30,
+    "status": "ongoing",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "series"
+  },
+  {
+    "id": 42,
+    "title": "Peaky Blinders",
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "badges": [
+      "images/PeakyBlinders/badge1.jpg",
+      "images/PeakyBlinders/badge2.jpg",
+      "images/PeakyBlinders/badge3.jpg",
+      "images/PeakyBlinders/badge4.jpg"
+    ],
+    "director": "Steven Knight",
+    "poster_url": "images/PeakyBlinders/PeakyBlindersPoster.jpg",
+    "backdrop_url": "images/PeakyBlinders/PeakyBlindersBackdrop.jpg",
+    "summary": "Peaky Blinders is a crime, drama series directed or created by Steven Knight. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
+    "countries": [
+      {
+        "name": "UK",
+        "flag": "images/flags/UK.png"
+      }
+    ],
+    "minAge": 18,
+    "rating": {
+      "score": 8.7,
+      "vote_count": 700000
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "September 12, 2013",
+    "episodeRuntime": 58,
+    "status": "ended",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "series"
+  },
+  {
+    "id": 43,
+    "title": "Mindhunter",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "badges": [
+      "images/Mindhunter/badge1.jpg",
+      "images/Mindhunter/badge2.jpg",
+      "images/Mindhunter/badge3.jpg",
+      "images/Mindhunter/badge4.jpg"
+    ],
+    "director": "Joe Penhall",
+    "poster_url": "images/Mindhunter/MindhunterPoster.jpg",
+    "backdrop_url": "images/Mindhunter/MindhunterBackdrop.jpg",
+    "summary": "Mindhunter is a crime, drama series directed or created by Joe Penhall. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 18,
+    "rating": {
+      "score": 8.6,
+      "vote_count": 350000
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "October 13, 2017",
+    "episodeRuntime": 55,
+    "status": "ended",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "series"
+  },
+  {
+    "id": 44,
+    "title": "True Detective",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Mystery"
+    ],
+    "badges": [
+      "images/TrueDetective/badge1.jpg",
+      "images/TrueDetective/badge2.jpg",
+      "images/TrueDetective/badge3.jpg",
+      "images/TrueDetective/badge4.jpg"
+    ],
+    "director": "Nic Pizzolatto",
+    "poster_url": "images/TrueDetective/TrueDetectivePoster.jpg",
+    "backdrop_url": "images/TrueDetective/TrueDetectiveBackdrop.jpg",
+    "summary": "True Detective is a crime, drama series directed or created by Nic Pizzolatto. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 18,
+    "rating": {
+      "score": 8.9,
+      "vote_count": 700000
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "January 12, 2014",
+    "episodeRuntime": 60,
+    "status": "ongoing",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "series"
+  },
+  {
+    "id": 45,
+    "title": "The Queen's Gambit",
+    "genres": [
+      "Drama"
+    ],
+    "badges": [
+      "images/TheQueensGambit/badge1.jpg",
+      "images/TheQueensGambit/badge2.jpg",
+      "images/TheQueensGambit/badge3.jpg",
+      "images/TheQueensGambit/badge4.jpg"
+    ],
+    "director": "Scott Frank",
+    "poster_url": "images/TheQueensGambit/TheQueensGambitPoster.jpg",
+    "backdrop_url": "images/TheQueensGambit/TheQueensGambitBackdrop.jpg",
+    "summary": "The Queen's Gambit is a drama series directed or created by Scott Frank. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 16,
+    "rating": {
+      "score": 8.5,
+      "vote_count": 450000
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "October 23, 2020",
+    "episodeRuntime": 60,
+    "status": "ended",
+    "trailerKey": "",
+    "seasonsData": [
+      {
+        "season": 1,
+        "episode": 7
+      }
+    ],
+    "mediaType": "series"
+  },
+  {
+    "id": 46,
+    "title": "The Mandalorian",
+    "genres": [
+      "Science Fiction",
+      "Adventure",
+      "Action"
+    ],
+    "badges": [
+      "images/TheMandalorian/badge1.jpg",
+      "images/TheMandalorian/badge2.jpg",
+      "images/TheMandalorian/badge3.jpg",
+      "images/TheMandalorian/badge4.jpg"
+    ],
+    "director": "Jon Favreau",
+    "poster_url": "images/TheMandalorian/TheMandalorianPoster.jpg",
+    "backdrop_url": "images/TheMandalorian/TheMandalorianBackdrop.jpg",
+    "summary": "The Mandalorian is a science fiction, adventure series directed or created by Jon Favreau. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 13,
+    "rating": {
+      "score": 8.6,
+      "vote_count": 600000
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "November 12, 2019",
+    "episodeRuntime": 40,
+    "status": "ongoing",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "series"
+  },
+  {
+    "id": 47,
+    "title": "Arcane",
+    "genres": [
+      "Animation",
+      "Action",
+      "Fantasy"
+    ],
+    "badges": [
+      "images/Arcane/badge1.jpg",
+      "images/Arcane/badge2.jpg",
+      "images/Arcane/badge3.jpg",
+      "images/Arcane/badge4.jpg"
+    ],
+    "director": "Christian Linke, Alex Yee",
+    "poster_url": "images/Arcane/ArcanePoster.jpg",
+    "backdrop_url": "images/Arcane/ArcaneBackdrop.jpg",
+    "summary": "Arcane is a animation, action series directed or created by Christian Linke, Alex Yee. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      },
+      {
+        "name": "France",
+        "flag": "images/flags/France.png"
+      }
+    ],
+    "minAge": 15,
+    "rating": {
+      "score": 9.0,
+      "vote_count": 350000
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "November 6, 2021",
+    "episodeRuntime": 40,
+    "status": "ended",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "series"
+  },
+  {
+    "id": 48,
+    "title": "The Boys",
+    "genres": [
+      "Action",
+      "Comedy",
+      "Drama"
+    ],
+    "badges": [
+      "images/TheBoys/badge1.jpg",
+      "images/TheBoys/badge2.jpg",
+      "images/TheBoys/badge3.jpg",
+      "images/TheBoys/badge4.jpg"
+    ],
+    "director": "Eric Kripke",
+    "poster_url": "images/TheBoys/TheBoysPoster.jpg",
+    "backdrop_url": "images/TheBoys/TheBoysBackdrop.jpg",
+    "summary": "The Boys is a action, comedy series directed or created by Eric Kripke. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 18,
+    "rating": {
+      "score": 8.6,
+      "vote_count": 750000
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "July 26, 2019",
+    "episodeRuntime": 60,
+    "status": "ongoing",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "series"
+  },
+  {
+    "id": 49,
+    "title": "MobLand",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "badges": [
+      "images/MobLand/badge1.jpg",
+      "images/MobLand/badge2.jpg",
+      "images/MobLand/badge3.jpg",
+      "images/MobLand/badge4.jpg"
+    ],
+    "director": "Guy Ritchie",
+    "poster_url": "images/MobLand/MobLandPoster.jpg",
+    "backdrop_url": "images/MobLand/MobLandBackdrop.jpg",
+    "summary": "MobLand is a crime, drama series directed or created by Guy Ritchie. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
+    "countries": [
+      {
+        "name": "UK",
+        "flag": "images/flags/UK.png"
+      },
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 18,
+    "rating": {
+      "score": 8.3,
+      "vote_count": 126000
+    },
+    "runtime": null,
+    "isTrending": true,
+    "releaseDate": "March 30, 2025",
+    "episodeRuntime": 60,
+    "status": "ongoing",
+    "trailerKey": "",
+    "seasonsData": [
+      {
+        "season": 1,
+        "episode": 10
+      }
+    ],
+    "mediaType": "series"
+  },
+  {
+    "id": 50,
+    "title": "House of the Dragon",
+    "genres": [
+      "Fantasy",
+      "Drama",
+      "Action"
+    ],
+    "badges": [
+      "images/HouseoftheDragon/badge1.jpg",
+      "images/HouseoftheDragon/badge2.jpg",
+      "images/HouseoftheDragon/badge3.jpg",
+      "images/HouseoftheDragon/badge4.jpg"
+    ],
+    "director": "Ryan Condal, George R. R. Martin",
+    "poster_url": "images/HouseoftheDragon/HouseoftheDragonPoster.jpg",
+    "backdrop_url": "images/HouseoftheDragon/HouseoftheDragonBackdrop.jpg",
+    "summary": "House of the Dragon is a fantasy, drama series directed or created by Ryan Condal, George R. R. Martin. The story explores its central characters and conflicts through a cinematic narrative, with themes and events shaped by its genre.",
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      },
+      {
+        "name": "UK",
+        "flag": "images/flags/UK.png"
+      }
+    ],
+    "minAge": 18,
+    "rating": {
+      "score": 8.4,
+      "vote_count": 450000
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "August 21, 2022",
+    "episodeRuntime": 60,
+    "status": "ongoing",
+    "trailerKey": "",
+    "seasonsData": [
+      {
+        "season": 1,
+        "episode": 10
+      },
+      {
+        "season": 2,
+        "episode": 8
+      }
+    ],
+    "mediaType": "series"
+  }
+]
