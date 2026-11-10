@@ -27,7 +27,7 @@ export class Sliders {
     
     init(data){
         if (!data || data.length === 0) return;
-        this.cleanObj = data.filter(get => get.isTrending && get.badges.length > 0 && get.backdrop_url.trim() !== '');
+        this.cleanObj = data.filter(get => get.isTrending  && get.backdrop_url.trim() !== '');
         this.renderSlide();
 
         clearInterval(this.headerSlideStatus);

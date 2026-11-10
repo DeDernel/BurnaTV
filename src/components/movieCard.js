@@ -63,7 +63,8 @@ export class MovieComponent{
                                 `
             img.src = movie.poster_url ?? '';
             img.className = `${config.image}`;
-            
+            img.loading = 'lazy';
+
             info.append(title , year);
             card.append(img , info , score , navBtns);
         }

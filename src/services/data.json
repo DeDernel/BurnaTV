@@ -544,7 +544,7 @@
       "vote_count": 8931
     },
     "runtime": 166,
-    "isTrending": true,
+    "isTrending": false,
     "releaseDate": "February 27, 2024",
     "episodeRuntime": null,
     "status": "released",
@@ -586,7 +586,7 @@
       "vote_count": 12866
     },
     "runtime": 180,
-    "isTrending": true,
+    "isTrending": false,
     "releaseDate": "July 19, 2023",
     "episodeRuntime": null,
     "status": "released",
@@ -1680,7 +1680,7 @@
       "vote_count": 2033
     },
     "runtime": null,
-    "isTrending": true,
+    "isTrending": false,
     "releaseDate": "June 23, 2022",
     "episodeRuntime": 30,
     "status": "ongoing",
@@ -2061,14 +2061,23 @@
   {
     "id": 51,
     "title": "The Dutchman",
-    "genres": [],
+    "genres": [
+      "Drama",
+      "Thriller",
+      "Mystery"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Andre Gaines",
     "poster_url": "images/TheDutchman/TheDutchmanPoster.jpg",
     "backdrop_url": "images/TheDutchman/TheDutchmanBackdrop.jpg",
     "summary": "A successful black businessman, haunted by his crumbling marriage and identity crisis, is drawn into a psychological game of cat and mouse with a mysterious white woman he encounters on a New York subway.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 13,
     "rating": {
       "score": 5.2,
       "vote_count": 63
@@ -2085,14 +2094,22 @@
   {
     "id": 52,
     "title": "We Bury the Dead",
-    "genres": [],
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Zak Hilditch",
     "poster_url": "images/WeBurytheDead/WeBurytheDeadPoster.jpg",
     "backdrop_url": "images/WeBurytheDead/WeBurytheDeadBackdrop.jpg",
     "summary": "After a catastrophic military disaster reanimates the dead, Ava searches for her missing husband amidst an increasingly hostile world.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 17,
     "rating": {
       "score": 6.1,
       "vote_count": 435
@@ -2109,14 +2126,22 @@
   {
     "id": 53,
     "title": "Greenland 2: Migration",
-    "genres": [],
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Ric Roman Waugh",
     "poster_url": "images/Greenland2Migration/Greenland2MigrationPoster.jpg",
     "backdrop_url": "images/Greenland2Migration/Greenland2MigrationBackdrop.jpg",
     "summary": "Having found the safety of the Greenland bunker after the comet Clarke decimated the Earth, the Garrity family must now risk everything to embark on a perilous journey across the wasteland of Europe to find a new home.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 17,
     "rating": {
       "score": 6.4,
       "vote_count": 1651
@@ -2133,14 +2158,22 @@
   {
     "id": 54,
     "title": "Primate",
-    "genres": [],
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Johannes Roberts",
     "poster_url": "images/Primate/PrimatePoster.jpg",
     "backdrop_url": "images/Primate/PrimateBackdrop.jpg",
     "summary": "College student Lucy and her friends spend their vacation at her family's home in Hawaii, which includes her pet chimpanzee, Ben. However, when Ben contracts rabies after being bitten by a rabid animal, the group must fight for their lives in order to avoid the now-violent chimp.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 17,
     "rating": {
       "score": 6.4,
       "vote_count": 969
@@ -2157,14 +2190,23 @@
   {
     "id": 55,
     "title": "Dead Man's Wire",
-    "genres": [],
+    "genres": [
+      "Crime",
+      "Thriller",
+      "Drama"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Gus Van Sant",
     "poster_url": "images/DeadMansWire/DeadMansWirePoster.jpg",
     "backdrop_url": "images/DeadMansWire/DeadMansWireBackdrop.jpg",
     "summary": "In 1977, former real estate developer Tony Kiritsis puts a dead man's switch on himself and the mortgage banker who did him wrong, demanding $5 million and a personal apology.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 17,
     "rating": {
       "score": 6.5,
       "vote_count": 261
@@ -2181,14 +2223,23 @@
   {
     "id": 56,
     "title": "People We Meet on Vacation",
-    "genres": [],
+    "genres": [
+      "Romance",
+      "Drama",
+      "Comedy"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Brett Haley",
     "poster_url": "images/PeopleWeMeetonVacation/PeopleWeMeetonVacationPoster.jpg",
     "backdrop_url": "images/PeopleWeMeetonVacation/PeopleWeMeetonVacationBackdrop.jpg",
     "summary": "Poppy's a free spirit. Alex loves a plan. After years of summer vacations, these polar-opposite pals wonder if they could be a perfect romantic match.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 13,
     "rating": {
       "score": 7,
       "vote_count": 768
@@ -2205,14 +2256,22 @@
   {
     "id": 57,
     "title": "28 Years Later: The Bone Temple",
-    "genres": [],
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Nia DaCosta",
     "poster_url": "images/28YearsLaterTheBoneTemple/28YearsLaterTheBoneTemplePoster.jpg",
     "backdrop_url": "images/28YearsLaterTheBoneTemple/28YearsLaterTheBoneTempleBackdrop.jpg",
     "summary": "Dr. Kelson finds himself in a shocking new relationship - with consequences that could change the world as they know it - and Spike's encounter with Jimmy Crystal becomes a nightmare he can't escape.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 17,
     "rating": {
       "score": 7.1,
       "vote_count": 1922
@@ -2229,14 +2288,23 @@
   {
     "id": 58,
     "title": "The Rip",
-    "genres": [],
+    "genres": [
+      "Crime",
+      "Thriller",
+      "Drama"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Joe Carnahan",
     "poster_url": "images/TheRip/TheRipPoster.jpg",
     "backdrop_url": "images/TheRip/TheRipBackdrop.jpg",
     "summary": "Trust frays when a team of Miami cops discovers millions in cash inside a run-down stash house, calling everyone — and everything — into question.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 17,
     "rating": {
       "score": 7.1,
       "vote_count": 2059
@@ -2253,14 +2321,23 @@
   {
     "id": 59,
     "title": "Mercy",
-    "genres": [],
+    "genres": [
+      "Science Fiction",
+      "Adventure",
+      "Action"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Timur Bekmambetov",
     "poster_url": "images/Mercy/MercyPoster.jpg",
     "backdrop_url": "images/Mercy/MercyBackdrop.jpg",
     "summary": "In the near future, a detective stands on trial accused of murdering his wife. He has ninety minutes to prove his innocence to the advanced AI Judge he once championed, before it determines his fate.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 13,
     "rating": {
       "score": 7.1,
       "vote_count": 1820
@@ -2277,14 +2354,22 @@
   {
     "id": 60,
     "title": "Return to Silent Hill",
-    "genres": [],
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Christophe Gans",
     "poster_url": "images/ReturntoSilentHill/ReturntoSilentHillPoster.jpg",
     "backdrop_url": "images/ReturntoSilentHill/ReturntoSilentHillBackdrop.jpg",
     "summary": "When James receives a mysterious letter from his lost love Mary, he is drawn to Silent Hill—a once-familiar town now consumed by darkness. As he searches for her, James faces monstrous creatures and unravels a terrifying truth that will push him to the edge of his sanity.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 17,
     "rating": {
       "score": 5.3,
       "vote_count": 934
@@ -2301,14 +2386,22 @@
   {
     "id": 61,
     "title": "Wuthering Heights",
-    "genres": [],
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Emerald Fennell",
     "poster_url": "images/WutheringHeights/WutheringHeightsPoster.jpg",
     "backdrop_url": "images/WutheringHeights/WutheringHeightsBackdrop.jpg",
     "summary": "Tragedy strikes when Heathcliff falls in love with Catherine Earnshaw, a woman from a wealthy family in 18th-century England.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "UK",
+        "flag": "images/flags/UK.png"
+      }
+    ],
+    "minAge": 13,
     "rating": {
       "score": 6.6,
       "vote_count": 1444
@@ -2325,14 +2418,23 @@
   {
     "id": 62,
     "title": "Crime 101",
-    "genres": [],
+    "genres": [
+      "Crime",
+      "Thriller",
+      "Drama"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Bart Layton",
     "poster_url": "images/Crime101/Crime101Poster.jpg",
     "backdrop_url": "images/Crime101/Crime101Backdrop.jpg",
     "summary": "When an elusive thief whose high-stakes heists unfold along the iconic 101 freeway in Los Angeles eyes the score of a lifetime, with hopes of this being his final job, his path collides with a disillusioned insurance broker who is facing her own crossroads. Determined to crack the case, a relentless detective closes in on the operation, raising the stakes even higher.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 17,
     "rating": {
       "score": 7,
       "vote_count": 1479
@@ -2349,14 +2451,24 @@
   {
     "id": 63,
     "title": "GOAT",
-    "genres": [],
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Comedy",
+      "Family"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Tyree Dillihay",
     "poster_url": "images/GOAT/GOATPoster.jpg",
     "backdrop_url": "images/GOAT/GOATBackdrop.jpg",
     "summary": "A small goat with big dreams gets a once-in-a-lifetime shot to join the pros and play roarball, a high-intensity, co-ed, full-contact sport dominated by the fastest, fiercest animals in the world.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 7,
     "rating": {
       "score": 8,
       "vote_count": 1157
@@ -2373,14 +2485,22 @@
   {
     "id": 64,
     "title": "Cold Storage",
-    "genres": [],
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Jonny Campbell",
     "poster_url": "images/ColdStorage/ColdStoragePoster.jpg",
     "backdrop_url": "images/ColdStorage/ColdStorageBackdrop.jpg",
     "summary": "When a mutating, highly contagious fungus escapes a sealed facility, two employees – joined by a grizzled bioterror operative – must survive the wildest night shift ever to save humanity from extinction.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 17,
     "rating": {
       "score": 6.7,
       "vote_count": 872
@@ -2397,14 +2517,22 @@
   {
     "id": 65,
     "title": "Scream 7",
-    "genres": [],
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Kevin Williamson",
     "poster_url": "images/Scream7/Scream7Poster.jpg",
     "backdrop_url": "images/Scream7/Scream7Backdrop.jpg",
     "summary": "When a new Ghostface killer emerges in the quiet town where Sidney Prescott has built a new life, her darkest fears are realized as her daughter becomes the next target. Determined to protect her family, Sidney must face the horrors of her past to put an end to the bloodshed once and for all.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 17,
     "rating": {
       "score": 6.2,
       "vote_count": 1431
@@ -2421,14 +2549,22 @@
   {
     "id": 66,
     "title": "EPiC: Elvis Presley in Concert",
-    "genres": [],
+    "genres": [
+      "Documentary",
+      "Music"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Baz Luhrmann",
     "poster_url": "images/EPiCElvisPresleyinConcert/EPiCElvisPresleyinConcertPoster.jpg",
     "backdrop_url": "images/EPiCElvisPresleyinConcert/EPiCElvisPresleyinConcertBackdrop.jpg",
     "summary": "Long-lost footage from Elvis Presley's legendary Las Vegas residency in the 1970s woven together with rare 16mm footage from Elvis on Tour, and 8mm from the Graceland archive, plus recordings of Elvis telling \"his side of the story\" rediscovered during Baz Luhrmann's research for his 2022 film, Elvis.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 13,
     "rating": {
       "score": 8.2,
       "vote_count": 116
@@ -2445,14 +2581,23 @@
   {
     "id": 67,
     "title": "The Bride!",
-    "genres": [],
+    "genres": [
+      "Drama",
+      "Horror",
+      "Science Fiction"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Maggie Gyllenhaal",
     "poster_url": "images/TheBride/TheBridePoster.jpg",
     "backdrop_url": "images/TheBride/TheBrideBackdrop.jpg",
     "summary": "A lonely Frankenstein travels to 1930s Chicago to ask groundbreaking scientist Dr. Euphronious to create a companion for him. The two revive a murdered young woman and The Bride is born. But what ensues is beyond what either of them imagined.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 17,
     "rating": {
       "score": 6,
       "vote_count": 711
@@ -2469,14 +2614,24 @@
   {
     "id": 68,
     "title": "Hoppers",
-    "genres": [],
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Comedy",
+      "Family"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Daniel Chong",
     "poster_url": "images/Hoppers/HoppersPoster.jpg",
     "backdrop_url": "images/Hoppers/HoppersBackdrop.jpg",
     "summary": "Scientists have discovered how to 'hop' human consciousness into lifelike robotic animals, allowing people to communicate with animals as animals. Animal lover Mabel seizes an opportunity to use the technology, uncovering mysteries within the animal world beyond anything she could have imagined.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 7,
     "rating": {
       "score": 8.1,
       "vote_count": 2521
@@ -2493,14 +2648,22 @@
   {
     "id": 69,
     "title": "War Machine",
-    "genres": [],
+    "genres": [
+      "Action",
+      "Thriller"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Patrick Hughes",
     "poster_url": "images/WarMachine/WarMachinePoster.jpg",
     "backdrop_url": "images/WarMachine/WarMachineBackdrop.jpg",
     "summary": "On one last grueling mission during Army Ranger training, a combat engineer must lead his unit in a fight against a giant otherworldly killing machine.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 13,
     "rating": {
       "score": 7.5,
       "vote_count": 2715
@@ -2517,14 +2680,22 @@
   {
     "id": 70,
     "title": "Youngblood",
-    "genres": [],
+    "genres": [
+      "Action",
+      "Thriller"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Hubert Davis",
     "poster_url": "images/Youngblood/YoungbloodPoster.jpg",
     "backdrop_url": "images/Youngblood/YoungbloodBackdrop.jpg",
     "summary": "A skilled young hockey prospect hoping to attract the attention of professional scouts is pressured to show that he can fight if challenged during his stay in a Canadian minor hockey town. His on-ice activities are complicated by his relationship with the coach's daughter.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 13,
     "rating": {
       "score": 6.2,
       "vote_count": 257
@@ -2541,14 +2712,23 @@
   {
     "id": 71,
     "title": "Project Hail Mary",
-    "genres": [],
+    "genres": [
+      "Science Fiction",
+      "Adventure",
+      "Action"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Phil Lord, Christopher Miller",
     "poster_url": "images/ProjectHailMary/ProjectHailMaryPoster.jpg",
     "backdrop_url": "images/ProjectHailMary/ProjectHailMaryBackdrop.jpg",
     "summary": "Science teacher Ryland Grace wakes up on a spaceship light years from home with no recollection of who he is or how he got there. As his memory returns, he begins to uncover his mission: solve the riddle of the mysterious substance causing the sun to die out. He must call on his scientific knowledge and unorthodox ideas to save everything on Earth from extinction.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 13,
     "rating": {
       "score": 8.6,
       "vote_count": 8754
@@ -2565,14 +2745,23 @@
   {
     "id": 72,
     "title": "Reminders of Him",
-    "genres": [],
+    "genres": [
+      "Romance",
+      "Drama",
+      "Comedy"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Vanessa Caswill",
     "poster_url": "images/RemindersofHim/RemindersofHimPoster.jpg",
     "backdrop_url": "images/RemindersofHim/RemindersofHimBackdrop.jpg",
     "summary": "When Diem's custodial grandparents adamantly refuse Kenna's attempts to see her daughter, Kenna discovers unexpected compassion, and then something truer and deeper, with former NFL player and local bar owner Ledger. As their secret romance develops, so do the dangers for both of them, leading Kenna toward heartbreak and, ultimately, the hope for a second chance.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 13,
     "rating": {
       "score": 7.8,
       "vote_count": 457
@@ -2589,20 +2778,28 @@
   {
     "id": 73,
     "title": "Peaky Blinders: The Immortal Man",
-    "genres": [],
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Tom Harper",
     "poster_url": "images/PeakyBlindersTheImmortalMan/PeakyBlindersTheImmortalManPoster.jpg",
     "backdrop_url": "images/PeakyBlindersTheImmortalMan/PeakyBlindersTheImmortalManBackdrop.jpg",
     "summary": "After his estranged son gets embroiled in a Nazi plot, self-exiled gangster Tommy Shelby must return to Birmingham to save his family — and his nation.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "UK",
+        "flag": "images/flags/UK.png"
+      }
+    ],
+    "minAge": 17,
     "rating": {
       "score": 7.2,
       "vote_count": 1311
     },
     "runtime": null,
-    "isTrending": false,
+    "isTrending": true,
     "releaseDate": "March 5, 2026",
     "episodeRuntime": null,
     "status": "released",
@@ -2613,14 +2810,22 @@
   {
     "id": 74,
     "title": "Ready or Not 2: Here I Come",
-    "genres": [],
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Matt Bettinelli-Olpin, Tyler Gillett",
     "poster_url": "images/ReadyorNot2HereICome/ReadyorNot2HereIComePoster.jpg",
     "backdrop_url": "images/ReadyorNot2HereICome/ReadyorNot2HereIComeBackdrop.jpg",
     "summary": "Moments after surviving an all-out attack from the Le Domas family, Grace discovers she’s reached the next level of the nightmarish game — and this time with her estranged sister Faith at her side. Grace has one chance to survive, keep her sister alive, and claim the High Seat of the Council that controls the world. Four rival families are hunting her for the throne, and whoever wins rules it all.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 17,
     "rating": {
       "score": 7.5,
       "vote_count": 1800
@@ -2637,14 +2842,22 @@
   {
     "id": 75,
     "title": "They Will Kill You",
-    "genres": [],
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Kirill Sokolov",
     "poster_url": "images/TheyWillKillYou/TheyWillKillYouPoster.jpg",
     "backdrop_url": "images/TheyWillKillYou/TheyWillKillYouBackdrop.jpg",
     "summary": "A woman answers a help wanted ad to be a housekeeper in a mysterious New York City high-rise, unaware that she is entering a community that has seen a number of disappearances over the years and may be under the grip of a Satanic cult.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 17,
     "rating": {
       "score": 6.9,
       "vote_count": 1229
@@ -2661,14 +2874,23 @@
   {
     "id": 76,
     "title": "The Drama",
-    "genres": [],
+    "genres": [
+      "Romance",
+      "Drama",
+      "Comedy"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Kristoffer Borgli",
     "poster_url": "images/TheDrama/TheDramaPoster.jpg",
     "backdrop_url": "images/TheDrama/TheDramaBackdrop.jpg",
     "summary": "A happily engaged couple is put to the test when an unexpected turn sends their wedding week off the rails.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 13,
     "rating": {
       "score": 6.9,
       "vote_count": 2047
@@ -2685,14 +2907,23 @@
   {
     "id": 77,
     "title": "The Super Mario Galaxy Movie",
-    "genres": [],
+    "genres": [
+      "Science Fiction",
+      "Adventure",
+      "Action"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Aaron Horvath, Michael Jelenic",
     "poster_url": "images/TheSuperMarioGalaxyMovie/TheSuperMarioGalaxyMoviePoster.jpg",
     "backdrop_url": "images/TheSuperMarioGalaxyMovie/TheSuperMarioGalaxyMovieBackdrop.jpg",
     "summary": "Having thwarted Bowser's previous plot to marry Princess Peach, Mario and Luigi now face a fresh threat in Bowser Jr., who is determined to liberate his father from captivity and restore the family legacy. Alongside companions new and old, the brothers travel across the stars to stop the young heir's crusade.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 13,
     "rating": {
       "score": 8.2,
       "vote_count": 3971
@@ -2709,14 +2940,22 @@
   {
     "id": 78,
     "title": "Beast",
-    "genres": [],
+    "genres": [
+      "Drama",
+      "Thriller"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Tyree Dillihay",
     "poster_url": "images/Beast/BeastPoster.jpg",
     "backdrop_url": "images/Beast/BeastBackdrop.jpg",
     "summary": "After a harrowing plane crash, Special Forces officer James Belmont and his combat dog, Odin, find themselves stranded deep in the Alaskan wilderness. Together, they are forced into a brutal fight for survival against the elements.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 13,
     "rating": {
       "score": 7.3,
       "vote_count": 520
@@ -2733,14 +2972,22 @@
   {
     "id": 79,
     "title": "Michael",
-    "genres": [],
+    "genres": [
+      "Documentary",
+      "Music"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Antoine Fuqua",
     "poster_url": "images/Michael/MichaelPoster.jpg",
     "backdrop_url": "images/Michael/MichaelBackdrop.jpg",
     "summary": "The story of Michael Jackson, one of the most influential artists the world has ever known, and his life beyond the music. His journey from the discovery of his extraordinary talent as the lead of the Jackson Five, to the visionary artist whose creative ambition fueled a relentless pursuit to become the biggest entertainer in the world, highlighting both his life off-stage and some of the most iconic performances from his early solo career.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 13,
     "rating": {
       "score": 8.6,
       "vote_count": 4695
@@ -2757,14 +3004,22 @@
   {
     "id": 80,
     "title": "The Devil Wears Prada 2",
-    "genres": [],
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
     "badges": [],
-    "director": "",
+    "director": "David Frankel",
     "poster_url": "images/TheDevilWearsPrada2/TheDevilWearsPrada2Poster.jpg",
     "backdrop_url": "images/TheDevilWearsPrada2/TheDevilWearsPrada2Backdrop.jpg",
     "summary": "Andy Sachs returns to Runway as Miranda Priestly navigates a new media landscape and Runway's position within. The duo reconnect with former assistant Emily Charlton, now the head of a luxury brand that possesses funding which could ensure Runway's survival.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 13,
     "rating": {
       "score": 7,
       "vote_count": 2540
@@ -2781,14 +3036,28 @@
   {
     "id": 81,
     "title": "The Sheep Detectives",
-    "genres": [],
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Comedy",
+      "Family"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Kyle Balda",
     "poster_url": "images/TheSheepDetectives/TheSheepDetectivesPoster.jpg",
     "backdrop_url": "images/TheSheepDetectives/TheSheepDetectivesBackdrop.jpg",
     "summary": "George Hardy is a shepherd who reads detective novels to his beloved sheep every night, assuming they can't possibly understand. But when a mysterious incident disrupts life on the farm, the sheep realize they must become the detectives. As they follow the clues and investigate human suspects, they prove that even sheep can be brilliant crime-solvers.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "UK",
+        "flag": "images/flags/UK.png"
+      },
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 7,
     "rating": {
       "score": 7.9,
       "vote_count": 1916
@@ -2805,14 +3074,22 @@
   {
     "id": 82,
     "title": "Mortal Kombat II",
-    "genres": [],
+    "genres": [
+      "Action",
+      "Thriller"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Simon McQuoid",
     "poster_url": "images/MortalKombatII/MortalKombatIIPoster.jpg",
     "backdrop_url": "images/MortalKombatII/MortalKombatIIBackdrop.jpg",
     "summary": "The fan favorite champions—now joined by Johnny Cage himself—are pitted against one another in the ultimate, no-holds barred, gory battle to defeat the dark rule of Shao Kahn that threatens the very existence of the Earthrealm and its defenders.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 13,
     "rating": {
       "score": 7.7,
       "vote_count": 2775
@@ -2829,14 +3106,23 @@
   {
     "id": 83,
     "title": "The Mandalorian & Grogu",
-    "genres": [],
+    "genres": [
+      "Science Fiction",
+      "Adventure",
+      "Action"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Jon Favreau",
     "poster_url": "images/TheMandalorianGrogu/TheMandalorianGroguPoster.jpg",
     "backdrop_url": "images/TheMandalorianGrogu/TheMandalorianGroguBackdrop.jpg",
     "summary": "The evil Empire has fallen, and Imperial warlords remain scattered throughout the galaxy. As the fledgling New Republic works to protect everything the Rebellion fought for, they have enlisted the help of legendary Mandalorian bounty hunter Din Djarin and his young apprentice Grogu.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 13,
     "rating": {
       "score": 7.5,
       "vote_count": 1975
@@ -2853,14 +3139,24 @@
   {
     "id": 84,
     "title": "Toy Story 5",
-    "genres": [],
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Comedy",
+      "Family"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Andrew Stanton",
     "poster_url": "images/ToyStory5/ToyStory5Poster.jpg",
     "backdrop_url": "images/ToyStory5/ToyStory5Backdrop.jpg",
     "summary": "When Bonnie receives a Lilypad tablet as a gift and becomes obsessed, Buzz, Woody, Jessie and the rest of the gang's jobs become exponentially harder when they have to go head to head with the all-new threat to playtime.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 7,
     "rating": {
       "score": 8.3,
       "vote_count": 2838
@@ -2877,14 +3173,23 @@
   {
     "id": 85,
     "title": "Supergirl",
-    "genres": [],
+    "genres": [
+      "Science Fiction",
+      "Adventure",
+      "Action"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Craig Gillespie",
     "poster_url": "images/Supergirl/SupergirlPoster.jpg",
     "backdrop_url": "images/Supergirl/SupergirlBackdrop.jpg",
     "summary": "When an unexpected and ruthless adversary strikes too close to home, Kara Zor-El, aka Supergirl, reluctantly joins forces with an unlikely companion on an epic, interstellar journey of vengeance and justice.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 13,
     "rating": {
       "score": 6.6,
       "vote_count": 2708
@@ -2901,14 +3206,24 @@
   {
     "id": 86,
     "title": "Minions 3",
-    "genres": [],
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Comedy",
+      "Family"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Pierre Coffin",
     "poster_url": "images/Minions3/Minions3Poster.jpg",
     "backdrop_url": "images/Minions3/Minions3Backdrop.jpg",
     "summary": "The Minions are back along with some new friends in three hilariously fun short films: Competition, Cro Minion, and Binky Nelson Unpacified.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 7,
     "rating": {
       "score": 6.7,
       "vote_count": 36
@@ -2925,14 +3240,23 @@
   {
     "id": 87,
     "title": "Moana",
-    "genres": [],
+    "genres": [
+      "Science Fiction",
+      "Adventure",
+      "Action"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Thomas Kail",
     "poster_url": "images/Moana/MoanaPoster.jpg",
     "backdrop_url": "images/Moana/MoanaBackdrop.jpg",
     "summary": "Teenage Moana answers the Ocean's call and, for the first time, voyages beyond the reef of her island of Motunui with infamous demigod Maui on an unforgettable journey to restore prosperity to her people.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 13,
     "rating": {
       "score": 7.4,
       "vote_count": 1032
@@ -2949,20 +3273,33 @@
   {
     "id": 88,
     "title": "The Odyssey",
-    "genres": [],
+    "genres": [
+      "Science Fiction",
+      "Adventure",
+      "Action"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Christopher Nolan",
     "poster_url": "images/TheOdyssey/TheOdysseyPoster.jpg",
     "backdrop_url": "images/TheOdyssey/TheOdysseyBackdrop.jpg",
     "summary": "Odysseus, the legendary King of Ithaca, embarks on a long and perilous journey home following the Trojan War. Throughout his voyage, he is forced to confront the whims of gods, mythological monsters, and trials that stretch both his cunning and his humanity to the breaking point.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      },
+      {
+        "name": "UK",
+        "flag": "images/flags/UK.png"
+      }
+    ],
+    "minAge": 13,
     "rating": {
       "score": 8,
       "vote_count": 4474
     },
     "runtime": null,
-    "isTrending": false,
+    "isTrending": true,
     "releaseDate": "July 15, 2026",
     "episodeRuntime": null,
     "status": "released",
@@ -2973,14 +3310,22 @@
   {
     "id": 89,
     "title": "Evil Dead Burn",
-    "genres": [],
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Sebastien Vaniček",
     "poster_url": "images/EvilDeadBurn/EvilDeadBurnPoster.jpg",
     "backdrop_url": "images/EvilDeadBurn/EvilDeadBurnBackdrop.jpg",
     "summary": "After her husband's abrupt death, Alice seeks solace with his remaining family — descendants of a leading researcher on demonic possession. As her in-laws transform one by one into creatures that feed on fear, she comes to discover that the vows she took in life survive even in death.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 17,
     "rating": {
       "score": 7.6,
       "vote_count": 1931
@@ -2997,14 +3342,23 @@
   {
     "id": 90,
     "title": "Spider-Man: Brand New Day",
-    "genres": [],
+    "genres": [
+      "Science Fiction",
+      "Adventure",
+      "Action"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Destin Daniel Cretton",
     "poster_url": "images/SpiderManBrandNewDay/SpiderManBrandNewDayPoster.jpg",
     "backdrop_url": "images/SpiderManBrandNewDay/SpiderManBrandNewDayBackdrop.jpg",
     "summary": "Fighting crime full-time as Spider-Man in a world that doesn't remember him—and the pressure of seeing his old friends move on without him—sparks a change in Peter Parker he may not have the power to control. But that transformation might also be the only thing that can stop a shocking new threat to the city and those he loves - a powerful villain no one can even see.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 13,
     "rating": {
       "score": 8.5,
       "vote_count": 6638
@@ -3021,14 +3375,23 @@
   {
     "id": 91,
     "title": "Coyote vs. Acme",
-    "genres": [],
+    "genres": [
+      "Comedy",
+      "Adventure",
+      "Family"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Dave Green",
     "poster_url": "images/CoyotevsAcme/CoyotevsAcmePoster.jpg",
     "backdrop_url": "images/CoyotevsAcme/CoyotevsAcmeBackdrop.jpg",
     "summary": "After Acme products fail him one too many times in his dogged pursuit of the Roadrunner, Wile E. Coyote decides to hire a billboard lawyer to sue the Acme Corporation.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 7,
     "rating": {
       "score": 8.2,
       "vote_count": 1417
@@ -3045,20 +3408,28 @@
   {
     "id": 92,
     "title": "Resident Evil",
-    "genres": [],
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Zach Cregger",
     "poster_url": "images/ResidentEvil/ResidentEvilPoster.jpg",
     "backdrop_url": "images/ResidentEvil/ResidentEvilBackdrop.jpg",
     "summary": "Medical courier Bryan unwittingly finds himself fighting for survival as one fateful, horrifying night collapses around him in chaos.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 17,
     "rating": {
       "score": 7.5,
       "vote_count": 1866
     },
     "runtime": null,
-    "isTrending": false,
+    "isTrending": true,
     "releaseDate": "September 16, 2026",
     "episodeRuntime": null,
     "status": "released",
@@ -3069,14 +3440,23 @@
   {
     "id": 93,
     "title": "Verity",
-    "genres": [],
+    "genres": [
+      "Mystery",
+      "Thriller",
+      "Drama"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Michael Showalter",
     "poster_url": "images/Verity/VerityPoster.jpg",
     "backdrop_url": "images/Verity/VerityBackdrop.jpg",
     "summary": "Lowen Ashleigh, hired to ghostwrite for best-selling author Verity Crawford, uncovers Verity's autobiographical notes, and becomes involved in what may prove to be a lethal conspiracy.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 13,
     "rating": {
       "score": 7,
       "vote_count": 648
@@ -3093,14 +3473,23 @@
   {
     "id": 94,
     "title": "Other Mommy",
-    "genres": [],
+    "genres": [
+      "Drama",
+      "Thriller",
+      "Mystery"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Rob Savage",
     "poster_url": "images/OtherMommy/OtherMommyPoster.jpg",
     "backdrop_url": "images/OtherMommy/OtherMommyBackdrop.jpg",
     "summary": "Young Bela forms a relationship with a sinister entity in her home that looks uncannily like her own mother, drawing her into a terrifying and increasingly dark world.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 13,
     "rating": {
       "score": 5.8,
       "vote_count": 201
@@ -3117,14 +3506,22 @@
   {
     "id": 95,
     "title": "Street Fighter",
-    "genres": [],
+    "genres": [
+      "Action",
+      "Thriller"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Kitao Sakurai",
     "poster_url": "images/StreetFighter/StreetFighterPoster.jpg",
     "backdrop_url": "images/StreetFighter/StreetFighterBackdrop.jpg",
     "summary": "In 1993, estranged Street Fighters Ryu and Ken Masters are thrown back into combat when the mysterious Chun-Li recruits them for the next World Warrior Tournament: a brutal clash of fists, fate, and fury. But behind this battle royale lies a deadly conspiracy that forces them to face off against each other and the demons of their past. And if they don't, it's GAME OVER!",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 13,
     "rating": {
       "score": 6.3,
       "vote_count": 224
@@ -3141,14 +3538,23 @@
   {
     "id": 96,
     "title": "The Cat in the Hat",
-    "genres": [],
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Family"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Alessandro Carloni, Erica Rivinoja",
     "poster_url": "images/TheCatintheHat/TheCatintheHatPoster.jpg",
     "backdrop_url": "images/TheCatintheHat/TheCatintheHatBackdrop.jpg",
     "summary": "Assigned his toughest mission yet, the Cat must cheer up siblings Gabby and Sebastian as they adjust to life in a new town. Known for pushing boundaries, this agent of chaos must prove himself or risk losing his magical hat forever.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 7,
     "rating": {
       "score": 7.1,
       "vote_count": 17
@@ -3165,14 +3571,23 @@
   {
     "id": 97,
     "title": "The Hunger Games: Sunrise on the Reaping",
-    "genres": [],
+    "genres": [
+      "Science Fiction",
+      "Adventure",
+      "Action"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Francis Lawrence",
     "poster_url": "images/TheHungerGamesSunriseontheReaping/TheHungerGamesSunriseontheReapingPoster.jpg",
     "backdrop_url": "images/TheHungerGamesSunriseontheReaping/TheHungerGamesSunriseontheReapingBackdrop.jpg",
     "summary": "Return to the world of Panem 24 years before the events of The Hunger Games, starting on the morning of the reaping of the 50th Hunger Games, also known as the Second Quarter Quell.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 13,
     "rating": {
       "score": 0,
       "vote_count": 0
@@ -3189,14 +3604,23 @@
   {
     "id": 98,
     "title": "Avengers: Doomsday",
-    "genres": [],
+    "genres": [
+      "Science Fiction",
+      "Adventure",
+      "Action"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Anthony Russo, Joe Russo",
     "poster_url": "images/AvengersDoomsday/AvengersDoomsdayPoster.jpg",
     "backdrop_url": "images/AvengersDoomsday/AvengersDoomsdayBackdrop.jpg",
     "summary": "Beloved heroes from three distinct universes are set on a deadly collision course and face an existential threat unlike anything they've ever encountered.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 13,
     "rating": {
       "score": 0,
       "vote_count": 0
@@ -3213,14 +3637,27 @@
   {
     "id": 99,
     "title": "Dune: Part Three",
-    "genres": [],
+    "genres": [
+      "Science Fiction",
+      "Adventure",
+      "Action"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Denis Villeneuve",
     "poster_url": "images/DunePartThree/DunePartThreePoster.jpg",
     "backdrop_url": "images/DunePartThree/DunePartThreeBackdrop.jpg",
     "summary": "Nearly two decades after he seized control of the Imperium, Paul Atreides is now a ruthless Emperor, and must face the consequences of his reign as old allies return, terrifying new threats emerge, and betrayal lurks in every shadow. Haunted by visions of Imperial collapse and the reappearance of his long-lost love, Paul is drawn into a sweeping conspiracy, with Chani at the heart of its unfolding mystery. As enemies close in, Paul must confront the true cost of power and the fate of those he loves the most.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      },
+      {
+        "name": "Canada",
+        "flag": "images/flags/Canada.png"
+      }
+    ],
+    "minAge": 13,
     "rating": {
       "score": 0,
       "vote_count": 0
@@ -3237,14 +3674,27 @@
   {
     "id": 100,
     "title": "Werwulf",
-    "genres": [],
+    "genres": [
+      "Science Fiction",
+      "Adventure",
+      "Action"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Robert Eggers",
     "poster_url": "images/Werwulf/WerwulfPoster.jpg",
     "backdrop_url": "images/Werwulf/WerwulfBackdrop.jpg",
     "summary": "A harrowing tale of devotion, damnation and the devil within.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      },
+      {
+        "name": "UK",
+        "flag": "images/flags/UK.png"
+      }
+    ],
+    "minAge": 13,
     "rating": {
       "score": 0,
       "vote_count": 0
@@ -3261,14 +3711,23 @@
   {
     "id": 101,
     "title": "Run Away",
-    "genres": [],
+    "genres": [
+      "Crime",
+      "Mystery",
+      "Thriller"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Nimer Rashed, Isher Sahota",
     "poster_url": "images/RunAway/RunAwayPoster.jpg",
     "backdrop_url": "images/RunAway/RunAwayBackdrop.jpg",
     "summary": "A desperate father searching for his runaway daughter gets caught up in a murder case — and stumbles upon secrets which could destroy his family for good.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "UK",
+        "flag": "images/flags/UK.png"
+      }
+    ],
+    "minAge": 17,
     "rating": {
       "score": 6.7,
       "vote_count": 179
@@ -3285,14 +3744,23 @@
   {
     "id": 102,
     "title": "His & Hers",
-    "genres": [],
+    "genres": [
+      "Crime",
+      "Mystery",
+      "Thriller"
+    ],
     "badges": [],
-    "director": "",
+    "director": "William Oldroyd",
     "poster_url": "images/HisHers/HisHersPoster.jpg",
     "backdrop_url": "images/HisHers/HisHersBackdrop.jpg",
     "summary": "Two estranged spouses — one a detective, the other a news reporter — vie to solve a murder in which each believes the other is a prime suspect.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 17,
     "rating": {
       "score": 7.3,
       "vote_count": 569
@@ -3309,14 +3777,23 @@
   {
     "id": 103,
     "title": "Seven Dials Mystery",
-    "genres": [],
+    "genres": [
+      "Crime",
+      "Mystery",
+      "Thriller"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Chris Sweeney",
     "poster_url": "images/SevenDialsMystery/SevenDialsMysteryPoster.jpg",
     "backdrop_url": "images/SevenDialsMystery/SevenDialsMysteryBackdrop.jpg",
     "summary": "England, 1925. At a lavish country house party, a practical joke appears to have gone horribly, murderously wrong. It will be up to the unlikeliest of sleuths—the fizzingly inquisitive Lady Eileen 'Bundle' Brent—to unravel a chilling plot that will change her life, cracking wide open the country house mystery.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "UK",
+        "flag": "images/flags/UK.png"
+      }
+    ],
+    "minAge": 17,
     "rating": {
       "score": 6.3,
       "vote_count": 244
@@ -3333,14 +3810,22 @@
   {
     "id": 104,
     "title": "Ponies",
-    "genres": [],
+    "genres": [
+      "Drama",
+      "Adventure"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Susanna Fogel",
     "poster_url": "images/Ponies/PoniesPoster.jpg",
     "backdrop_url": "images/Ponies/PoniesBackdrop.jpg",
     "summary": "In 1977 Moscow, two \"PONIES\" (\"persons of no interest\") become CIA operatives and uncover a Cold War conspiracy their husbands were killed for.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 13,
     "rating": {
       "score": 6.7,
       "vote_count": 116
@@ -3357,14 +3842,23 @@
   {
     "id": 105,
     "title": "Can This Love Be Translated?",
-    "genres": [],
+    "genres": [
+      "Romance",
+      "Comedy",
+      "Drama"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Yoo Young-eun",
     "poster_url": "images/CanThisLoveBeTranslated/CanThisLoveBeTranslatedPoster.jpg",
     "backdrop_url": "images/CanThisLoveBeTranslated/CanThisLoveBeTranslatedBackdrop.jpg",
     "summary": "The emotions of a celebrity and her interpreter get lost in translation as they travel the world filming a TV show. Will love find its own language?",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "South Korea",
+        "flag": "images/flags/SouthKorea.png"
+      }
+    ],
+    "minAge": 13,
     "rating": {
       "score": 8.4,
       "vote_count": 176
@@ -3381,20 +3875,28 @@
   {
     "id": 106,
     "title": "A Knight of the Seven Kingdoms",
-    "genres": [],
+    "genres": [
+      "Drama",
+      "Adventure"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Owen Harris, Sarah Adina Smith",
     "poster_url": "images/AKnightoftheSevenKingdoms/AKnightoftheSevenKingdomsPoster.jpg",
     "backdrop_url": "images/AKnightoftheSevenKingdoms/AKnightoftheSevenKingdomsBackdrop.jpg",
     "summary": "A century before the events of Game of Thrones, two unlikely heroes wandered Westeros: a young, naive but courageous knight, Ser Duncan the Tall, and his diminutive squire, Egg. Set in an age when the Targaryen line still holds the Iron Throne and the last dragon has not yet passed from living memory, great destinies, powerful foes, and dangerous exploits await these improbable and incomparable friends.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 13,
     "rating": {
       "score": 8.4,
       "vote_count": 1273
     },
     "runtime": null,
-    "isTrending": false,
+    "isTrending": true,
     "releaseDate": "January 18, 2026",
     "episodeRuntime": null,
     "status": "ongoing",
@@ -3405,14 +3907,23 @@
   {
     "id": 107,
     "title": "The Beauty",
-    "genres": [],
+    "genres": [
+      "Science Fiction",
+      "Drama",
+      "Thriller"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Ryan Murphy",
     "poster_url": "images/TheBeauty/TheBeautyPoster.jpg",
     "backdrop_url": "images/TheBeauty/TheBeautyBackdrop.jpg",
     "summary": "The world of high fashion turns dark when international supermodels begin dying in gruesome and mysterious ways. FBI Agents Cooper Madsen and Jordan Bennett are sent to Paris to uncover the truth. As they delve deeper into the case, they uncover a sexually transmitted virus that transforms ordinary people into visions of physical perfection, but with terrifying consequences.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 13,
     "rating": {
       "score": 6.7,
       "vote_count": 193
@@ -3429,14 +3940,23 @@
   {
     "id": 108,
     "title": "Steal",
-    "genres": [],
+    "genres": [
+      "Crime",
+      "Mystery",
+      "Thriller"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Hettie Macdonald",
     "poster_url": "images/Steal/StealPoster.jpg",
     "backdrop_url": "images/Steal/StealBackdrop.jpg",
     "summary": "A typical day at Lochmill Capital is upended when armed thieves burst in and force Zara and her best friend Luke to execute their demands. In the aftermath, conflicted detective Rhys races against time to find out who stole £4 billion pounds of people's pensions and why.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 17,
     "rating": {
       "score": 7.5,
       "vote_count": 184
@@ -3453,14 +3973,23 @@
   {
     "id": 109,
     "title": "Wonder Man",
-    "genres": [],
+    "genres": [
+      "Science Fiction",
+      "Action",
+      "Adventure"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Destin Daniel Cretton, Stella Meghie",
     "poster_url": "images/WonderMan/WonderManPoster.jpg",
     "backdrop_url": "images/WonderMan/WonderManBackdrop.jpg",
     "summary": "Simon and Trevor, two actors at opposite ends of their careers, chase life-changing roles.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 13,
     "rating": {
       "score": 7.1,
       "vote_count": 400
@@ -3477,14 +4006,22 @@
   {
     "id": 110,
     "title": "Lord of the Flies",
-    "genres": [],
+    "genres": [
+      "Drama",
+      "Adventure"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Marc Munden",
     "poster_url": "images/LordoftheFlies/LordoftheFliesPoster.jpg",
     "backdrop_url": "images/LordoftheFlies/LordoftheFliesBackdrop.jpg",
     "summary": "After a plane crash, a group of schoolboys find themselves stranded on a tropical island without adults. Ralph is elected leader and, with the help of the intelligent Piggy, strives to maintain order and civilization. Jack, responsible for the signal fire, becomes increasingly focused on hunting and power struggles. This leads to tensions within the group, gradually pushing the boys from hope and structure into chaos and tragedy.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "UK",
+        "flag": "images/flags/UK.png"
+      }
+    ],
+    "minAge": 13,
     "rating": {
       "score": 7.6,
       "vote_count": 138
@@ -3501,14 +4038,23 @@
   {
     "id": 111,
     "title": "Love Story",
-    "genres": [],
+    "genres": [
+      "Romance",
+      "Drama",
+      "Comedy"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Connor Hines",
     "poster_url": "images/LoveStory/LoveStoryPoster.jpg",
     "backdrop_url": "images/LoveStory/LoveStoryBackdrop.jpg",
     "summary": "An anthology of sweeping true love stories that captured the world’s attention.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 13,
     "rating": {
       "score": 8.3,
       "vote_count": 69
@@ -3525,14 +4071,22 @@
   {
     "id": 112,
     "title": "Scrubs",
-    "genres": [],
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Zach Braff",
     "poster_url": "images/Scrubs/ScrubsPoster.jpg",
     "backdrop_url": "images/Scrubs/ScrubsBackdrop.jpg",
     "summary": "In the unreal world of Sacred Heart Hospital, John \"J.D.\" Dorian learns the ways of medicine, friendship and life.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 13,
     "rating": {
       "score": 8.2,
       "vote_count": 304
@@ -3549,14 +4103,23 @@
   {
     "id": 113,
     "title": "RJ Decker",
-    "genres": [],
+    "genres": [
+      "Crime",
+      "Mystery",
+      "Thriller"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Rob Doherty",
     "poster_url": "images/RJDecker/RJDeckerPoster.jpg",
     "backdrop_url": "images/RJDecker/RJDeckerBackdrop.jpg",
     "summary": "Ex-con photographer RJ Decker becomes a PI in South Florida, solving strange cases with help from his journalist ex, her cop wife, and an enigmatic woman from his past who may help or destroy him.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 17,
     "rating": {
       "score": 7.5,
       "vote_count": 63
@@ -3573,14 +4136,23 @@
   {
     "id": 114,
     "title": "Young Sherlock",
-    "genres": [],
+    "genres": [
+      "Crime",
+      "Mystery",
+      "Thriller"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Guy Ritchie",
     "poster_url": "images/YoungSherlock/YoungSherlockPoster.jpg",
     "backdrop_url": "images/YoungSherlock/YoungSherlockBackdrop.jpg",
     "summary": "Sherlock Holmes is a disgraced young man, raw and unfiltered, when he finds himself wrapped up in a murder case that threatens his liberty. His first ever case unravels a globe-trotting conspiracy that changes his life forever.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "UK",
+        "flag": "images/flags/UK.png"
+      }
+    ],
+    "minAge": 17,
     "rating": {
       "score": 7.7,
       "vote_count": 335
@@ -3597,14 +4169,23 @@
   {
     "id": 115,
     "title": "Vladimir",
-    "genres": [],
+    "genres": [
+      "Drama",
+      "Thriller",
+      "Mystery"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Shari Springer Berman, Robert Pulcini",
     "poster_url": "images/Vladimir/VladimirPoster.jpg",
     "backdrop_url": "images/Vladimir/VladimirBackdrop.jpg",
     "summary": "When an English professor becomes obsessed with a handsome new colleague, her already complicated marriage and career are thrown into total chaos.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 13,
     "rating": {
       "score": 6.7,
       "vote_count": 111
@@ -3621,14 +4202,22 @@
   {
     "id": 116,
     "title": "Rooster",
-    "genres": [],
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Bill Lawrence",
     "poster_url": "images/Rooster/RoosterPoster.jpg",
     "backdrop_url": "images/Rooster/RoosterBackdrop.jpg",
     "summary": "On a college campus, an author navigates a complicated relationship with his daughter.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 13,
     "rating": {
       "score": 7.4,
       "vote_count": 145
@@ -3645,14 +4234,23 @@
   {
     "id": 117,
     "title": "Scarpetta",
-    "genres": [],
+    "genres": [
+      "Crime",
+      "Mystery",
+      "Thriller"
+    ],
     "badges": [],
-    "director": "",
+    "director": "David Gordon Green",
     "poster_url": "images/Scarpetta/ScarpettaPoster.jpg",
     "backdrop_url": "images/Scarpetta/ScarpettaBackdrop.jpg",
     "summary": "Renowned forensic pathologist Dr. Kay Scarpetta returns to her position as Virginia's Chief Medical Examiner, where she investigates a haunting murder with eerie reminders from her first big case decades ago. In 1998, Scarpetta works alongside Detective Pete Marino and FBI Agent Benton Wesley as they investigate a series of brutal stranglings. Based on the best-selling novels by Patricia Cornwell.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 17,
     "rating": {
       "score": 6.4,
       "vote_count": 163
@@ -3669,14 +4267,22 @@
   {
     "id": 118,
     "title": "The Madison",
-    "genres": [],
+    "genres": [
+      "Drama",
+      "Adventure"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Christina Alexandra Voros",
     "poster_url": "images/TheMadison/TheMadisonPoster.jpg",
     "backdrop_url": "images/TheMadison/TheMadisonBackdrop.jpg",
     "summary": "The Clyburns uproot their comfortable New York City lives to the wild, untamed beauty of Montana's Madison River Valley on a search for connection.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 13,
     "rating": {
       "score": 8.1,
       "vote_count": 156
@@ -3693,14 +4299,22 @@
   {
     "id": 119,
     "title": "The Other Bennet Sister",
-    "genres": [],
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Jennifer Sheridan",
     "poster_url": "images/TheOtherBennetSister/TheOtherBennetSisterPoster.jpg",
     "backdrop_url": "images/TheOtherBennetSister/TheOtherBennetSisterBackdrop.jpg",
     "summary": "Mary isn't your typical period drama heroine. She is awkward, anxious, preachy, full of facts, a terrible singer, overlooked by her mother and seemingly destined to an empty dance card for the rest of her life… until Mary takes matters into her own hands.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "UK",
+        "flag": "images/flags/UK.png"
+      }
+    ],
+    "minAge": 13,
     "rating": {
       "score": 8.2,
       "vote_count": 54
@@ -3717,14 +4331,23 @@
   {
     "id": 120,
     "title": "Jo Nesbø's Detective Hole",
-    "genres": [],
+    "genres": [
+      "Crime",
+      "Thriller",
+      "Drama"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Øystein Karlsen",
     "poster_url": "images/JoNesbsDetectiveHole/JoNesbsDetectiveHolePoster.jpg",
     "backdrop_url": "images/JoNesbsDetectiveHole/JoNesbsDetectiveHoleBackdrop.jpg",
     "summary": "When a series of ritualistic murders hits Oslo, a gifted detective must navigate a puzzle of patterns, corruption and his own demons to catch the killer.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "Norway",
+        "flag": "images/flags/Norway.png"
+      }
+    ],
+    "minAge": 17,
     "rating": {
       "score": 7.4,
       "vote_count": 140
@@ -3741,14 +4364,23 @@
   {
     "id": 121,
     "title": "Star Wars: Maul – Shadow Lord",
-    "genres": [],
+    "genres": [
+      "Science Fiction",
+      "Action",
+      "Adventure"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Brad Rau",
     "poster_url": "images/StarWarsMaulShadowLord/StarWarsMaulShadowLordPoster.jpg",
     "backdrop_url": "images/StarWarsMaulShadowLord/StarWarsMaulShadowLordBackdrop.jpg",
     "summary": "After the Clone Wars, Maul plots to rebuild his criminal syndicate on a planet untouched by the Empire.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 13,
     "rating": {
       "score": 8.5,
       "vote_count": 253
@@ -3765,14 +4397,27 @@
   {
     "id": 122,
     "title": "The Testaments",
-    "genres": [],
+    "genres": [
+      "Science Fiction",
+      "Action",
+      "Adventure"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Mike Barker",
     "poster_url": "images/TheTestaments/TheTestamentsPoster.jpg",
     "backdrop_url": "images/TheTestaments/TheTestamentsBackdrop.jpg",
     "summary": "Growing up in Gilead is all they have ever known. As a new generation of young women grapple with the bleak future that awaits them, they will be forced to search for allies, new and old, to help in their fight for freedom.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      },
+      {
+        "name": "Canada",
+        "flag": "images/flags/Canada.png"
+      }
+    ],
+    "minAge": 13,
     "rating": {
       "score": 8.3,
       "vote_count": 243
@@ -3789,14 +4434,21 @@
   {
     "id": 123,
     "title": "Malcolm in the Middle: Life's Still Unfair",
-    "genres": [],
+    "genres": [
+      "Comedy"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Ken Kwapis",
     "poster_url": "images/MalcolmintheMiddleLifesStillUnfair/MalcolmintheMiddleLifesStillUnfairPoster.jpg",
     "backdrop_url": "images/MalcolmintheMiddleLifesStillUnfair/MalcolmintheMiddleLifesStillUnfairBackdrop.jpg",
     "summary": "After shielding himself and his daughter from his family for over a decade, Malcolm is dragged back into their orbit when Hal and Lois demand his presence at their 40th anniversary party.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 13,
     "rating": {
       "score": 7.9,
       "vote_count": 436
@@ -3813,14 +4465,22 @@
   {
     "id": 124,
     "title": "Margo's Got Money Troubles",
-    "genres": [],
+    "genres": [
+      "Drama",
+      "Thriller"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Dearbhla Walsh",
     "poster_url": "images/MargosGotMoneyTroubles/MargosGotMoneyTroublesPoster.jpg",
     "backdrop_url": "images/MargosGotMoneyTroubles/MargosGotMoneyTroublesBackdrop.jpg",
     "summary": "The daughter of a former Hooter's waitress and an ex-pro wrestler, Margo is a recent college dropout and aspiring writer. Faced with a new baby, mounting pile of bills, and dwindling number of ways to pay them, Margo must find a way forward.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 13,
     "rating": {
       "score": 7.9,
       "vote_count": 209
@@ -3837,14 +4497,23 @@
   {
     "id": 125,
     "title": "Stranger Things: Tales from '85",
-    "genres": [],
+    "genres": [
+      "Science Fiction",
+      "Horror",
+      "Animation"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Phil Allora",
     "poster_url": "images/StrangerThingsTalesfrom85/StrangerThingsTalesfrom85Poster.jpg",
     "backdrop_url": "images/StrangerThingsTalesfrom85/StrangerThingsTalesfrom85Backdrop.jpg",
     "summary": "Winter. Hawkins. 1985. Welcome back to a town crawling with secrets, where beloved heroes are facing fresh mysteries... and an all-new breed of strange.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 17,
     "rating": {
       "score": 7.6,
       "vote_count": 127
@@ -3861,20 +4530,27 @@
   {
     "id": 126,
     "title": "Half Man",
-    "genres": [],
+    "genres": [
+      "Drama"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Richard Gadd",
     "poster_url": "images/HalfMan/HalfManPoster.jpg",
     "backdrop_url": "images/HalfMan/HalfManBackdrop.jpg",
     "summary": "When Niall's estranged 'brother' Ruben shows up at his wedding, it leads to an explosion of violence that catapults us back through their lives.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 13,
     "rating": {
       "score": 8,
       "vote_count": 158
     },
     "runtime": null,
-    "isTrending": false,
+    "isTrending": true,
     "releaseDate": "April 28, 2026",
     "episodeRuntime": null,
     "status": "ongoing",
@@ -3885,14 +4561,22 @@
   {
     "id": 127,
     "title": "If Wishes Could Kill",
-    "genres": [],
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Park Yoon-seo",
     "poster_url": "images/IfWishesCouldKill/IfWishesCouldKillPoster.jpg",
     "backdrop_url": "images/IfWishesCouldKill/IfWishesCouldKillBackdrop.jpg",
     "summary": "A mysterious app promises wishes — then starts a countdown to death. As a group of teens becomes entangled, they must break the deadly chain to survive.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "South Korea",
+        "flag": "images/flags/SouthKorea.png"
+      }
+    ],
+    "minAge": 17,
     "rating": {
       "score": 8,
       "vote_count": 221
@@ -3909,14 +4593,23 @@
   {
     "id": 128,
     "title": "Widow's Bay",
-    "genres": [],
+    "genres": [
+      "Drama",
+      "Thriller",
+      "Mystery"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Hiro Murai",
     "poster_url": "images/WidowsBay/WidowsBayPoster.jpg",
     "backdrop_url": "images/WidowsBay/WidowsBayBackdrop.jpg",
     "summary": "The mayor of a New England town resolves to turn it into the next tourist hot spot, despite local warnings that it's cursed.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 13,
     "rating": {
       "score": 8,
       "vote_count": 598
@@ -3933,14 +4626,23 @@
   {
     "id": 129,
     "title": "Man on Fire",
-    "genres": [],
+    "genres": [
+      "Crime",
+      "Thriller",
+      "Drama"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Steven Caple Jr.",
     "poster_url": "images/ManonFire/ManonFirePoster.jpg",
     "backdrop_url": "images/ManonFire/ManonFireBackdrop.jpg",
     "summary": "Haunted by his past and hunted by his enemies, a Special Forces veteran fights to keep a teenage girl alive on the deadly streets of Rio de Janeiro.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 17,
     "rating": {
       "score": 7.4,
       "vote_count": 227
@@ -3957,14 +4659,23 @@
   {
     "id": 130,
     "title": "Legends",
-    "genres": [],
+    "genres": [
+      "Crime",
+      "Thriller",
+      "Drama"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Brady Hood",
     "poster_url": "images/Legends/LegendsPoster.jpg",
     "backdrop_url": "images/Legends/LegendsBackdrop.jpg",
     "summary": "Master an ever-growing roster of legendary characters with powerful abilities and experience strategic squad play and innovative gameplay in the next evolution of Hero Shooter and Battle Royale.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 17,
     "rating": {
       "score": 6.5,
       "vote_count": 6
@@ -3981,14 +4692,23 @@
   {
     "id": 131,
     "title": "Off Campus",
-    "genres": [],
+    "genres": [
+      "Romance",
+      "Drama",
+      "Comedy"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Nimisha Mukerji",
     "poster_url": "images/OffCampus/OffCampusPoster.jpg",
     "backdrop_url": "images/OffCampus/OffCampusBackdrop.jpg",
     "summary": "Hannah Wells tutors hockey captain Garrett Graham to win over her crush. Their deal becomes real connection as they face their pasts. Friends Logan, Dean, Tucker, and Allie navigate college life and love.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 13,
     "rating": {
       "score": 8.9,
       "vote_count": 903
@@ -4005,14 +4725,22 @@
   {
     "id": 132,
     "title": "Dutton Ranch",
-    "genres": [],
+    "genres": [
+      "Drama",
+      "Western"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Christina Alexandra Voros",
     "poster_url": "images/DuttonRanch/DuttonRanchPoster.jpg",
     "backdrop_url": "images/DuttonRanch/DuttonRanchBackdrop.jpg",
     "summary": "Rip Wheeler and Beth Dutton gamble everything on a new life in South Texas, but the promise of building a future far from the ghosts of Yellowstone quickly collides with brutal new realities and a rival ranch that will stop at nothing to protect its empire.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 13,
     "rating": {
       "score": 9.1,
       "vote_count": 652
@@ -4029,14 +4757,23 @@
   {
     "id": 133,
     "title": "The Boroughs",
-    "genres": [],
+    "genres": [
+      "Science Fiction",
+      "Mystery",
+      "Drama"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Jeffrey Addiss, Will Matthews",
     "poster_url": "images/TheBoroughs/TheBoroughsPoster.jpg",
     "backdrop_url": "images/TheBoroughs/TheBoroughsBackdrop.jpg",
     "summary": "In a seemingly perfect retirement community, a crew of unlikely heroes must stop an otherworldly threat from stealing the one thing they don't have: time.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 13,
     "rating": {
       "score": 7.2,
       "vote_count": 306
@@ -4053,14 +4790,23 @@
   {
     "id": 134,
     "title": "Spider-Noir",
-    "genres": [],
+    "genres": [
+      "Science Fiction",
+      "Action",
+      "Adventure"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Harry Bradbeer",
     "poster_url": "images/SpiderNoir/SpiderNoirPoster.jpg",
     "backdrop_url": "images/SpiderNoir/SpiderNoirBackdrop.jpg",
     "summary": "Ben Reilly, an aging and down on his luck private investigator in 1930s New York, is forced to grapple with his past life as the city's one and only superhero.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 13,
     "rating": {
       "score": 8.3,
       "vote_count": 930
@@ -4077,14 +4823,22 @@
   {
     "id": 135,
     "title": "Cape Fear",
-    "genres": [],
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Morten Tyldum",
     "poster_url": "images/CapeFear/CapeFearPoster.jpg",
     "backdrop_url": "images/CapeFear/CapeFearBackdrop.jpg",
     "summary": "When convicted murderer Max Cady is released from prison, he begins infiltrating the family of the married attorneys who helped put him behind bars.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 17,
     "rating": {
       "score": 7.2,
       "vote_count": 207
@@ -4101,14 +4855,23 @@
   {
     "id": 136,
     "title": "I Will Find You",
-    "genres": [],
+    "genres": [
+      "Crime",
+      "Mystery",
+      "Thriller"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Robert Hull",
     "poster_url": "images/IWillFindYou/IWillFindYouPoster.jpg",
     "backdrop_url": "images/IWillFindYou/IWillFindYouBackdrop.jpg",
     "summary": "Wrongfully imprisoned for murdering his own son, a father sets out on a desperate rescue mission after learning the boy may still be alive.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 17,
     "rating": {
       "score": 8.2,
       "vote_count": 562
@@ -4125,14 +4888,22 @@
   {
     "id": 137,
     "title": "Life, Larry and the Pursuit of Unhappiness",
-    "genres": [],
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
     "badges": [],
     "director": "",
     "poster_url": "images/LifeLarryandthePursuitofUnhappiness/LifeLarryandthePursuitofUnhappinessPoster.jpg",
     "backdrop_url": "images/LifeLarryandthePursuitofUnhappiness/LifeLarryandthePursuitofUnhappinessBackdrop.jpg",
     "summary": "An improvised, comedic approach to major events in American history in celebration of the 250th anniversary of the founding of the United States.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 13,
     "rating": {
       "score": 5.5,
       "vote_count": 29
@@ -4149,14 +4920,22 @@
   {
     "id": 138,
     "title": "Elle",
-    "genres": [],
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Laura Chinn",
     "poster_url": "images/Elle/EllePoster.jpg",
     "backdrop_url": "images/Elle/ElleBackdrop.jpg",
     "summary": "Before Elle Woods was a fish-out-of-water at Harvard, we meet her in 1995 in the tumultuous waters of high school where she encounters tricky friendships, forbidden romance, and questionable fashion choices. In this unexpected chapter of her adolescence, we learn about the experiences that shaped Elle into the iconic young woman we've come to know and love.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 13,
     "rating": {
       "score": 7.8,
       "vote_count": 99
@@ -4173,14 +4952,22 @@
   {
     "id": 139,
     "title": "Little House on the Prairie",
-    "genres": [],
+    "genres": [
+      "Drama",
+      "Adventure"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Rebecca Sonnenshine",
     "poster_url": "images/LittleHouseonthePrairie/LittleHouseonthePrairiePoster.jpg",
     "backdrop_url": "images/LittleHouseonthePrairie/LittleHouseonthePrairieBackdrop.jpg",
     "summary": "When the big woods of Wisconsin becomes a difficult spot for hunting, Charles Ingalls reluctantly decides to move his family, pioneering west. Their life on the farm in Walnut Grove, Minnesota, in the 1870s and 1880s is full of adventure, tragedy, and triumph. Based on the books of Laura Ingalls Wilder.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 13,
     "rating": {
       "score": 8,
       "vote_count": 1051
@@ -4197,14 +4984,22 @@
   {
     "id": 140,
     "title": "Lucky",
-    "genres": [],
+    "genres": [
+      "Drama",
+      "Thriller"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Jonathan van Tulleken",
     "poster_url": "images/Lucky/LuckyPoster.jpg",
     "backdrop_url": "images/Lucky/LuckyBackdrop.jpg",
     "summary": "When a multi-million-dollar heist goes sideways, con artist Lucky is forced to go on the run. Pursued by both the FBI and a ruthless crime boss, Lucky must fight for her life—and a way out.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 13,
     "rating": {
       "score": 7.3,
       "vote_count": 315
@@ -4221,14 +5016,23 @@
   {
     "id": 141,
     "title": "Stuart Fails to Save the Universe",
-    "genres": [],
+    "genres": [
+      "Science Fiction",
+      "Action",
+      "Adventure"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Joe Weisberg, Joel Fields",
     "poster_url": "images/StuartFailstoSavetheUniverse/StuartFailstoSavetheUniversePoster.jpg",
     "backdrop_url": "images/StuartFailstoSavetheUniverse/StuartFailstoSavetheUniverseBackdrop.jpg",
     "summary": "After accidentally creating a new multiverse, comic book store owner Stuart Bloom must locate a quantum-interference device to restore reality.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 13,
     "rating": {
       "score": 8.3,
       "vote_count": 249
@@ -4245,14 +5049,22 @@
   {
     "id": 142,
     "title": "The Shards",
-    "genres": [],
+    "genres": [
+      "Drama",
+      "Thriller"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Evan Goldberg",
     "poster_url": "images/TheShards/TheShardsPoster.jpg",
     "backdrop_url": "images/TheShards/TheShardsBackdrop.jpg",
     "summary": "17-year-old Bret Easton Ellis is in his final year at the elite Buckley prep school. Upending his world is the arrival of a mysterious new student, Robert Mallory, whose unsettling presence coincides with the activities of a serial killer known as The Trawler.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 13,
     "rating": {
       "score": 7.1,
       "vote_count": 75
@@ -4269,14 +5081,22 @@
   {
     "id": 143,
     "title": "Sterling Point",
-    "genres": [],
+    "genres": [
+      "Drama",
+      "Thriller"
+    ],
     "badges": [],
     "director": "",
     "poster_url": "images/SterlingPoint/SterlingPointPoster.jpg",
     "backdrop_url": "images/SterlingPoint/SterlingPointBackdrop.jpg",
     "summary": "After discovering she's inherited a remote island in Canada from the estranged grandfather she was never allowed to meet, 17-year-old Annie Jacobson decides to investigate, pulling her into a world of buried secrets, unexpected sisterhood, and the complicated family history she was never meant to find.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 13,
     "rating": {
       "score": 8.1,
       "vote_count": 184
@@ -4293,14 +5113,23 @@
   {
     "id": 144,
     "title": "Lanterns",
-    "genres": [],
+    "genres": [
+      "Science Fiction",
+      "Action",
+      "Adventure"
+    ],
     "badges": [],
-    "director": "",
+    "director": "James Hawes",
     "poster_url": "images/Lanterns/LanternsPoster.jpg",
     "backdrop_url": "images/Lanterns/LanternsBackdrop.jpg",
     "summary": "Two intergalactic cops, new recruit John Stewart and Lantern legend Hal Jordan, are drawn into a dark, Earth-based mystery as they investigate a murder in the American heartland.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 13,
     "rating": {
       "score": 8.2,
       "vote_count": 864
@@ -4317,14 +5146,23 @@
   {
     "id": 145,
     "title": "Neagley",
-    "genres": [],
+    "genres": [
+      "Crime",
+      "Thriller",
+      "Drama"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Nick Santora",
     "poster_url": "images/Neagley/NeagleyPoster.jpg",
     "backdrop_url": "images/Neagley/NeagleyBackdrop.jpg",
     "summary": "Frances Neagley is a private investigator in Chicago and former military colleague of Jack Reacher in the Army's 110th Special Investigations Unit. When she learns that a beloved friend from her past has been killed in a suspicious accident, she becomes hell-bent on justice.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 17,
     "rating": {
       "score": 8,
       "vote_count": 236
@@ -4341,20 +5179,29 @@
   {
     "id": 146,
     "title": "Monster: The Lizzie Borden Story",
-    "genres": [],
+    "genres": [
+      "Crime",
+      "Drama",
+      "History"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Max Winkler",
     "poster_url": "images/MonsterTheLizzieBordenStory/MonsterTheLizzieBordenStoryPoster.jpg",
     "backdrop_url": "images/MonsterTheLizzieBordenStory/MonsterTheLizzieBordenStoryBackdrop.jpg",
     "summary": "Trapped in a cruel Victorian-era household, Lizzie Borden kills her parents in a gory ax murder that shocks the nation.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 17,
     "rating": {
       "score": 7.1,
       "vote_count": 249
     },
     "runtime": null,
-    "isTrending": false,
+    "isTrending": true,
     "releaseDate": "September 17, 2026",
     "episodeRuntime": null,
     "status": "ongoing",
@@ -4365,14 +5212,22 @@
   {
     "id": 147,
     "title": "East of Eden",
-    "genres": [],
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Garth Davis",
     "poster_url": "images/EastofEden/EastofEdenPoster.jpg",
     "backdrop_url": "images/EastofEden/EastofEdenBackdrop.jpg",
     "summary": "In the early 1900s, a fiercely independent woman drives a rift between two brothers, igniting a saga that unfolds across two generations.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 13,
     "rating": {
       "score": 7.9,
       "vote_count": 145
@@ -4389,14 +5244,23 @@
   {
     "id": 148,
     "title": "The Body",
-    "genres": [],
+    "genres": [
+      "Science Fiction",
+      "Action",
+      "Adventure"
+    ],
     "badges": [],
     "director": "",
     "poster_url": "images/TheBody/TheBodyPoster.jpg",
     "backdrop_url": "images/TheBody/TheBodyBackdrop.jpg",
     "summary": "After a dance-team initiation gone wrong, a group of badly behaved Catholic school girls begin having prophetic visions that set off mass hysteria in their town.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "UK",
+        "flag": "images/flags/UK.png"
+      }
+    ],
+    "minAge": 13,
     "rating": {
       "score": 0,
       "vote_count": 0
@@ -4413,14 +5277,23 @@
   {
     "id": 149,
     "title": "Blade Runner 2099",
-    "genres": [],
+    "genres": [
+      "Science Fiction",
+      "Action",
+      "Adventure"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Jonathan van Tulleken",
     "poster_url": "images/BladeRunner2099/BladeRunner2099Poster.jpg",
     "backdrop_url": "images/BladeRunner2099/BladeRunner2099Backdrop.jpg",
     "summary": "Fifty years after the events of Blade Runner 2049, Los Angeles has been reborn, just not by humanity. Cora, a fugitive in a final bid to stop running, takes on one last identity: a Blade Runner. Forced to partner with Olwen, a Replicant days from dying, she hunts down a runaway hiding a truth that could collapse their fragile city.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 13,
     "rating": {
       "score": 0,
       "vote_count": 0
@@ -4437,14 +5310,22 @@
   {
     "id": 150,
     "title": "Harry Potter",
-    "genres": [],
+    "genres": [
+      "Drama",
+      "Thriller"
+    ],
     "badges": [],
-    "director": "",
+    "director": "Mark Mylod",
     "poster_url": "images/HarryPotter/HarryPotterPoster.jpg",
     "backdrop_url": "images/HarryPotter/HarryPotterBackdrop.jpg",
     "summary": "There is nothing special about Harry Potter - at least that's what his Aunt Petunia always says. On his 11th birthday, a letter of admittance to Hogwarts School of Witchcraft and Wizardry opens up a hidden world for Harry: one of fun, friendship and magic. But with this new adventure comes great risk as Harry is forced to face a dangerous enemy from his past.",
-    "countries": [],
-    "minAge": null,
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 13,
     "rating": {
       "score": 0,
       "vote_count": 0
