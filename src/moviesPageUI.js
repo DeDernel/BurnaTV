@@ -72,10 +72,26 @@ export class MoviesPage{
             {name: 'Age'    , value: 'Age' , icon: 'fa-solid fa-people-group text-gray-500 text-xl w-8'},
             {name: 'Country', value: 'Country' , icon: 'fa-solid fa-earth-europe text-gray-500 text-xl w-8 '},
         ]
+        let isOpen = false;
         this.ActiveFilterSection.addEventListener('click' , () => {
-            this.ActiveFilterSection.classList.toggle('filterActive');
-            this.advancedFilters.classList.toggle('hidden');
-            this.advancedFilters.classList.toggle('filterSections');
+            this.filterLogic.clearUI();
+            if(!isOpen){
+                isOpen = true;
+                this.ActiveFilterSection.classList.add('filterActive');
+                this.advancedFilters.classList.remove('ClosefilterSections');
+                this.advancedFilters.classList.replace('hidden' , 'OpenfilterSections');
+            }else{
+                isOpen = false;
+                this.ActiveFilterSection.classList.remove('filterActive');
+                this.advancedFilters.classList.replace('OpenfilterSections' , 'ClosefilterSections');
+
+                setTimeout(() => {
+                    this.advancedFilters.classList.add('hidden');
+                },200)
+                
+            }
+
+
         });
 
         this.container.addEventListener('click' , event => {
@@ -146,40 +162,19 @@ export class MoviesPage{
             const i = document.createElement('i');
             const btn = document.createElement('button');
 
-            box.className = 'section flex items-center justify-between gap-2 border mx-2 rounded text-white pl-2 py-1 cursor-pointer';
+            box.className = 'section w-fit px-2 flex items-center justify-between gap-2 rounded text-white py-1';
             btn.textContent = field.name;
             i.className = field.icon;
 
             const list = document.createElement('ul');
-            list.className = 'hidden';
+            list.className = 'flex flex-wrap gap-2 pb-10';
             extract[field.name].forEach(opt => {
                 const li = document.createElement('li');
                 li.textContent = opt;
-                li.className = 'option text-white p-1 px-4 hover:bg-gray-800 border-b border-gray-700 cursor-pointer';
+                li.className = 'option text-gray-400 rounded-xl p-1 px-4 hover:bg-gray-800 hover:text-white cursor-pointer border border-gray-600';
                 list.appendChild(li);
             });
-            let isOpen = false;
-            box.addEventListener('click' , event => {
-                if(!isOpen){
-                    isOpen = true;
-                    list.classList.remove('closeAnim')
-                    list.classList.add('openAnim');
-                    list.classList.remove('hidden');
-                }else{
-                    isOpen = false;
-                    setTimeout(() => {
-                        list.classList.add('hidden');
-                    }, 300);
-                    list.classList.add('closeAnim');
-                    list.classList.remove('openAnim');
-                }
-            });
-            const wrapper = document.createElement('div');
-            const arrowDown = document.createElement('i');
-            arrowDown.className = 'fa-solid fa-angle-down mr-5';
-
-            wrapper.append(i , btn);
-            box.append(wrapper , arrowDown);
+            box.append(i , btn);
             this.container.append(box , list);
         });
     }
@@ -206,7 +201,6 @@ export class FilterOperation{
             };
         this.data = [];
         this.timer =  null;
-        console.log(this.data);
 
         this.searchBtn.addEventListener('click' , () => {
             this.applyFilter(this.currentFilterStatus);
@@ -254,8 +248,6 @@ export class FilterOperation{
         ){
             this.currentFilterStatus.filter = option;
         }
-
-        console.log(this.currentFilterStatus);
     }
     applyFilter(f){
         const list = this.data.filter(movie => {
@@ -313,7 +305,6 @@ export class FilterOperation{
     }
     init(moviesData){
         this.data = moviesData;
-        console.log(moviesData);
         this.renderMovies();
     }
 }

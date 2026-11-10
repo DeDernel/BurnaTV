@@ -31,7 +31,6 @@ export class Sliders {
         this.renderSlide();
 
         clearInterval(this.headerSlideStatus);
-        this.startHeaderSlider();
     }
 
     moveSlide(direction) {
@@ -64,6 +63,7 @@ export class Sliders {
             const img = new Image();
             img.src = this.currentObj.backdrop_url;
             img.onload = () => {
+                this.startHeaderSlider();
                 this.headerSlider.src = this.currentObj.backdrop_url;
                 this.SliderHeroSection.innerHTML = '';
                 this.renderTrendsSlider();
