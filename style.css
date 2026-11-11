@@ -17,10 +17,9 @@ html{ scroll-behavior: smooth; }
 .headerSlider {transition: opacity 0.3s ease;}
 .no-scrollbar::-webkit-scrollbar {display: none;}
 .active-tab{
-    background-color: #8429a2 !important;
-    border: none;
+    background-color: #7c3aed !important;
+    border: 1px solid #e9e3e3 !important;
 }
-
 
 /* Drop Downs Opening Style */
 .openDropdown{

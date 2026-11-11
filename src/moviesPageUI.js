@@ -16,11 +16,11 @@ export class MoviesPage{
         // CreateDefaultFilterTabs
         this.RFContainer = document.querySelector('.recomendedFilters');
         this.filterTabs = [
-            { label: 'All',         value: 'all',      icon: 'fa-layer-group'   },
-            { label: 'New',         value: 'new',      icon: 'fa-certificate'   },
-            { label: 'Trending',    value: 'trending',   icon: 'fa-arrow-trend-up'},
-            { label: 'Top Rated',   value: 'topRated', icon: 'fa-star'          },
-            { label: 'Coming Soon', value: 'upcoming', icon: 'fa-calendar-plus' },
+            { label: 'All',         value: 'all',      icon: 'fa-layer-group text-xs'   },
+            { label: 'New',         value: 'new',      icon: 'fa-certificate text-xs'   },
+            { label: 'Trending',    value: 'trending',   icon: 'fa-arrow-trend-up text-xs'},
+            { label: 'Top Rated',   value: 'topRated', icon: 'fa-regular fa-star'},
+            { label: 'Coming Soon', value: 'upcoming', icon: 'fa-calendar-plus text-xs' },
           ];
 
           this.RFContainer.addEventListener('click' , event => {
@@ -37,11 +37,17 @@ export class MoviesPage{
           
         
         // CreateDefaultSearchOptions
-        this.RSConatiner = document.querySelector('.recomendedSearch');
+        this.RSConatiner = document.querySelector('.searchSuggestions');
         this.searchInput = document.getElementById('searchInput');
         this.searchTimer = null;
 
         this.searchInput.addEventListener('input' , () => {
+            if(this.searchInput.value.length === 0){
+                this.RSConatiner.classList.add('hidden');
+            }else{
+                this.RSConatiner.classList.remove('hidden');
+            }
+            this.CreateDefaultSearchOptions();
             clearTimeout(this.searchTimer);
             this.searchTimer = setTimeout(() => {
                 this.setSearch(this.searchInput.value);
@@ -52,6 +58,7 @@ export class MoviesPage{
         this.RSConatiner.addEventListener('click' , event => {
             const getClickedSearch = event.target.closest('li');
             if(!getClickedSearch) return;
+            this.RSConatiner.classList.add('hidden');
             const txtValue = getClickedSearch.textContent;
             this.setSearch(txtValue);
             this.searchInput.value = txtValue
@@ -61,39 +68,18 @@ export class MoviesPage{
 
         // CreateAdvancedSearchOptions
         this.container = document.querySelector('.FilterDropDowns');
-        this.ActiveFilterSection = document.querySelector('.ActiveFilter');
+        this.ActiveFilterSection = document.querySelector('.toggleFilter');
         this.advancedFilters = document.querySelector('.advancedFilters');
+        this.activeFilters = document.querySelector('.activeFilters');
 
         this.dropDowns = [
-            {name: 'Media'   , value: 'Media' , icon: 'fa-regular fa-calendar text-gray-500 text-xl w-8'},
-            {name: 'Year'   , value: 'Year' , icon: 'fa-regular fa-calendar text-gray-500 text-xl w-8'},
-            {name: 'Genre'  , value: 'Genre' , icon: 'fa-solid fa-masks-theater text-gray-500 text-xl w-8 '},
-            {name: 'Rate'   , value: 'Rate' , icon: 'fa-regular fa-calendar text-gray-500 text-xl w-8'},
-            {name: 'Age'    , value: 'Age' , icon: 'fa-solid fa-people-group text-gray-500 text-xl w-8'},
-            {name: 'Country', value: 'Country' , icon: 'fa-solid fa-earth-europe text-gray-500 text-xl w-8 '},
+            {name: 'Media'   , value: 'Media' , icon: 'fa-regular fa-calendar text-sm w-4 text-violet-500'},
+            {name: 'Year'   , value: 'Year' , icon: 'fa-regular fa-calendar text-sm w-4 text-violet-500'},
+            {name: 'Genre'  , value: 'Genre' , icon: 'fa-solid fa-masks-theater text-sm w-4 text-violet-500'},
+            {name: 'Rate'   , value: 'Rate' , icon: 'fa-solid fa-star text-sm w-4 text-violet-500'},
+            {name: 'Age'    , value: 'Age' , icon: 'fa-solid fa-people-group text-sm w-4 text-violet-500'},
+            {name: 'Country', value: 'Country' , icon: 'fa-solid fa-earth-europe text-sm w-4 text-violet-500'},
         ]
-        let isOpen = false;
-        this.ActiveFilterSection.addEventListener('click' , () => {
-            this.filterLogic.clearUI();
-            if(!isOpen){
-                isOpen = true;
-                this.ActiveFilterSection.classList.add('filterActive');
-                this.advancedFilters.classList.remove('ClosefilterSections');
-                this.advancedFilters.classList.replace('hidden' , 'OpenfilterSections');
-            }else{
-                isOpen = false;
-                this.ActiveFilterSection.classList.remove('filterActive');
-                this.advancedFilters.classList.replace('OpenfilterSections' , 'ClosefilterSections');
-
-                setTimeout(() => {
-                    this.advancedFilters.classList.add('hidden');
-                },200)
-                
-            }
-
-
-        });
-
         this.container.addEventListener('click' , event => {
             const li = event.target.closest('li');
             if(!li) return;
@@ -103,15 +89,12 @@ export class MoviesPage{
             const box = list.previousElementSibling;
             const btn = box.querySelector('button');
 
-            const selectedOpt = btn.textContent = li.textContent;
+            const optValue = btn.textContent = li.textContent;
             const selectedSection = box.dataset.section;
             
-            
-            this.filterLogic.setFilter(selectedSection,selectedOpt)
 
-            
+            this.filterLogic.setFilter(selectedSection,optValue)
         });
-
     }
     setSearch(value){
         let searchValue = value.trim().toLowerCase();
@@ -120,13 +103,14 @@ export class MoviesPage{
         this.filterLogic.applyFilter(this.filterLogic.currentFilterStatus);
     }
     CreateDefaultSearchOptions(){
-        this.movies.filter(get => get.isTrending).map(get => get.title).slice(0,5).forEach(search => {
+        this.RSConatiner.innerHTML = '';
+        this.movies.filter(get => get.title.toLowerCase().includes(this.searchInput.value.toLowerCase())).slice(0,5).forEach(search => {
             const box = document.createElement('li');
             const searchRecomend = document.createElement('span');
             const i = document.createElement('i');
             i.className = 'fa-solid fa-magnifying-glass';
-            searchRecomend.textContent = search;
-            box.className = 'flex gap-2 border-b border-gray-500 text-sm p-2 text-gray-400 hover:text-white transition-colors cursor-pointer';
+            searchRecomend.textContent = search.title;
+            box.className = 'flex items-center rounded-xl gap-3 border-b border-gray-500 last:border-b-0 px-3 py-3 text-gray-300 text-sm cursor-pointer hover:bg-gray-700/70 transition-colors';
             box.append(i , searchRecomend);
             this.RSConatiner.append(box);
         });
@@ -136,7 +120,7 @@ export class MoviesPage{
         this.filterTabs.forEach(item => {
             const Tab = document.createElement('li');
             Tab.dataset.value = item.value;
-            Tab.className = 'flex items-center gap-1.5 border border-gray-600 text-sm py-1 px-2 rounded-lg text-gray-200  hover:border-purple-600 hover:text-white transition-colors cursor-pointer';
+            Tab.className = 'flex items-center gap-1.5 border border-gray-600 text-xs p-3 rounded-lg text-gray-200 hover:border-violet-200 hover:text-white transition-colors cursor-pointer';
 
             const i = document.createElement('i');
             i.className = `fa-solid ${item.icon} -translate-y-px text-gray-100`;
@@ -151,31 +135,74 @@ export class MoviesPage{
         const extract = {
             'Media'   : [...new Set(this.movies.map(get => get.mediaType))],
             'Year'    : [...new Set(this.movies.flatMap(get => new Date(get.releaseDate).getFullYear()).sort((a , b) => b - a))],
-            'Genre'   : [...new Set(this.movies.flatMap(get => get.genres).filter(C => C.length < 7))],
-            'Rate'   : [...new Set(this.movies.map(get => get.rating.score.toFixed(0)))],
+            'Genre'   : [...new Set(this.movies.flatMap(get => get.genres))],
+            'Rate'    : [...new Set(this.movies.map(get => get.rating.score.toFixed(0)))],
             'Age'     : [...new Set(this.movies.map(movie => movie.minAge).sort())],
             'Country' : [...new Set(this.movies.flatMap(movie => movie.countries).map(get => get.name).sort())]
         }
         this.dropDowns.forEach(field => {
+
             const box = document.createElement('div');
-            box.dataset.section = field.value;
-            const i = document.createElement('i');
+            const header = document.createElement('div');
+        
+            const div1 = document.createElement('div');
+            const icon = document.createElement('i');
             const btn = document.createElement('button');
-
-            box.className = 'section w-fit px-2 flex items-center justify-between gap-2 rounded text-white py-1';
-            btn.textContent = field.name;
-            i.className = field.icon;
-
+        
+            const arrow = document.createElement('i');
             const list = document.createElement('ul');
-            list.className = 'flex flex-wrap gap-2 pb-10';
-            extract[field.name].forEach(opt => {
+        
+            arrow.className = 'fa-solid fa-angle-down text-sm text-gray-400 transition-transform duration-300';
+        
+            box.dataset.section = field.value;
+        
+            icon.className = `${field.icon} `;
+        
+            btn.textContent = field.name;
+            btn.className = 'text-sm font-semibold tracking-wide text-gray-300 transition-colors duration-300';
+        
+            div1.className = 'flex items-center justify-between p-2 cursor-pointer select-none transition-all duration-300';
+        
+            list.className = 'hidden border-t border-gray-700/60 bg-gray-950/40 p-2 space-y-1';
+        
+            box.className = `
+            section 
+            bg-gray-700/50 
+            rounded-xl
+            py-1
+            `;
+        
+            extract[field.value].forEach(get => {
                 const li = document.createElement('li');
-                li.textContent = opt;
-                li.className = 'option text-gray-400 rounded-xl p-1 px-4 hover:bg-gray-800 hover:text-white cursor-pointer border border-gray-600';
+        
+                li.textContent = get;
+        
+                li.className = 'text-sm text-gray-400 list-none rounded-lg px-4 py-2 cursor-pointer transition-all duration-200 border-b border-purple-600 hover:bg-gray-800 hover:text-white hover:translate-x-1';
+                
                 list.appendChild(li);
             });
-            box.append(i , btn);
-            this.container.append(box , list);
+        
+            header.className = 'flex items-center gap-3';
+        
+            header.append(icon, btn);
+            div1.append(header, arrow);
+            box.append(div1, list);
+        
+            this.container.appendChild(box);
+        
+            let isOpen = false;
+        
+            box.addEventListener('click', event => {
+                if(!isOpen){
+                    isOpen = true;
+                    list.classList.remove('hidden');
+                    arrow.classList.add('rotate-180');
+                }else{
+                    isOpen = false;
+                    list.classList.add('hidden');
+                    arrow.classList.remove('rotate-180');
+                }
+            });
         });
     }
 
@@ -274,6 +301,7 @@ export class FilterOperation{
 
             return true;
         });
+        console.log(this.currentFilterStatus);
         this.renderMovies(list);
     }
     renderMovies(list = this.data){
@@ -308,5 +336,3 @@ export class FilterOperation{
         this.renderMovies();
     }
 }
-
-
