@@ -67,11 +67,14 @@ export class MoviesPage{
 
 
         // CreateAdvancedSearchOptions
+        this.filterCount = document.querySelector('.filterCount');
         this.container = document.querySelector('.FilterDropDowns');
         this.ActiveFilterSection = document.querySelector('.toggleFilter');
         this.advancedFilters = document.querySelector('.advancedFilters');
         this.activeFilters = document.querySelector('.activeFilters');
 
+        
+        
         this.dropDowns = [
             {name: 'Media'   , value: 'Media' , icon: 'fa-regular fa-calendar text-sm w-4 text-violet-500'},
             {name: 'Year'   , value: 'Year' , icon: 'fa-regular fa-calendar text-sm w-4 text-violet-500'},
@@ -86,13 +89,13 @@ export class MoviesPage{
             const list = li.closest('ul');
             if(!list) return;
 
-            const box = list.previousElementSibling;
+            const box = list.closest('.section');
             const btn = box.querySelector('button');
 
             const optValue = btn.textContent = li.textContent;
             const selectedSection = box.dataset.section;
             
-
+            console.log(optValue + selectedSection);
             this.filterLogic.setFilter(selectedSection,optValue)
         });
     }
@@ -144,6 +147,7 @@ export class MoviesPage{
 
             const box = document.createElement('div');
             const header = document.createElement('div');
+            box.dataset.section = field.value;
         
             const div1 = document.createElement('div');
             const icon = document.createElement('i');
@@ -189,6 +193,7 @@ export class MoviesPage{
             box.append(div1, list);
         
             this.container.appendChild(box);
+            this.filterCount.textContent = `filters ${this.container.querySelectorAll('.section').length}`;
         
             let isOpen = false;
         
