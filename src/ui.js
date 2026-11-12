@@ -2,21 +2,50 @@ import { MovieComponent } from './components/movieCard.js';
 
 export class Sliders {
     constructor (){
-        this.headerSlider = document.querySelector('.headerSlider');
-        this.SliderHeroSection = document.querySelector('.SliderHeroSection');
-        this.imgLoader = document.querySelector('.imgLoader');
-        this.topSlider = document.querySelector('.topSlider');
-        
+        this.sliderImage = document.querySelector('.slider-img');
+        this.SliderHeroSection = document.querySelector('.slider-info-panel');
+
+        this.sliderContainer = document.querySelector('.slider-container');
+        this.paginationSlider = document.querySelector('.pagination-dots');
+
         this.headerSlideStatus = null;
         this.SliderObjIndex = 0;
-        this.cleanObj = [];
+        this.trendingSliders = [];
+
         this.currentObj;
 
-        this.topSlider.addEventListener('mouseover' , () => clearInterval(this.headerSlideStatus));
-        this.topSlider.addEventListener('mouseout' , () => this.startHeaderSlider());
-        
+        this.touchStartX = 0;
+        this.touchStartY = 0;
 
-        this.imgLoader.addEventListener('click', event => {
+        this.sliderContainer.addEventListener('mouseover' , () => clearInterval(this.headerSlideStatus));
+        this.sliderContainer.addEventListener('mouseout' , () => this.startHeaderSlider());
+        
+        this.sliderContainer.addEventListener('pointerdown' , event => {
+            if(event.pointerType === 'mouse') return;
+
+            this.touchStartX = event.clientX;
+            this.touchStartY = event.clientY;
+        });
+        this.sliderContainer.addEventListener('pointerup' , event => {
+            if(event.pointerType === 'mouse') return;
+
+            const touchEndX = event.clientX;
+            const touchEndY = event.clientY;
+
+            const diffX = touchEndX - this.touchStartX;
+            const  diffY = touchEndY - this.touchStartY;
+
+            if(Math.abs(diffX) < 50) return;
+            if(Math.abs(diffX) < Math.abs(diffY)) return;
+
+            if(diffX < 0){
+                this.moveSlide(1);
+            }else{
+                this.moveSlide(-1)
+            }
+        });
+
+        this.sliderContainer.addEventListener('click', event => {
             if (event.target.closest('.back')) {
                 this.moveSlide(-1); 
             } else if (event.target.closest('.forward')) {
@@ -24,19 +53,30 @@ export class Sliders {
             }
         });
     }
-    
+    createDots(){
+        this.paginationSlider.innerHTML = '';
+        this.trendingSliders.forEach(get => {
+            const span = document.createElement('span');
+            if(get.title !== this.currentObj.title){
+                span.className = 'p-1 bg-gray-500 m-1 w-2 rounded-full transition-all duration-500 ease-in-out';
+            }else{
+                span.className = 'p-1 bg-violet-500 m-1 rounded-full w-8 transition-all duration-500 ease-in-out';
+            }
+            this.paginationSlider.appendChild(span);
+        });
+    }
     init(data){
         if (!data || data.length === 0) return;
-        this.cleanObj = data.filter(get => get.isTrending  && get.backdrop_url.trim() !== '');
+        this.trendingSliders = data.filter(get => get.isTrending  && get.backdrop_url.trim() !== '');
         this.renderSlide();
 
         clearInterval(this.headerSlideStatus);
     }
 
     moveSlide(direction) {
-        if (this.cleanObj.length === 0) return;
+        if (this.trendingSliders.length === 0) return;
         
-        this.SliderObjIndex = (this.SliderObjIndex + direction + this.cleanObj.length) % this.cleanObj.length;
+        this.SliderObjIndex = (this.SliderObjIndex + direction + this.trendingSliders.length) % this.trendingSliders.length;
         this.renderSlide();
         
         clearInterval(this.headerSlideStatus);
@@ -47,27 +87,28 @@ export class Sliders {
         clearInterval(this.headerSlideStatus);
         this.headerSlideStatus = setInterval(() => {
             this.moveSlide(1);
-        }, 5500);
+        }, 7000);
     }
     renderTrendsSlider(){
         const sliderInfo = MovieComponent.createCard(this.currentObj , {variant: 'sliderPanel'} , 'w-full flex items-center gap-2');
         this.SliderHeroSection.appendChild(sliderInfo);
     }
     renderSlide(){
-        this.headerSlider.style.opacity = 0;
+        this.sliderImage.style.opacity = 0;
 
         setTimeout(() => {
-            this.currentObj = this.cleanObj[this.SliderObjIndex];
+            this.currentObj = this.trendingSliders[this.SliderObjIndex];
             
             if (!this.currentObj || !this.currentObj.backdrop_url) return;
             const img = new Image();
             img.src = this.currentObj.backdrop_url;
             img.onload = () => {
+                this.createDots()
                 this.startHeaderSlider();
-                this.headerSlider.src = this.currentObj.backdrop_url;
+                this.sliderImage.src = this.currentObj.backdrop_url;
                 this.SliderHeroSection.innerHTML = '';
                 this.renderTrendsSlider();
-                this.headerSlider.style.opacity = 1;
+                this.sliderImage.style.opacity = 1;
             }
         }, 300);
     }

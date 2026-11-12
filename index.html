@@ -84,21 +84,40 @@
         </nav>
 
         <!-- T Slider -->
-        <section class="topSlider flex shadow-lg gap-3 h-[80dvh] md:h-[90dvh]">
-            <div class="imgLoader relative group flex flex-col rounded-xl">
-                <img src="" class="w-[100vw] h-full headerSlider object-cover" alt="">
-                <h1 class="text-gray-100 my-3 ml-4 absolute top-2"><i class="fa-solid fa-arrow-trend-up"></i> Trends | 2026</h1>
-                <button aria-label="Next Slide" class="cursor-pointer hidden group-hover:block back absolute left-5 text-gray-400 top-[50%]"><i class="fa-solid fa-arrow-left text-2xl"></i></button>
-                <button aria-label="Prev Slide" class="cursor-pointer hidden group-hover:block forward absolute right-5 text-gray-400 top-[50%]"><i class="fa-solid fa-arrow-right text-2xl"></i></button>
+        <section class="slider-container touch-pan-y relative group flex h-[80dvh] md:h-[90dvh]">
+                <img fetchpriority="high"
+                     decoding="async" 
+                     class="w-full slider-img object-cover" alt="">
 
+                <h1 class="text-gray-100 my-3 ml-4 absolute top-2"><i class="fa-solid fa-arrow-trend-up"></i> Trends | 2026</h1>
+
+            <button aria-label="Next Slide"
+                class="cursor-pointer hidden forward bg-black/30 hover:bg-purple-600
+                transition-all duration-300 w-11 h-11 rounded-full
+                group-hover:flex items-center justify-center
+                absolute right-5 top-1/2 -translate-y-1/2 z-20 text-white">
+                    <i class="fa-solid fa-arrow-right text-xl"></i>
+            </button>
+            <button aria-label="Prev Slide"
+                class="cursor-pointer hidden back bg-black/30 hover:bg-purple-600
+                transition-all duration-300 w-11 h-11 rounded-full
+                group-hover:flex items-center justify-center
+                absolute left-5 top-1/2 -translate-y-1/2 z-20 text-white">
+                    <i class="fa-solid fa-arrow-left text-xl"></i>
+            </button>
                 
-                <div class="z-10 flex gap-3 absolute md:left-20 bottom-10 md:top-1/2 lg:w-[700px]  w-96 py-2 SliderHeroSection">
+
+                <div class="z-10 absolute md:left-20 md:top-1/3 bottom-10 w-2/3 slider-info-panel">
                 </div>
-                <div class="absolute scoAge right-10 top-10 flex gap-6 text-3xl font-bold font-bebas">
-                </div>
-                <div class="absolute inset-0 bg-gradient-to-t from-zinc-950 via-zinc-950/40 to-transparent pointer-events-none"></div>
-            </div>
+                
+                <div class="absolute inset-0 bg-gradient-to-t from-gray-950 via-gray-950/30 to-transparent pointer-events-none"></div>
+                
         </section>
+        <div class="pagination-dots flex justify-center mb-10">
+            
+        </div>
+    
+    </div>
 
     </header>
 </div>

@@ -10,7 +10,7 @@ export class MovieComponent{
         sliderPanel: {
             tag: 'div',
             sliderHero: true,
-            titleClass: 'text-gray-100 text-3xl line-clamp-1 md:text-6xl font-bebas',
+            titleClass: 'text-gray-100 text-4xl md:text-6xl font-bebas',
             releaseDate: 'text-sm text-gray-100',
         },
 
@@ -19,7 +19,7 @@ export class MovieComponent{
         const variantName = options.variant || 'default';
         const config = {...this.variants[variantName]}
         
-        const scoAge = document.querySelector('.scoAge');
+        const scoAge = document.createElement('div');
         const title = document.createElement('p');
 
 
@@ -31,6 +31,7 @@ export class MovieComponent{
 
         title.textContent = movie.title;
         title.className = config.titleClass;
+        
 
         
         
@@ -70,57 +71,80 @@ export class MovieComponent{
         }
         
         if(config.sliderHero){
-            card.appendChild(title);
-            const genres = document.createElement('span');
-            const country = document.createElement('span');
             const desc = document.createElement('span');
 
             scoAge.innerHTML = 
             `
-                <div class="flex flex-col items-center gap-1 text-xl md:text-2xl">
-                    <span class="text-gray-100 border-b">${movie.minAge}</span>
+                <div class="text-sm bg-white/10 p-1 px-2 rounded-xl">
+                    <span>${movie.releaseDate}</span>
+                </div>
+                <div class="flex gap-1">
                     <i class="fa-solid fa-user-shield text-blue-300"></i>
+                    <span class="text-gray-100">${movie.minAge}</span> 
                 </div>
                 
-                <div class="flex flex-col items-center gap-1 text-xl md:text-2xl">
-                    <span class="text-yellow-500 border-b">${movie.rating.score}</span>
+                <div class="flex gap-1">
                     <i class="fa-solid fa-star text-yellow-500"></i>
+                    <span class="text-gray-100">${movie.rating.score}</span>
                 </div>
+                
+                
             `
+            scoAge.className = 'flex items-center gap-3 font-bold font-bebas';
             const rowPanel = document.createElement('div');
-            rowPanel.className = 'flex flex-col gap-2 flex-wrap border-t border-purple-600 rounded-xl py-2'
+            rowPanel.className = 'flex flex-col gap-2 flex-wrap py-2'
 
 
             desc.textContent = movie.summary;
-            desc.className = 'line-clamp-3 md:line-clamp-6 md:text-sm text-sm md:w-fit w-96';
+            desc.className = 'line-clamp-4 max-w-full text-sm pb-5';
             card.className = 'text-gray-100 flex flex-col gap-3 ml-5';
-            genres.innerHTML = `<span class="text-sm"><span class="bg-gray-700/50 p-1 px-2 rounded-xl">Genre</span> ${movie.genres.join(' / ')}</span>`;
-            const countryText = document.createElement('span');
-            countryText.className = 'bg-gray-700/50 p-1 px-2 rounded-xl';
-            countryText.textContent = 'Origin';
-            country.appendChild(countryText);
-            movie.countries.forEach(get => {
-                const img = document.createElement('img');
-                img.src = get.flag;
-                img.className = 'ml-1'
+
+            const box = document.createElement('div');
+            box.className = 'flex items-center flex-wrap gap-2 border-t border-white/20 pt-2';
+
+            movie.genres.forEach(element => {
                 const span = document.createElement('span');
-                span.textContent = get.name;
-                country.append(img , span);
+                span.textContent = element;
+                span.className = 'text-xs text-gray-200 bg-white/10 px-3 py-1 rounded-full';
+                box.appendChild(span);
             });
-            country.className = 'flex flex-wrap items-center leading-none gap-1 text-sm';
+
+            if (movie.genres.length && movie.countries.length) {
+                const separator = document.createElement('span');
+                separator.className = 'text-white mx-1';
+                separator.textContent = '•';
+                box.appendChild(separator);
+            }
+
+            movie.countries.forEach(element => {
+                const wrapper = document.createElement('div');
+                wrapper.className = 'flex items-center gap-1.5 text-xs text-gray-300';
+
+                const img = document.createElement('img');
+                img.src = element.flag;
+                img.className = 'w-4 h-3 object-cover rounded-sm';
+
+                const span = document.createElement('span');
+                span.textContent = element.name;
+
+                wrapper.append(img, span);
+                box.appendChild(wrapper);
+                });     
+
 
             const refrenceBtns = document.createElement('div');
             const wishlistBtn = document.createElement('button');
             const viewDetailBtn = document.createElement('button');
-            refrenceBtns.className = 'flex gap-2 md:flex';
-            wishlistBtn.innerHTML = '<span class="flex items-center justify-center gap-2">Watchlist <i class="fa-solid fa-plus"></i></span>';
-            wishlistBtn.className = 'border p-2 rounded-xl bg-purple-700/70 border-purple-500 w-32 hover:bg-inherit transition';
-            viewDetailBtn.innerHTML = '<span class="flex items-center justify-center gap-2">Play <i class="fa-solid fa-play"></i></span>';
-            viewDetailBtn.className = 'border p-2 rounded-xl bg-purple-700/70 border-purple-500 hover:bg-inherit transition';
+            refrenceBtns.className = 'hidden md:flex gap-2';
+            wishlistBtn.innerHTML = '<a href="" class="flex items-center justify-center gap-2"><i class="fa-solid fa-circle-info text-sm"></i> More Info</a>';
+            wishlistBtn.className = 'border py-3 px-6 rounded-full bg-white/10 text-white border-white/20 hover:bg-white/20 hover:border-white/30 hover:text-white transition duration-300';
+            viewDetailBtn.innerHTML = '<span class="flex items-center justify-center gap-2"><i class="fa-solid fa-play text-sm"></i> Watch now </span>';
+            viewDetailBtn.className = 'border py-3 px-6 rounded-full bg-violet-800 border-white hover:bg-inherit transition duration-300';
 
-            refrenceBtns.append(wishlistBtn,viewDetailBtn);
-            rowPanel.append(country,genres);
-            card.append(desc , rowPanel , refrenceBtns);
+
+            refrenceBtns.append(viewDetailBtn , wishlistBtn);
+            rowPanel.append(box);
+            card.append(scoAge , title , desc , rowPanel , refrenceBtns);
         }
         return card;
     }
