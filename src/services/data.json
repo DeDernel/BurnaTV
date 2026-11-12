@@ -1,5 +1,5 @@
 [
-    {
+  {
     "id": 101,
     "title": "Run Away",
     "genres": [
@@ -21,7 +21,7 @@
     "minAge": 17,
     "rating": {
       "score": 6.7,
-      "vote_count": 179
+      "vote_count": 180
     },
     "runtime": null,
     "isTrending": false,
@@ -54,7 +54,7 @@
     "minAge": 17,
     "rating": {
       "score": 7.3,
-      "vote_count": 569
+      "vote_count": 573
     },
     "runtime": null,
     "isTrending": false,
@@ -86,8 +86,8 @@
     ],
     "minAge": 17,
     "rating": {
-      "score": 6.3,
-      "vote_count": 244
+      "score": 6.2,
+      "vote_count": 248
     },
     "runtime": null,
     "isTrending": false,
@@ -119,7 +119,7 @@
     "minAge": 13,
     "rating": {
       "score": 6.7,
-      "vote_count": 116
+      "vote_count": 118
     },
     "runtime": null,
     "isTrending": false,
@@ -152,7 +152,7 @@
     "minAge": 13,
     "rating": {
       "score": 8.4,
-      "vote_count": 176
+      "vote_count": 178
     },
     "runtime": null,
     "isTrending": false,
@@ -184,7 +184,7 @@
     "minAge": 13,
     "rating": {
       "score": 8.4,
-      "vote_count": 1273
+      "vote_count": 1278
     },
     "runtime": null,
     "isTrending": true,
@@ -217,7 +217,7 @@
     "minAge": 13,
     "rating": {
       "score": 6.7,
-      "vote_count": 193
+      "vote_count": 195
     },
     "runtime": null,
     "isTrending": false,
@@ -249,8 +249,8 @@
     ],
     "minAge": 17,
     "rating": {
-      "score": 7.5,
-      "vote_count": 184
+      "score": 7.4,
+      "vote_count": 186
     },
     "runtime": null,
     "isTrending": false,
@@ -283,7 +283,7 @@
     "minAge": 13,
     "rating": {
       "score": 7.1,
-      "vote_count": 400
+      "vote_count": 402
     },
     "runtime": null,
     "isTrending": false,
@@ -314,8 +314,8 @@
     ],
     "minAge": 13,
     "rating": {
-      "score": 7.6,
-      "vote_count": 138
+      "score": 7.5,
+      "vote_count": 139
     },
     "runtime": null,
     "isTrending": false,
@@ -347,8 +347,8 @@
     ],
     "minAge": 13,
     "rating": {
-      "score": 8.3,
-      "vote_count": 69
+      "score": 8.2,
+      "vote_count": 70
     },
     "runtime": null,
     "isTrending": false,
@@ -380,7 +380,7 @@
     "minAge": 13,
     "rating": {
       "score": 8.2,
-      "vote_count": 304
+      "vote_count": 308
     },
     "runtime": null,
     "isTrending": false,
@@ -412,8 +412,8 @@
     ],
     "minAge": 17,
     "rating": {
-      "score": 7.5,
-      "vote_count": 63
+      "score": 7.4,
+      "vote_count": 66
     },
     "runtime": null,
     "isTrending": false,
@@ -446,7 +446,7 @@
     "minAge": 17,
     "rating": {
       "score": 7.7,
-      "vote_count": 335
+      "vote_count": 339
     },
     "runtime": null,
     "isTrending": false,
@@ -501,7 +501,7 @@
     "director": "Bill Lawrence",
     "poster_url": "images/Rooster/RoosterPoster.jpg",
     "backdrop_url": "images/Rooster/RoosterBackdrop.jpg",
-    "summary": "On a college campus, an author navigates a complicated relationship with his daughter.",
+    "summary": "The animated shenanigans of the Rooster Teeth staff. Audio taken from the Rooster Teeth Podcast.",
     "countries": [
       {
         "name": "US",
@@ -510,12 +510,12 @@
     ],
     "minAge": 13,
     "rating": {
-      "score": 7.4,
-      "vote_count": 145
+      "score": 7,
+      "vote_count": 7
     },
     "runtime": null,
     "isTrending": false,
-    "releaseDate": "March 8, 2026",
+    "releaseDate": "September 28, 2011",
     "episodeRuntime": null,
     "status": "ongoing",
     "trailerKey": "",
@@ -544,7 +544,7 @@
     "minAge": 17,
     "rating": {
       "score": 6.4,
-      "vote_count": 163
+      "vote_count": 165
     },
     "runtime": null,
     "isTrending": false,
@@ -576,7 +576,7 @@
     "minAge": 13,
     "rating": {
       "score": 8.1,
-      "vote_count": 156
+      "vote_count": 158
     },
     "runtime": null,
     "isTrending": false,
@@ -608,7 +608,7 @@
     "minAge": 13,
     "rating": {
       "score": 8.2,
-      "vote_count": 54
+      "vote_count": 55
     },
     "runtime": null,
     "isTrending": false,
@@ -640,8 +640,8 @@
     ],
     "minAge": 17,
     "rating": {
-      "score": 7.4,
-      "vote_count": 140
+      "score": 7.3,
+      "vote_count": 142
     },
     "runtime": null,
     "isTrending": false,
@@ -674,7 +674,7 @@
     "minAge": 13,
     "rating": {
       "score": 8.5,
-      "vote_count": 253
+      "vote_count": 254
     },
     "runtime": null,
     "isTrending": false,
@@ -710,8 +710,8 @@
     ],
     "minAge": 13,
     "rating": {
-      "score": 8.3,
-      "vote_count": 243
+      "score": 8.2,
+      "vote_count": 246
     },
     "runtime": null,
     "isTrending": false,
@@ -774,7 +774,7 @@
     "minAge": 13,
     "rating": {
       "score": 7.9,
-      "vote_count": 209
+      "vote_count": 211
     },
     "runtime": null,
     "isTrending": false,
@@ -806,8 +806,8 @@
     ],
     "minAge": 17,
     "rating": {
-      "score": 7.6,
-      "vote_count": 127
+      "score": 7.5,
+      "vote_count": 130
     },
     "runtime": null,
     "isTrending": false,
@@ -838,7 +838,7 @@
     "minAge": 13,
     "rating": {
       "score": 8,
-      "vote_count": 158
+      "vote_count": 159
     },
     "runtime": null,
     "isTrending": true,
@@ -903,7 +903,7 @@
     "minAge": 13,
     "rating": {
       "score": 8,
-      "vote_count": 598
+      "vote_count": 605
     },
     "runtime": null,
     "isTrending": false,
@@ -936,7 +936,7 @@
     "minAge": 17,
     "rating": {
       "score": 7.4,
-      "vote_count": 227
+      "vote_count": 228
     },
     "runtime": null,
     "isTrending": false,
@@ -1001,8 +1001,8 @@
     ],
     "minAge": 13,
     "rating": {
-      "score": 8.9,
-      "vote_count": 903
+      "score": 8.8,
+      "vote_count": 909
     },
     "runtime": null,
     "isTrending": false,
@@ -1034,7 +1034,7 @@
     "minAge": 13,
     "rating": {
       "score": 9.1,
-      "vote_count": 652
+      "vote_count": 654
     },
     "runtime": null,
     "isTrending": false,
@@ -1066,8 +1066,8 @@
     ],
     "minAge": 13,
     "rating": {
-      "score": 7.2,
-      "vote_count": 306
+      "score": 7.1,
+      "vote_count": 308
     },
     "runtime": null,
     "isTrending": false,
@@ -1100,7 +1100,7 @@
     "minAge": 13,
     "rating": {
       "score": 8.3,
-      "vote_count": 930
+      "vote_count": 934
     },
     "runtime": null,
     "isTrending": false,
@@ -1131,8 +1131,8 @@
     ],
     "minAge": 17,
     "rating": {
-      "score": 7.2,
-      "vote_count": 207
+      "score": 7.1,
+      "vote_count": 211
     },
     "runtime": null,
     "isTrending": false,
@@ -1165,7 +1165,7 @@
     "minAge": 17,
     "rating": {
       "score": 8.2,
-      "vote_count": 562
+      "vote_count": 568
     },
     "runtime": null,
     "isTrending": false,
@@ -1228,8 +1228,8 @@
     ],
     "minAge": 13,
     "rating": {
-      "score": 7.8,
-      "vote_count": 99
+      "score": 7.7,
+      "vote_count": 101
     },
     "runtime": null,
     "isTrending": false,
@@ -1261,7 +1261,7 @@
     "minAge": 13,
     "rating": {
       "score": 8,
-      "vote_count": 1051
+      "vote_count": 1052
     },
     "runtime": null,
     "isTrending": false,
@@ -1293,7 +1293,7 @@
     "minAge": 13,
     "rating": {
       "score": 7.3,
-      "vote_count": 315
+      "vote_count": 317
     },
     "runtime": null,
     "isTrending": false,
@@ -1326,7 +1326,7 @@
     "minAge": 13,
     "rating": {
       "score": 8.3,
-      "vote_count": 249
+      "vote_count": 251
     },
     "runtime": null,
     "isTrending": false,
@@ -1357,8 +1357,8 @@
     ],
     "minAge": 13,
     "rating": {
-      "score": 7.1,
-      "vote_count": 75
+      "score": 7,
+      "vote_count": 77
     },
     "runtime": null,
     "isTrending": false,
@@ -1389,8 +1389,8 @@
     ],
     "minAge": 13,
     "rating": {
-      "score": 8.1,
-      "vote_count": 184
+      "score": 8,
+      "vote_count": 188
     },
     "runtime": null,
     "isTrending": false,
@@ -1423,7 +1423,7 @@
     "minAge": 13,
     "rating": {
       "score": 8.2,
-      "vote_count": 864
+      "vote_count": 870
     },
     "runtime": null,
     "isTrending": false,
@@ -1456,7 +1456,7 @@
     "minAge": 17,
     "rating": {
       "score": 8,
-      "vote_count": 236
+      "vote_count": 241
     },
     "runtime": null,
     "isTrending": false,
@@ -1489,7 +1489,7 @@
     "minAge": 17,
     "rating": {
       "score": 7.1,
-      "vote_count": 249
+      "vote_count": 254
     },
     "runtime": null,
     "isTrending": true,
@@ -1520,8 +1520,8 @@
     ],
     "minAge": 13,
     "rating": {
-      "score": 7.9,
-      "vote_count": 145
+      "score": 7.8,
+      "vote_count": 155
     },
     "runtime": null,
     "isTrending": false,
