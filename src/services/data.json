@@ -7,7 +7,6 @@
       "Mystery",
       "Thriller"
     ],
-    "badges": [],
     "director": "Nimer Rashed, Isher Sahota",
     "poster_url": "images/RunAway/RunAwayPoster.jpg",
     "backdrop_url": "images/RunAway/RunAwayBackdrop.jpg",
@@ -40,7 +39,6 @@
       "Mystery",
       "Thriller"
     ],
-    "badges": [],
     "director": "William Oldroyd",
     "poster_url": "images/HisHers/HisHersPoster.jpg",
     "backdrop_url": "images/HisHers/HisHersBackdrop.jpg",
@@ -57,7 +55,7 @@
       "vote_count": 573
     },
     "runtime": null,
-    "isTrending": false,
+    "isTrending": true,
     "releaseDate": "January 8, 2026",
     "episodeRuntime": null,
     "status": "ongoing",
@@ -73,7 +71,6 @@
       "Mystery",
       "Thriller"
     ],
-    "badges": [],
     "director": "Chris Sweeney",
     "poster_url": "images/SevenDialsMystery/SevenDialsMysteryPoster.jpg",
     "backdrop_url": "images/SevenDialsMystery/SevenDialsMysteryBackdrop.jpg",
@@ -105,7 +102,6 @@
       "Drama",
       "Adventure"
     ],
-    "badges": [],
     "director": "Susanna Fogel",
     "poster_url": "images/Ponies/PoniesPoster.jpg",
     "backdrop_url": "images/Ponies/PoniesBackdrop.jpg",
@@ -138,7 +134,6 @@
       "Comedy",
       "Drama"
     ],
-    "badges": [],
     "director": "Yoo Young-eun",
     "poster_url": "images/CanThisLoveBeTranslated/CanThisLoveBeTranslatedPoster.jpg",
     "backdrop_url": "images/CanThisLoveBeTranslated/CanThisLoveBeTranslatedBackdrop.jpg",
@@ -170,7 +165,6 @@
       "Drama",
       "Adventure"
     ],
-    "badges": [],
     "director": "Owen Harris, Sarah Adina Smith",
     "poster_url": "images/AKnightoftheSevenKingdoms/AKnightoftheSevenKingdomsPoster.jpg",
     "backdrop_url": "images/AKnightoftheSevenKingdoms/AKnightoftheSevenKingdomsBackdrop.jpg",
@@ -203,7 +197,6 @@
       "Drama",
       "Thriller"
     ],
-    "badges": [],
     "director": "Ryan Murphy",
     "poster_url": "images/TheBeauty/TheBeautyPoster.jpg",
     "backdrop_url": "images/TheBeauty/TheBeautyBackdrop.jpg",
@@ -236,7 +229,6 @@
       "Mystery",
       "Thriller"
     ],
-    "badges": [],
     "director": "Hettie Macdonald",
     "poster_url": "images/Steal/StealPoster.jpg",
     "backdrop_url": "images/Steal/StealBackdrop.jpg",
@@ -269,7 +261,6 @@
       "Action",
       "Adventure"
     ],
-    "badges": [],
     "director": "Destin Daniel Cretton, Stella Meghie",
     "poster_url": "images/WonderMan/WonderManPoster.jpg",
     "backdrop_url": "images/WonderMan/WonderManBackdrop.jpg",
@@ -301,7 +292,6 @@
       "Drama",
       "Adventure"
     ],
-    "badges": [],
     "director": "Marc Munden",
     "poster_url": "images/LordoftheFlies/LordoftheFliesPoster.jpg",
     "backdrop_url": "images/LordoftheFlies/LordoftheFliesBackdrop.jpg",
@@ -334,7 +324,6 @@
       "Drama",
       "Comedy"
     ],
-    "badges": [],
     "director": "Connor Hines",
     "poster_url": "images/LoveStory/LoveStoryPoster.jpg",
     "backdrop_url": "images/LoveStory/LoveStoryBackdrop.jpg",
@@ -361,45 +350,12 @@
   },
   {
     "id": 112,
-    "title": "Scrubs",
-    "genres": [
-      "Comedy",
-      "Drama"
-    ],
-    "badges": [],
-    "director": "Zach Braff",
-    "poster_url": "images/Scrubs/ScrubsPoster.jpg",
-    "backdrop_url": "images/Scrubs/ScrubsBackdrop.jpg",
-    "summary": "In the unreal world of Sacred Heart Hospital, John \"J.D.\" Dorian learns the ways of medicine, friendship and life.",
-    "countries": [
-      {
-        "name": "US",
-        "flag": "images/flags/US.png"
-      }
-    ],
-    "minAge": 13,
-    "rating": {
-      "score": 8.2,
-      "vote_count": 308
-    },
-    "runtime": null,
-    "isTrending": false,
-    "releaseDate": "October 2, 2001",
-    "episodeRuntime": null,
-    "status": "ongoing",
-    "trailerKey": "",
-    "seasonsData": null,
-    "mediaType": "series"
-  },
-  {
-    "id": 113,
     "title": "RJ Decker",
     "genres": [
       "Crime",
       "Mystery",
       "Thriller"
     ],
-    "badges": [],
     "director": "Rob Doherty",
     "poster_url": "images/RJDecker/RJDeckerPoster.jpg",
     "backdrop_url": "images/RJDecker/RJDeckerBackdrop.jpg",
@@ -425,14 +381,13 @@
     "mediaType": "series"
   },
   {
-    "id": 114,
+    "id": 113,
     "title": "Young Sherlock",
     "genres": [
       "Crime",
       "Mystery",
       "Thriller"
     ],
-    "badges": [],
     "director": "Guy Ritchie",
     "poster_url": "images/YoungSherlock/YoungSherlockPoster.jpg",
     "backdrop_url": "images/YoungSherlock/YoungSherlockBackdrop.jpg",
@@ -449,7 +404,7 @@
       "vote_count": 339
     },
     "runtime": null,
-    "isTrending": false,
+    "isTrending": true,
     "releaseDate": "March 4, 2026",
     "episodeRuntime": null,
     "status": "ongoing",
@@ -458,14 +413,13 @@
     "mediaType": "series"
   },
   {
-    "id": 115,
+    "id": 114,
     "title": "Vladimir",
     "genres": [
       "Drama",
       "Thriller",
       "Mystery"
     ],
-    "badges": [],
     "director": "Shari Springer Berman, Robert Pulcini",
     "poster_url": "images/Vladimir/VladimirPoster.jpg",
     "backdrop_url": "images/Vladimir/VladimirBackdrop.jpg",
@@ -491,46 +445,13 @@
     "mediaType": "series"
   },
   {
-    "id": 116,
-    "title": "Rooster",
-    "genres": [
-      "Comedy",
-      "Drama"
-    ],
-    "badges": [],
-    "director": "Bill Lawrence",
-    "poster_url": "images/Rooster/RoosterPoster.jpg",
-    "backdrop_url": "images/Rooster/RoosterBackdrop.jpg",
-    "summary": "The animated shenanigans of the Rooster Teeth staff. Audio taken from the Rooster Teeth Podcast.",
-    "countries": [
-      {
-        "name": "US",
-        "flag": "images/flags/US.png"
-      }
-    ],
-    "minAge": 13,
-    "rating": {
-      "score": 7,
-      "vote_count": 7
-    },
-    "runtime": null,
-    "isTrending": false,
-    "releaseDate": "September 28, 2011",
-    "episodeRuntime": null,
-    "status": "ongoing",
-    "trailerKey": "",
-    "seasonsData": null,
-    "mediaType": "series"
-  },
-  {
-    "id": 117,
+    "id": 115,
     "title": "Scarpetta",
     "genres": [
       "Crime",
       "Mystery",
       "Thriller"
     ],
-    "badges": [],
     "director": "David Gordon Green",
     "poster_url": "images/Scarpetta/ScarpettaPoster.jpg",
     "backdrop_url": "images/Scarpetta/ScarpettaBackdrop.jpg",
@@ -556,13 +477,12 @@
     "mediaType": "series"
   },
   {
-    "id": 118,
+    "id": 116,
     "title": "The Madison",
     "genres": [
       "Drama",
       "Adventure"
     ],
-    "badges": [],
     "director": "Christina Alexandra Voros",
     "poster_url": "images/TheMadison/TheMadisonPoster.jpg",
     "backdrop_url": "images/TheMadison/TheMadisonBackdrop.jpg",
@@ -579,7 +499,7 @@
       "vote_count": 158
     },
     "runtime": null,
-    "isTrending": false,
+    "isTrending": true,
     "releaseDate": "March 14, 2026",
     "episodeRuntime": null,
     "status": "ongoing",
@@ -588,13 +508,12 @@
     "mediaType": "series"
   },
   {
-    "id": 119,
+    "id": 117,
     "title": "The Other Bennet Sister",
     "genres": [
       "Drama",
       "Romance"
     ],
-    "badges": [],
     "director": "Jennifer Sheridan",
     "poster_url": "images/TheOtherBennetSister/TheOtherBennetSisterPoster.jpg",
     "backdrop_url": "images/TheOtherBennetSister/TheOtherBennetSisterBackdrop.jpg",
@@ -620,14 +539,13 @@
     "mediaType": "series"
   },
   {
-    "id": 120,
+    "id": 118,
     "title": "Jo Nesbø's Detective Hole",
     "genres": [
       "Crime",
       "Thriller",
       "Drama"
     ],
-    "badges": [],
     "director": "Øystein Karlsen",
     "poster_url": "images/JoNesbsDetectiveHole/JoNesbsDetectiveHolePoster.jpg",
     "backdrop_url": "images/JoNesbsDetectiveHole/JoNesbsDetectiveHoleBackdrop.jpg",
@@ -653,14 +571,13 @@
     "mediaType": "series"
   },
   {
-    "id": 121,
+    "id": 119,
     "title": "Star Wars: Maul – Shadow Lord",
     "genres": [
       "Science Fiction",
       "Action",
       "Adventure"
     ],
-    "badges": [],
     "director": "Brad Rau",
     "poster_url": "images/StarWarsMaulShadowLord/StarWarsMaulShadowLordPoster.jpg",
     "backdrop_url": "images/StarWarsMaulShadowLord/StarWarsMaulShadowLordBackdrop.jpg",
@@ -677,7 +594,7 @@
       "vote_count": 254
     },
     "runtime": null,
-    "isTrending": false,
+    "isTrending": true,
     "releaseDate": "April 6, 2026",
     "episodeRuntime": null,
     "status": "ongoing",
@@ -686,14 +603,13 @@
     "mediaType": "series"
   },
   {
-    "id": 122,
+    "id": 120,
     "title": "The Testaments",
     "genres": [
       "Science Fiction",
       "Action",
       "Adventure"
     ],
-    "badges": [],
     "director": "Mike Barker",
     "poster_url": "images/TheTestaments/TheTestamentsPoster.jpg",
     "backdrop_url": "images/TheTestaments/TheTestamentsBackdrop.jpg",
@@ -714,7 +630,7 @@
       "vote_count": 246
     },
     "runtime": null,
-    "isTrending": false,
+    "isTrending": true,
     "releaseDate": "April 8, 2026",
     "episodeRuntime": null,
     "status": "ongoing",
@@ -723,12 +639,11 @@
     "mediaType": "series"
   },
   {
-    "id": 123,
+    "id": 121,
     "title": "Malcolm in the Middle: Life's Still Unfair",
     "genres": [
       "Comedy"
     ],
-    "badges": [],
     "director": "Ken Kwapis",
     "poster_url": "images/MalcolmintheMiddleLifesStillUnfair/MalcolmintheMiddleLifesStillUnfairPoster.jpg",
     "backdrop_url": "images/MalcolmintheMiddleLifesStillUnfair/MalcolmintheMiddleLifesStillUnfairBackdrop.jpg",
@@ -754,13 +669,12 @@
     "mediaType": "series"
   },
   {
-    "id": 124,
+    "id": 122,
     "title": "Margo's Got Money Troubles",
     "genres": [
       "Drama",
       "Thriller"
     ],
-    "badges": [],
     "director": "Dearbhla Walsh",
     "poster_url": "images/MargosGotMoneyTroubles/MargosGotMoneyTroublesPoster.jpg",
     "backdrop_url": "images/MargosGotMoneyTroubles/MargosGotMoneyTroublesBackdrop.jpg",
@@ -786,14 +700,13 @@
     "mediaType": "series"
   },
   {
-    "id": 125,
+    "id": 123,
     "title": "Stranger Things: Tales from '85",
     "genres": [
       "Science Fiction",
       "Horror",
       "Animation"
     ],
-    "badges": [],
     "director": "Phil Allora",
     "poster_url": "images/StrangerThingsTalesfrom85/StrangerThingsTalesfrom85Poster.jpg",
     "backdrop_url": "images/StrangerThingsTalesfrom85/StrangerThingsTalesfrom85Backdrop.jpg",
@@ -810,7 +723,7 @@
       "vote_count": 130
     },
     "runtime": null,
-    "isTrending": false,
+    "isTrending": true,
     "releaseDate": "April 23, 2026",
     "episodeRuntime": null,
     "status": "ongoing",
@@ -819,12 +732,11 @@
     "mediaType": "series"
   },
   {
-    "id": 126,
+    "id": 124,
     "title": "Half Man",
     "genres": [
       "Drama"
     ],
-    "badges": [],
     "director": "Richard Gadd",
     "poster_url": "images/HalfMan/HalfManPoster.jpg",
     "backdrop_url": "images/HalfMan/HalfManBackdrop.jpg",
@@ -841,7 +753,7 @@
       "vote_count": 159
     },
     "runtime": null,
-    "isTrending": true,
+    "isTrending": false,
     "releaseDate": "April 28, 2026",
     "episodeRuntime": null,
     "status": "ongoing",
@@ -850,13 +762,12 @@
     "mediaType": "series"
   },
   {
-    "id": 127,
+    "id": 125,
     "title": "If Wishes Could Kill",
     "genres": [
       "Horror",
       "Thriller"
     ],
-    "badges": [],
     "director": "Park Yoon-seo",
     "poster_url": "images/IfWishesCouldKill/IfWishesCouldKillPoster.jpg",
     "backdrop_url": "images/IfWishesCouldKill/IfWishesCouldKillBackdrop.jpg",
@@ -882,14 +793,13 @@
     "mediaType": "series"
   },
   {
-    "id": 128,
+    "id": 126,
     "title": "Widow's Bay",
     "genres": [
       "Drama",
       "Thriller",
       "Mystery"
     ],
-    "badges": [],
     "director": "Hiro Murai",
     "poster_url": "images/WidowsBay/WidowsBayPoster.jpg",
     "backdrop_url": "images/WidowsBay/WidowsBayBackdrop.jpg",
@@ -915,14 +825,13 @@
     "mediaType": "series"
   },
   {
-    "id": 129,
+    "id": 127,
     "title": "Man on Fire",
     "genres": [
       "Crime",
       "Thriller",
       "Drama"
     ],
-    "badges": [],
     "director": "Steven Caple Jr.",
     "poster_url": "images/ManonFire/ManonFirePoster.jpg",
     "backdrop_url": "images/ManonFire/ManonFireBackdrop.jpg",
@@ -948,47 +857,13 @@
     "mediaType": "series"
   },
   {
-    "id": 130,
-    "title": "Legends",
-    "genres": [
-      "Crime",
-      "Thriller",
-      "Drama"
-    ],
-    "badges": [],
-    "director": "Brady Hood",
-    "poster_url": "images/Legends/LegendsPoster.jpg",
-    "backdrop_url": "images/Legends/LegendsBackdrop.jpg",
-    "summary": "Master an ever-growing roster of legendary characters with powerful abilities and experience strategic squad play and innovative gameplay in the next evolution of Hero Shooter and Battle Royale.",
-    "countries": [
-      {
-        "name": "US",
-        "flag": "images/flags/US.png"
-      }
-    ],
-    "minAge": 17,
-    "rating": {
-      "score": 6.5,
-      "vote_count": 6
-    },
-    "runtime": null,
-    "isTrending": false,
-    "releaseDate": "February 4, 2019",
-    "episodeRuntime": null,
-    "status": "ongoing",
-    "trailerKey": "",
-    "seasonsData": null,
-    "mediaType": "series"
-  },
-  {
-    "id": 131,
+    "id": 128,
     "title": "Off Campus",
     "genres": [
       "Romance",
       "Drama",
       "Comedy"
     ],
-    "badges": [],
     "director": "Nimisha Mukerji",
     "poster_url": "images/OffCampus/OffCampusPoster.jpg",
     "backdrop_url": "images/OffCampus/OffCampusBackdrop.jpg",
@@ -1014,13 +889,12 @@
     "mediaType": "series"
   },
   {
-    "id": 132,
+    "id": 129,
     "title": "Dutton Ranch",
     "genres": [
       "Drama",
       "Western"
     ],
-    "badges": [],
     "director": "Christina Alexandra Voros",
     "poster_url": "images/DuttonRanch/DuttonRanchPoster.jpg",
     "backdrop_url": "images/DuttonRanch/DuttonRanchBackdrop.jpg",
@@ -1046,14 +920,13 @@
     "mediaType": "series"
   },
   {
-    "id": 133,
+    "id": 130,
     "title": "The Boroughs",
     "genres": [
       "Science Fiction",
       "Mystery",
       "Drama"
     ],
-    "badges": [],
     "director": "Jeffrey Addiss, Will Matthews",
     "poster_url": "images/TheBoroughs/TheBoroughsPoster.jpg",
     "backdrop_url": "images/TheBoroughs/TheBoroughsBackdrop.jpg",
@@ -1079,14 +952,13 @@
     "mediaType": "series"
   },
   {
-    "id": 134,
+    "id": 131,
     "title": "Spider-Noir",
     "genres": [
       "Science Fiction",
       "Action",
       "Adventure"
     ],
-    "badges": [],
     "director": "Harry Bradbeer",
     "poster_url": "images/SpiderNoir/SpiderNoirPoster.jpg",
     "backdrop_url": "images/SpiderNoir/SpiderNoirBackdrop.jpg",
@@ -1103,7 +975,7 @@
       "vote_count": 934
     },
     "runtime": null,
-    "isTrending": false,
+    "isTrending": true,
     "releaseDate": "May 25, 2026",
     "episodeRuntime": null,
     "status": "ongoing",
@@ -1112,13 +984,12 @@
     "mediaType": "series"
   },
   {
-    "id": 135,
+    "id": 132,
     "title": "Cape Fear",
     "genres": [
       "Horror",
       "Thriller"
     ],
-    "badges": [],
     "director": "Morten Tyldum",
     "poster_url": "images/CapeFear/CapeFearPoster.jpg",
     "backdrop_url": "images/CapeFear/CapeFearBackdrop.jpg",
@@ -1144,14 +1015,13 @@
     "mediaType": "series"
   },
   {
-    "id": 136,
+    "id": 133,
     "title": "I Will Find You",
     "genres": [
       "Crime",
       "Mystery",
       "Thriller"
     ],
-    "badges": [],
     "director": "Robert Hull",
     "poster_url": "images/IWillFindYou/IWillFindYouPoster.jpg",
     "backdrop_url": "images/IWillFindYou/IWillFindYouBackdrop.jpg",
@@ -1177,13 +1047,12 @@
     "mediaType": "series"
   },
   {
-    "id": 137,
+    "id": 134,
     "title": "Life, Larry and the Pursuit of Unhappiness",
     "genres": [
       "Comedy",
       "Drama"
     ],
-    "badges": [],
     "director": "",
     "poster_url": "images/LifeLarryandthePursuitofUnhappiness/LifeLarryandthePursuitofUnhappinessPoster.jpg",
     "backdrop_url": "images/LifeLarryandthePursuitofUnhappiness/LifeLarryandthePursuitofUnhappinessBackdrop.jpg",
@@ -1209,13 +1078,12 @@
     "mediaType": "series"
   },
   {
-    "id": 138,
+    "id": 135,
     "title": "Elle",
     "genres": [
       "Comedy",
       "Drama"
     ],
-    "badges": [],
     "director": "Laura Chinn",
     "poster_url": "images/Elle/EllePoster.jpg",
     "backdrop_url": "images/Elle/ElleBackdrop.jpg",
@@ -1241,45 +1109,12 @@
     "mediaType": "series"
   },
   {
-    "id": 139,
-    "title": "Little House on the Prairie",
-    "genres": [
-      "Drama",
-      "Adventure"
-    ],
-    "badges": [],
-    "director": "Rebecca Sonnenshine",
-    "poster_url": "images/LittleHouseonthePrairie/LittleHouseonthePrairiePoster.jpg",
-    "backdrop_url": "images/LittleHouseonthePrairie/LittleHouseonthePrairieBackdrop.jpg",
-    "summary": "When the big woods of Wisconsin becomes a difficult spot for hunting, Charles Ingalls reluctantly decides to move his family, pioneering west. Their life on the farm in Walnut Grove, Minnesota, in the 1870s and 1880s is full of adventure, tragedy, and triumph. Based on the books of Laura Ingalls Wilder.",
-    "countries": [
-      {
-        "name": "US",
-        "flag": "images/flags/US.png"
-      }
-    ],
-    "minAge": 13,
-    "rating": {
-      "score": 8,
-      "vote_count": 1052
-    },
-    "runtime": null,
-    "isTrending": false,
-    "releaseDate": "September 11, 1974",
-    "episodeRuntime": null,
-    "status": "ongoing",
-    "trailerKey": "",
-    "seasonsData": null,
-    "mediaType": "series"
-  },
-  {
-    "id": 140,
+    "id": 136,
     "title": "Lucky",
     "genres": [
       "Drama",
       "Thriller"
     ],
-    "badges": [],
     "director": "Jonathan van Tulleken",
     "poster_url": "images/Lucky/LuckyPoster.jpg",
     "backdrop_url": "images/Lucky/LuckyBackdrop.jpg",
@@ -1305,14 +1140,13 @@
     "mediaType": "series"
   },
   {
-    "id": 141,
+    "id": 137,
     "title": "Stuart Fails to Save the Universe",
     "genres": [
       "Science Fiction",
       "Action",
       "Adventure"
     ],
-    "badges": [],
     "director": "Joe Weisberg, Joel Fields",
     "poster_url": "images/StuartFailstoSavetheUniverse/StuartFailstoSavetheUniversePoster.jpg",
     "backdrop_url": "images/StuartFailstoSavetheUniverse/StuartFailstoSavetheUniverseBackdrop.jpg",
@@ -1338,13 +1172,12 @@
     "mediaType": "series"
   },
   {
-    "id": 142,
+    "id": 138,
     "title": "The Shards",
     "genres": [
       "Drama",
       "Thriller"
     ],
-    "badges": [],
     "director": "Evan Goldberg",
     "poster_url": "images/TheShards/TheShardsPoster.jpg",
     "backdrop_url": "images/TheShards/TheShardsBackdrop.jpg",
@@ -1370,13 +1203,12 @@
     "mediaType": "series"
   },
   {
-    "id": 143,
+    "id": 139,
     "title": "Sterling Point",
     "genres": [
       "Drama",
       "Thriller"
     ],
-    "badges": [],
     "director": "",
     "poster_url": "images/SterlingPoint/SterlingPointPoster.jpg",
     "backdrop_url": "images/SterlingPoint/SterlingPointBackdrop.jpg",
@@ -1402,14 +1234,13 @@
     "mediaType": "series"
   },
   {
-    "id": 144,
+    "id": 140,
     "title": "Lanterns",
     "genres": [
       "Science Fiction",
       "Action",
       "Adventure"
     ],
-    "badges": [],
     "director": "James Hawes",
     "poster_url": "images/Lanterns/LanternsPoster.jpg",
     "backdrop_url": "images/Lanterns/LanternsBackdrop.jpg",
@@ -1426,7 +1257,7 @@
       "vote_count": 870
     },
     "runtime": null,
-    "isTrending": false,
+    "isTrending": true,
     "releaseDate": "August 16, 2026",
     "episodeRuntime": null,
     "status": "ongoing",
@@ -1435,14 +1266,13 @@
     "mediaType": "series"
   },
   {
-    "id": 145,
+    "id": 141,
     "title": "Neagley",
     "genres": [
       "Crime",
       "Thriller",
       "Drama"
     ],
-    "badges": [],
     "director": "Nick Santora",
     "poster_url": "images/Neagley/NeagleyPoster.jpg",
     "backdrop_url": "images/Neagley/NeagleyBackdrop.jpg",
@@ -1459,7 +1289,7 @@
       "vote_count": 241
     },
     "runtime": null,
-    "isTrending": false,
+    "isTrending": true,
     "releaseDate": "September 16, 2026",
     "episodeRuntime": null,
     "status": "ongoing",
@@ -1468,14 +1298,13 @@
     "mediaType": "series"
   },
   {
-    "id": 146,
+    "id": 142,
     "title": "Monster: The Lizzie Borden Story",
     "genres": [
       "Crime",
       "Drama",
       "History"
     ],
-    "badges": [],
     "director": "Max Winkler",
     "poster_url": "images/MonsterTheLizzieBordenStory/MonsterTheLizzieBordenStoryPoster.jpg",
     "backdrop_url": "images/MonsterTheLizzieBordenStory/MonsterTheLizzieBordenStoryBackdrop.jpg",
@@ -1501,13 +1330,12 @@
     "mediaType": "series"
   },
   {
-    "id": 147,
+    "id": 143,
     "title": "East of Eden",
     "genres": [
       "Drama",
       "Romance"
     ],
-    "badges": [],
     "director": "Garth Davis",
     "poster_url": "images/EastofEden/EastofEdenPoster.jpg",
     "backdrop_url": "images/EastofEden/EastofEdenBackdrop.jpg",
@@ -1533,14 +1361,13 @@
     "mediaType": "series"
   },
   {
-    "id": 148,
+    "id": 144,
     "title": "The Body",
     "genres": [
       "Science Fiction",
       "Action",
       "Adventure"
     ],
-    "badges": [],
     "director": "",
     "poster_url": "images/TheBody/TheBodyPoster.jpg",
     "backdrop_url": "images/TheBody/TheBodyBackdrop.jpg",
@@ -1566,14 +1393,13 @@
     "mediaType": "series"
   },
   {
-    "id": 149,
+    "id": 145,
     "title": "Blade Runner 2099",
     "genres": [
       "Science Fiction",
       "Action",
       "Adventure"
     ],
-    "badges": [],
     "director": "Jonathan van Tulleken",
     "poster_url": "images/BladeRunner2099/BladeRunner2099Poster.jpg",
     "backdrop_url": "images/BladeRunner2099/BladeRunner2099Backdrop.jpg",
@@ -1599,13 +1425,12 @@
     "mediaType": "series"
   },
   {
-    "id": 150,
+    "id": 146,
     "title": "Harry Potter",
     "genres": [
       "Drama",
       "Thriller"
     ],
-    "badges": [],
     "director": "Mark Mylod",
     "poster_url": "images/HarryPotter/HarryPotterPoster.jpg",
     "backdrop_url": "images/HarryPotter/HarryPotterBackdrop.jpg",
@@ -1629,5 +1454,456 @@
     "trailerKey": "",
     "seasonsData": null,
     "mediaType": "series"
+  },
+  {
+    "id": 147,
+    "title": "Vikings",
+    "genres": [
+      "Action",
+      "Drama",
+      "Adventure"
+    ],
+    "director": "Michael Hirst",
+    "poster_url": "images/Vikings/VikingsPoster.jpg",
+    "backdrop_url": "images/Vikings/VikingsBackdrop.jpg",
+    "summary": "The adventures of Ragnar Lothbrok, a legendary Norse hero, and his family as they rise from farmer to raiders and rulers, exploring new lands and clashing with kingdoms across the Viking world.",
+    "countries": [
+      {
+        "name": "Canada",
+        "flag": "images/flags/Canada.png"
+      },
+      {
+        "name": "Ireland",
+        "flag": "images/flags/Ireland.png"
+      }
+    ],
+    "minAge": 17,
+    "rating": {
+      "score": 8.5,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": true,
+    "releaseDate": "March 3, 2013",
+    "episodeRuntime": 44,
+    "status": "ended",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "series"
+  },
+  {
+    "id": 148,
+    "title": "Peaky Blinders: The Immortal Man",
+    "genres": [
+      "Crime",
+      "Drama",
+      "History"
+    ],
+    "director": "Tom Harper",
+    "poster_url": "images/PeakyBlindersTheImmortalMan/PeakyBlindersTheImmortalManPoster.jpg",
+    "backdrop_url": "images/PeakyBlindersTheImmortalMan/PeakyBlindersTheImmortalManBackdrop.jpg",
+    "summary": "Birmingham, 1940. Amid the chaos of the Second World War, Tommy Shelby is drawn back from exile for a final reckoning that will decide the future of his family and his legacy.",
+    "countries": [
+      {
+        "name": "UK",
+        "flag": "images/flags/UK.png"
+      }
+    ],
+    "minAge": 17,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": true,
+    "releaseDate": "March 20, 2026",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 149,
+    "title": "Project Hail Mary",
+    "genres": [
+      "Science Fiction",
+      "Adventure",
+      "Drama"
+    ],
+    "director": "Phil Lord, Christopher Miller",
+    "poster_url": "images/ProjectHailMary/ProjectHailMaryPoster.jpg",
+    "backdrop_url": "images/ProjectHailMary/ProjectHailMaryBackdrop.jpg",
+    "summary": "A lone astronaut wakes up aboard a spacecraft light-years from Earth with no memory of how he got there. As his memory returns, he must solve the mystery of a fading star and find a way to save humanity.",
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 13,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "March 20, 2026",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 150,
+    "title": "The Super Mario Galaxy Movie",
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ],
+    "director": "Aaron Horvath, Michael Jelenic",
+    "poster_url": "images/TheSuperMarioGalaxyMovie/TheSuperMarioGalaxyMoviePoster.jpg",
+    "backdrop_url": "images/TheSuperMarioGalaxyMovie/TheSuperMarioGalaxyMovieBackdrop.jpg",
+    "summary": "Mario and his friends embark on a new intergalactic adventure across strange worlds in the follow-up to The Super Mario Bros. Movie.",
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 7,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "April 3, 2026",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 151,
+    "title": "Michael",
+    "genres": [
+      "Drama",
+      "Music",
+      "History"
+    ],
+    "director": "Antoine Fuqua",
+    "poster_url": "images/Michael/MichaelPoster.jpg",
+    "backdrop_url": "images/Michael/MichaelBackdrop.jpg",
+    "summary": "A biographical drama following the life, music, and legacy of Michael Jackson, from his early days with the Jackson 5 to his rise as a global superstar.",
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 13,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "April 24, 2026",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 152,
+    "title": "The Devil Wears Prada 2",
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "director": "David Frankel",
+    "poster_url": "images/TheDevilWearsPrada2/TheDevilWearsPrada2Poster.jpg",
+    "backdrop_url": "images/TheDevilWearsPrada2/TheDevilWearsPrada2Backdrop.jpg",
+    "summary": "Miranda Priestly navigates the changing magazine industry and a new professional rivalry as she crosses paths again with Andy Sachs.",
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 13,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "May 1, 2026",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 153,
+    "title": "Mortal Kombat II",
+    "genres": [
+      "Action",
+      "Fantasy",
+      "Adventure"
+    ],
+    "director": "Simon McQuoid",
+    "poster_url": "images/MortalKombatII/MortalKombatIIPoster.jpg",
+    "backdrop_url": "images/MortalKombatII/MortalKombatIIBackdrop.jpg",
+    "summary": "The champions of Earthrealm face a new battle against the forces of Outworld, with Johnny Cage joining the fight in the high-stakes tournament.",
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 17,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "May 8, 2026",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 154,
+    "title": "The Mandalorian and Grogu",
+    "genres": [
+      "Science Fiction",
+      "Action",
+      "Adventure"
+    ],
+    "director": "Jon Favreau",
+    "poster_url": "images/TheMandalorianAndGrogu/TheMandalorianAndGroguPoster.jpg",
+    "backdrop_url": "images/TheMandalorianAndGrogu/TheMandalorianAndGroguBackdrop.jpg",
+    "summary": "The Mandalorian and his young apprentice Grogu undertake a new mission as the New Republic seeks to protect the galaxy from dangerous warlords.",
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 13,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "May 22, 2026",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 155,
+    "title": "Toy Story 5",
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ],
+    "director": "Andrew Stanton",
+    "poster_url": "images/ToyStory5/ToyStory5Poster.jpg",
+    "backdrop_url": "images/ToyStory5/ToyStory5Backdrop.jpg",
+    "summary": "Woody, Buzz, Jessie, and the rest of the toys face a new challenge as technology changes the way children play.",
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 7,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "June 19, 2026",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 156,
+    "title": "Supergirl",
+    "genres": [
+      "Action",
+      "Science Fiction",
+      "Adventure"
+    ],
+    "director": "Craig Gillespie",
+    "poster_url": "images/Supergirl/SupergirlPoster.jpg",
+    "backdrop_url": "images/Supergirl/SupergirlBackdrop.jpg",
+    "summary": "Kara Zor-El sets out on a spacefaring journey that tests her strength, resolve, and understanding of justice.",
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 13,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "June 26, 2026",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 157,
+    "title": "Moana",
+    "genres": [
+      "Adventure",
+      "Fantasy",
+      "Family"
+    ],
+    "director": "Thomas Kail",
+    "poster_url": "images/Moana/MoanaPoster.jpg",
+    "backdrop_url": "images/Moana/MoanaBackdrop.jpg",
+    "summary": "A live-action reimagining of Moana's ocean-crossing adventure as she answers the call of the sea and sets out to save her people.",
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 7,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "July 10, 2026",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 158,
+    "title": "The Odyssey",
+    "genres": [
+      "Adventure",
+      "Drama",
+      "Fantasy"
+    ],
+    "director": "Christopher Nolan",
+    "poster_url": "images/TheOdyssey/TheOdysseyPoster.jpg",
+    "backdrop_url": "images/TheOdyssey/TheOdysseyBackdrop.jpg",
+    "summary": "A mythic action epic following Odysseus on his long and perilous journey home after the Trojan War.",
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 13,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "July 17, 2026",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 159,
+    "title": "Spider-Man: Brand New Day",
+    "genres": [
+      "Action",
+      "Science Fiction",
+      "Adventure"
+    ],
+    "director": "Destin Daniel Cretton",
+    "poster_url": "images/SpiderManBrandNewDay/SpiderManBrandNewDayPoster.jpg",
+    "backdrop_url": "images/SpiderManBrandNewDay/SpiderManBrandNewDayBackdrop.jpg",
+    "summary": "Peter Parker faces a new chapter as Spider-Man, navigating life after the world has forgotten his identity.",
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 13,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "July 31, 2026",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
+    "id": 160,
+    "title": "The Hunger Games: Sunrise on the Reaping",
+    "genres": [
+      "Science Fiction",
+      "Action",
+      "Drama"
+    ],
+    "director": "Francis Lawrence",
+    "poster_url": "images/TheHungerGamesSunriseOnTheReaping/TheHungerGamesSunriseOnTheReapingPoster.jpg",
+    "backdrop_url": "images/TheHungerGamesSunriseOnTheReaping/TheHungerGamesSunriseOnTheReapingBackdrop.jpg",
+    "summary": "Set decades before Katniss Everdeen's story, the film follows young Haymitch Abernathy during the Second Quarter Quell and the events that shape his life.",
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 13,
+    "rating": {
+      "score": 0,
+      "vote_count": 0
+    },
+    "runtime": null,
+    "isTrending": false,
+    "releaseDate": "November 20, 2026",
+    "episodeRuntime": null,
+    "status": "upcoming",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
   }
 ]
