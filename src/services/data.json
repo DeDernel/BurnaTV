@@ -1128,7 +1128,7 @@
     "minAge": 13,
     "rating": {
       "score": 7.3,
-      "vote_count": 317
+      "vote_count": 318
     },
     "runtime": null,
     "isTrending": false,
@@ -1466,7 +1466,7 @@
     "director": "Michael Hirst",
     "poster_url": "images/Vikings/VikingsPoster.jpg",
     "backdrop_url": "images/Vikings/VikingsBackdrop.jpg",
-    "summary": "The adventures of Ragnar Lothbrok, a legendary Norse hero, and his family as they rise from farmer to raiders and rulers, exploring new lands and clashing with kingdoms across the Viking world.",
+    "summary": "The adventures of Ragnar Lothbrok, the greatest hero of his age. The series tells the sagas of Ragnar's band of Viking brothers and his family, as he rises to become King of the Viking tribes. As well as being a fearless warrior, Ragnar embodies the Norse traditions of devotion to the gods. Legend has it that he was a direct descendant of Odin, the god of war and warriors.",
     "countries": [
       {
         "name": "Canada",
@@ -1479,8 +1479,8 @@
     ],
     "minAge": 17,
     "rating": {
-      "score": 8.5,
-      "vote_count": 0
+      "score": 8.1,
+      "vote_count": 8010
     },
     "runtime": null,
     "isTrending": true,
@@ -1502,7 +1502,7 @@
     "director": "Tom Harper",
     "poster_url": "images/PeakyBlindersTheImmortalMan/PeakyBlindersTheImmortalManPoster.jpg",
     "backdrop_url": "images/PeakyBlindersTheImmortalMan/PeakyBlindersTheImmortalManBackdrop.jpg",
-    "summary": "Birmingham, 1940. Amid the chaos of the Second World War, Tommy Shelby is drawn back from exile for a final reckoning that will decide the future of his family and his legacy.",
+    "summary": "After his estranged son gets embroiled in a Nazi plot, self-exiled gangster Tommy Shelby must return to Birmingham to save his family — and his nation.",
     "countries": [
       {
         "name": "UK",
@@ -1511,12 +1511,12 @@
     ],
     "minAge": 17,
     "rating": {
-      "score": 0,
-      "vote_count": 0
+      "score": 7.2,
+      "vote_count": 1316
     },
     "runtime": null,
     "isTrending": true,
-    "releaseDate": "March 20, 2026",
+    "releaseDate": "March 5, 2026",
     "episodeRuntime": null,
     "status": "released",
     "trailerKey": "",
@@ -1534,7 +1534,7 @@
     "director": "Phil Lord, Christopher Miller",
     "poster_url": "images/ProjectHailMary/ProjectHailMaryPoster.jpg",
     "backdrop_url": "images/ProjectHailMary/ProjectHailMaryBackdrop.jpg",
-    "summary": "A lone astronaut wakes up aboard a spacecraft light-years from Earth with no memory of how he got there. As his memory returns, he must solve the mystery of a fading star and find a way to save humanity.",
+    "summary": "Science teacher Ryland Grace wakes up on a spaceship light years from home with no recollection of who he is or how he got there. As his memory returns, he begins to uncover his mission: solve the riddle of the mysterious substance causing the sun to die out. He must call on his scientific knowledge and unorthodox ideas to save everything on Earth from extinction.",
     "countries": [
       {
         "name": "US",
@@ -1543,12 +1543,12 @@
     ],
     "minAge": 13,
     "rating": {
-      "score": 0,
-      "vote_count": 0
+      "score": 8.6,
+      "vote_count": 8820
     },
     "runtime": null,
     "isTrending": false,
-    "releaseDate": "March 20, 2026",
+    "releaseDate": "March 15, 2026",
     "episodeRuntime": null,
     "status": "released",
     "trailerKey": "",
@@ -1566,7 +1566,7 @@
     "director": "Aaron Horvath, Michael Jelenic",
     "poster_url": "images/TheSuperMarioGalaxyMovie/TheSuperMarioGalaxyMoviePoster.jpg",
     "backdrop_url": "images/TheSuperMarioGalaxyMovie/TheSuperMarioGalaxyMovieBackdrop.jpg",
-    "summary": "Mario and his friends embark on a new intergalactic adventure across strange worlds in the follow-up to The Super Mario Bros. Movie.",
+    "summary": "Having thwarted Bowser's previous plot to marry Princess Peach, Mario and Luigi now face a fresh threat in Bowser Jr., who is determined to liberate his father from captivity and restore the family legacy. Alongside companions new and old, the brothers travel across the stars to stop the young heir's crusade.",
     "countries": [
       {
         "name": "US",
@@ -1575,12 +1575,12 @@
     ],
     "minAge": 7,
     "rating": {
-      "score": 0,
-      "vote_count": 0
+      "score": 8.2,
+      "vote_count": 3979
     },
     "runtime": null,
     "isTrending": false,
-    "releaseDate": "April 3, 2026",
+    "releaseDate": "April 1, 2026",
     "episodeRuntime": null,
     "status": "released",
     "trailerKey": "",
@@ -1598,7 +1598,7 @@
     "director": "Antoine Fuqua",
     "poster_url": "images/Michael/MichaelPoster.jpg",
     "backdrop_url": "images/Michael/MichaelBackdrop.jpg",
-    "summary": "A biographical drama following the life, music, and legacy of Michael Jackson, from his early days with the Jackson 5 to his rise as a global superstar.",
+    "summary": "The story of Michael Jackson, one of the most influential artists the world has ever known, and his life beyond the music. His journey from the discovery of his extraordinary talent as the lead of the Jackson Five, to the visionary artist whose creative ambition fueled a relentless pursuit to become the biggest entertainer in the world, highlighting both his life off-stage and some of the most iconic performances from his early solo career.",
     "countries": [
       {
         "name": "US",
@@ -1607,12 +1607,12 @@
     ],
     "minAge": 13,
     "rating": {
-      "score": 0,
-      "vote_count": 0
+      "score": 8.6,
+      "vote_count": 4716
     },
     "runtime": null,
     "isTrending": false,
-    "releaseDate": "April 24, 2026",
+    "releaseDate": "April 22, 2026",
     "episodeRuntime": null,
     "status": "released",
     "trailerKey": "",
@@ -1629,7 +1629,7 @@
     "director": "David Frankel",
     "poster_url": "images/TheDevilWearsPrada2/TheDevilWearsPrada2Poster.jpg",
     "backdrop_url": "images/TheDevilWearsPrada2/TheDevilWearsPrada2Backdrop.jpg",
-    "summary": "Miranda Priestly navigates the changing magazine industry and a new professional rivalry as she crosses paths again with Andy Sachs.",
+    "summary": "Andy Sachs returns to Runway as Miranda Priestly navigates a new media landscape and Runway's position within. The duo reconnect with former assistant Emily Charlton, now the head of a luxury brand that possesses funding which could ensure Runway's survival.",
     "countries": [
       {
         "name": "US",
@@ -1638,12 +1638,12 @@
     ],
     "minAge": 13,
     "rating": {
-      "score": 0,
-      "vote_count": 0
+      "score": 7,
+      "vote_count": 2552
     },
     "runtime": null,
     "isTrending": false,
-    "releaseDate": "May 1, 2026",
+    "releaseDate": "April 29, 2026",
     "episodeRuntime": null,
     "status": "released",
     "trailerKey": "",
@@ -1661,7 +1661,7 @@
     "director": "Simon McQuoid",
     "poster_url": "images/MortalKombatII/MortalKombatIIPoster.jpg",
     "backdrop_url": "images/MortalKombatII/MortalKombatIIBackdrop.jpg",
-    "summary": "The champions of Earthrealm face a new battle against the forces of Outworld, with Johnny Cage joining the fight in the high-stakes tournament.",
+    "summary": "The fan favorite champions—now joined by Johnny Cage himself—are pitted against one another in the ultimate, no-holds barred, gory battle to defeat the dark rule of Shao Kahn that threatens the very existence of the Earthrealm and its defenders.",
     "countries": [
       {
         "name": "US",
@@ -1670,12 +1670,12 @@
     ],
     "minAge": 17,
     "rating": {
-      "score": 0,
-      "vote_count": 0
+      "score": 7.7,
+      "vote_count": 2784
     },
     "runtime": null,
     "isTrending": false,
-    "releaseDate": "May 8, 2026",
+    "releaseDate": "May 6, 2026",
     "episodeRuntime": null,
     "status": "released",
     "trailerKey": "",
@@ -1691,9 +1691,9 @@
       "Adventure"
     ],
     "director": "Jon Favreau",
-    "poster_url": "images/TheMandalorianAndGrogu/TheMandalorianAndGroguPoster.jpg",
-    "backdrop_url": "images/TheMandalorianAndGrogu/TheMandalorianAndGroguBackdrop.jpg",
-    "summary": "The Mandalorian and his young apprentice Grogu undertake a new mission as the New Republic seeks to protect the galaxy from dangerous warlords.",
+    "poster_url": "images/TheMandalorianandGrogu/TheMandalorianandGroguPoster.jpg",
+    "backdrop_url": "images/TheMandalorianandGrogu/TheMandalorianandGroguBackdrop.jpg",
+    "summary": "The evil Empire has fallen, and Imperial warlords remain scattered throughout the galaxy. As the fledgling New Republic works to protect everything the Rebellion fought for, they have enlisted the help of legendary Mandalorian bounty hunter Din Djarin and his young apprentice Grogu.",
     "countries": [
       {
         "name": "US",
@@ -1702,12 +1702,12 @@
     ],
     "minAge": 13,
     "rating": {
-      "score": 0,
-      "vote_count": 0
+      "score": 7.5,
+      "vote_count": 1985
     },
     "runtime": null,
     "isTrending": false,
-    "releaseDate": "May 22, 2026",
+    "releaseDate": "May 20, 2026",
     "episodeRuntime": null,
     "status": "released",
     "trailerKey": "",
@@ -1725,7 +1725,7 @@
     "director": "Andrew Stanton",
     "poster_url": "images/ToyStory5/ToyStory5Poster.jpg",
     "backdrop_url": "images/ToyStory5/ToyStory5Backdrop.jpg",
-    "summary": "Woody, Buzz, Jessie, and the rest of the toys face a new challenge as technology changes the way children play.",
+    "summary": "When Bonnie receives a Lilypad tablet as a gift and becomes obsessed, Buzz, Woody, Jessie and the rest of the gang's jobs become exponentially harder when they have to go head to head with the all-new threat to playtime.",
     "countries": [
       {
         "name": "US",
@@ -1734,12 +1734,12 @@
     ],
     "minAge": 7,
     "rating": {
-      "score": 0,
-      "vote_count": 0
+      "score": 8.3,
+      "vote_count": 2856
     },
     "runtime": null,
     "isTrending": false,
-    "releaseDate": "June 19, 2026",
+    "releaseDate": "June 17, 2026",
     "episodeRuntime": null,
     "status": "released",
     "trailerKey": "",
@@ -1757,7 +1757,7 @@
     "director": "Craig Gillespie",
     "poster_url": "images/Supergirl/SupergirlPoster.jpg",
     "backdrop_url": "images/Supergirl/SupergirlBackdrop.jpg",
-    "summary": "Kara Zor-El sets out on a spacefaring journey that tests her strength, resolve, and understanding of justice.",
+    "summary": "When an unexpected and ruthless adversary strikes too close to home, Kara Zor-El, aka Supergirl, reluctantly joins forces with an unlikely companion on an epic, interstellar journey of vengeance and justice.",
     "countries": [
       {
         "name": "US",
@@ -1766,12 +1766,12 @@
     ],
     "minAge": 13,
     "rating": {
-      "score": 0,
-      "vote_count": 0
+      "score": 6.6,
+      "vote_count": 2724
     },
     "runtime": null,
     "isTrending": false,
-    "releaseDate": "June 26, 2026",
+    "releaseDate": "June 24, 2026",
     "episodeRuntime": null,
     "status": "released",
     "trailerKey": "",
@@ -1789,7 +1789,7 @@
     "director": "Thomas Kail",
     "poster_url": "images/Moana/MoanaPoster.jpg",
     "backdrop_url": "images/Moana/MoanaBackdrop.jpg",
-    "summary": "A live-action reimagining of Moana's ocean-crossing adventure as she answers the call of the sea and sets out to save her people.",
+    "summary": "Teenage Moana answers the Ocean's call and, for the first time, voyages beyond the reef of her island of Motunui with infamous demigod Maui on an unforgettable journey to restore prosperity to her people.",
     "countries": [
       {
         "name": "US",
@@ -1798,12 +1798,12 @@
     ],
     "minAge": 7,
     "rating": {
-      "score": 0,
-      "vote_count": 0
+      "score": 7.4,
+      "vote_count": 1049
     },
     "runtime": null,
     "isTrending": false,
-    "releaseDate": "July 10, 2026",
+    "releaseDate": "July 8, 2026",
     "episodeRuntime": null,
     "status": "released",
     "trailerKey": "",
@@ -1821,7 +1821,7 @@
     "director": "Christopher Nolan",
     "poster_url": "images/TheOdyssey/TheOdysseyPoster.jpg",
     "backdrop_url": "images/TheOdyssey/TheOdysseyBackdrop.jpg",
-    "summary": "A mythic action epic following Odysseus on his long and perilous journey home after the Trojan War.",
+    "summary": "Odysseus, the legendary King of Ithaca, embarks on a long and perilous journey home following the Trojan War. Throughout his voyage, he is forced to confront the whims of gods, mythological monsters, and trials that stretch both his cunning and his humanity to the breaking point.",
     "countries": [
       {
         "name": "US",
@@ -1830,12 +1830,12 @@
     ],
     "minAge": 13,
     "rating": {
-      "score": 0,
-      "vote_count": 0
+      "score": 8,
+      "vote_count": 4673
     },
     "runtime": null,
     "isTrending": false,
-    "releaseDate": "July 17, 2026",
+    "releaseDate": "July 15, 2026",
     "episodeRuntime": null,
     "status": "released",
     "trailerKey": "",
@@ -1853,7 +1853,7 @@
     "director": "Destin Daniel Cretton",
     "poster_url": "images/SpiderManBrandNewDay/SpiderManBrandNewDayPoster.jpg",
     "backdrop_url": "images/SpiderManBrandNewDay/SpiderManBrandNewDayBackdrop.jpg",
-    "summary": "Peter Parker faces a new chapter as Spider-Man, navigating life after the world has forgotten his identity.",
+    "summary": "Fighting crime full-time as Spider-Man in a world that doesn't remember him—and the pressure of seeing his old friends move on without him—sparks a change in Peter Parker he may not have the power to control. But that transformation might also be the only thing that can stop a shocking new threat to the city and those he loves - a powerful villain no one can even see.",
     "countries": [
       {
         "name": "US",
@@ -1862,12 +1862,12 @@
     ],
     "minAge": 13,
     "rating": {
-      "score": 0,
-      "vote_count": 0
+      "score": 8.5,
+      "vote_count": 6739
     },
     "runtime": null,
     "isTrending": false,
-    "releaseDate": "July 31, 2026",
+    "releaseDate": "July 29, 2026",
     "episodeRuntime": null,
     "status": "released",
     "trailerKey": "",
@@ -1883,9 +1883,9 @@
       "Drama"
     ],
     "director": "Francis Lawrence",
-    "poster_url": "images/TheHungerGamesSunriseOnTheReaping/TheHungerGamesSunriseOnTheReapingPoster.jpg",
-    "backdrop_url": "images/TheHungerGamesSunriseOnTheReaping/TheHungerGamesSunriseOnTheReapingBackdrop.jpg",
-    "summary": "Set decades before Katniss Everdeen's story, the film follows young Haymitch Abernathy during the Second Quarter Quell and the events that shape his life.",
+    "poster_url": "images/TheHungerGamesSunriseontheReaping/TheHungerGamesSunriseontheReapingPoster.jpg",
+    "backdrop_url": "images/TheHungerGamesSunriseontheReaping/TheHungerGamesSunriseontheReapingBackdrop.jpg",
+    "summary": "Return to the world of Panem 24 years before the events of The Hunger Games, starting on the morning of the reaping of the 50th Hunger Games, also known as the Second Quarter Quell.",
     "countries": [
       {
         "name": "US",
@@ -1899,7 +1899,7 @@
     },
     "runtime": null,
     "isTrending": false,
-    "releaseDate": "November 20, 2026",
+    "releaseDate": "November 18, 2026",
     "episodeRuntime": null,
     "status": "upcoming",
     "trailerKey": "",
