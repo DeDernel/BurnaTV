@@ -67,7 +67,7 @@ export class Sliders {
     }
     init(data){
         if (!data || data.length === 0) return;
-        this.trendingSliders = data.filter(get => get.isTrending  && get.backdrop_url.trim() !== '');
+        this.trendingSliders = data.filter(get => get.isTrending  && get.backdrop_url.trim() !== '').slice(0,5);
         this.renderSlide();
 
         clearInterval(this.headerSlideStatus);
@@ -115,67 +115,124 @@ export class Sliders {
 }
 
 export class MovieRow {
-    constructor (currentContainer , key){
-        this.container = document.querySelector(currentContainer);
+    constructor (){
+        this.container = document.querySelector('.sections');
         if(!this.container) return;
 
 
         this.moviesData = [];
-        this.filterType = key;
+
+
+        this.sections = [
+            { header: 'Trending Now', subName: 'The hottest titles right now' , type: 'trends'} ,
+            { header: 'Coming Soon' , subName: 'Don’t miss what’s next' , type: 'upcoming'},
+            { header: 'New Releases', subName: 'Freshly added to our collection', type: 'new'},
+        ]
         
     }
     init(data){
         this.moviesData = data;
         this.createRowHTML();
     }
-    filterRow(type){
-        const today = new Date();
-
-        const filteredData = (days) => {
-            const limitDate = new Date();
-            limitDate.setDate(today.getDate() - days);
-            
-            return this.moviesData.filter(get => {
-                const movieDate = new Date(get.releaseDate);
-                return movieDate >= limitDate;
-            });
-        }
-
-        switch(type){
-            case 'week': return filteredData(40);
-            case 'new': return filteredData(20);
-            default: this.moviesData;
-        }
-    }
     createRowHTML(){
-            let rowContent = this.filterRow(this.filterType);
-            if(rowContent.length <= 0) return;
+        const today = new Date();
+        
+        this.type = 
+            {
+                trends: this.moviesData.filter(movie => movie.isTrending),
+                upcoming: this.moviesData.filter(movie => movie.status === 'upcoming'),
+                new: this.moviesData.filter(movie => {
+                    const movieDate = new Date(movie.releaseDate);
+                    if(isNaN(movieDate)) return false;
+                    if(movieDate > today) return false;
+                    const limit = (today.getFullYear() - movieDate.getFullYear()) * 12 + (today.getMonth() - movieDate.getMonth());
+                    if (limit < 3 && movie.rating.score !== 0) return true;
+                })
+            },
+            
+        
 
+
+        this.sections.forEach(field => {
+
+            const section = document.createElement('section');
+            section.className = 'relative';
+            section.className = 'flex flex-col gap-3 py-2 px-4 bg-gray-900';
+            const headerBox = document.createElement('div');
+            const span = document.createElement('span');
+            span.textContent = ' / ';
+            span.className = 'text-xl text-violet-500 font-bold';
+            const header = document.createElement('h3');
+            header.className = 'text-white';
+            header.textContent = field.header;
+            const list = document.createElement('div');
+            list.className = 'horiz-movie-list flex overflow-x-auto relative no-scrollbar';
+
+            this.type[field.type].forEach(get => {
+                const movie = MovieComponent.createCard(get , {variant: 'default'} , 'relative w-48 flex-shrink-0 group');
+                list.appendChild(movie);
+            });
+
+            const wrapper = document.createElement('div');
+            wrapper.className = 'flex justify-between';
+            const view = document.createElement('a');
+            view.href = '';
+            view.textContent = 'View All';
+            view.className = 'text-violet-500';
+            const subTitle = document.createElement('span');
+            subTitle.textContent = field.subName;
+            subTitle.className = 'text-gray-500 text-xs';
+            const headerWrapper = document.createElement('div');
+            headerWrapper.append(span , header);
+            headerWrapper.className = 'flex gap-2';
 
             const scrollBtns = document.createElement('div');
-            scrollBtns.innerHTML = `
-                    <button class="next hidden group-hover:block absolute top-1/2 z-10 right-5 text-2xl text-gray-100"><i class="fa-solid fa-angle-right"></i></button>
-                    <button class="prev hidden group-hover:block absolute top-1/2 z-10 left-5 text-2xl text-gray-100"><i class="fa-solid fa-angle-left"></i></button>
-                `
+            scrollBtns.className = 'pointer-events-none absolute text-white text-2xl absolute inset-0 z-10 flex items-center justify-between px-2'; 
+
+            const leftBtn = document.createElement('button');
+            const rightBtn = document.createElement('button');
+            leftBtn.className = 'absolute top-1/2 left-5 prev';
+            rightBtn.className = 'absolute top-1/2 right-5 next';
+            rightBtn.innerHTML = '<i class="fa-solid fa-arrow-right"></i>';
+            leftBtn.innerHTML = '<i class="fa-solid fa-arrow-left"></i>';
+
             const contentWrapper = document.createElement('div');
-            contentWrapper.className = 'relative w-full group mx-2';
-
-            contentWrapper.appendChild(scrollBtns);
-
-            const scrollContent = document.createElement('div');
-            scrollContent.className = 'flex gap-2 overflow-x-scroll no-scrollbar my-2';
+            contentWrapper.className = 'relative';
             
-            rowContent.forEach(get => {
-                const movieCard = MovieComponent.createCard(get , {variant: 'default'} , 'w-48 relative flex flex-col flex-shrink-0');
-                scrollContent.appendChild(movieCard);
+            contentWrapper.append(list , scrollBtns);
+            scrollBtns.append(rightBtn , leftBtn);
+            wrapper.append(headerWrapper , view);
+            headerBox.append(wrapper , subTitle);
+            section.append(headerBox , contentWrapper);
+            this.container.appendChild(section);
+
+
+            const watchScrollBtns = () => {
+                setTimeout(() => {
+                    if(list.scrollWidth > contentWrapper.clientWidth){
+                        scrollBtns.classList.remove('hidden');
+                    }else{
+                        scrollBtns.classList.add('hidden');
+                    }
+                },50);
+            }
+            const resObs = new ResizeObserver(() => {
+                watchScrollBtns();
             });
-            const overlay = document.createElement('div');
-            overlay.className = 'absolute top-0 right-0 h-full w-20 bg-gradient-to-l from-black to-transparent pointer-events-none'
-            contentWrapper.appendChild(scrollContent);
-            this.container.append(contentWrapper , overlay);
-            const rowScroll = new Scroller(scrollContent);
-            scrollBtns.querySelector('.prev').addEventListener('click' , () => rowScroll.prevMovie());
-            scrollBtns.querySelector('.next').addEventListener('click' , () => rowScroll.nextMovie());
+            resObs.observe(contentWrapper);
+
+
+            const scroll = new Scroller(list);
+            section.addEventListener('click' , event => {
+                if(event.target.closest('.prev')){
+                    scroll.prevMovie();
+                }
+                if(event.target.closest('.next')){
+                    scroll.nextMovie();
+                }
+            });
+        });
+
     }
 }
 

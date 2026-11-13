@@ -330,7 +330,7 @@ export class FilterOperation{
         this.timer = setTimeout(() => {
             this.allContainer.innerHTML = '';
             list.forEach(movie => {
-                const movieBox = MovieComponent.createCard(movie , {variant: 'default'} , 'relative w-52 flex flex-col flex-shrink-0');
+                const movieBox = MovieComponent.createCard(movie , {variant: 'movieList'} , 'group relative w-52 flex flex-col flex-shrink-0');
                 frag.append(movieBox);
             });
             this.allContainer.appendChild(frag);

@@ -30,8 +30,7 @@ initApp();
 
 function initMainPage(){
     new UI.Sliders().init(movies);
-    new UI.MovieRow('.weeklyTrends' , 'week').init(movies);
-    new UI.MovieRow('.newReleased' , 'new').init(movies);
+    new UI.MovieRow().init(movies);
     // new UI.Casts().init(movies);
 }
 function initBrowsePage(){

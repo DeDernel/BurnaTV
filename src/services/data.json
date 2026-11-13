@@ -1,5 +1,133 @@
 [
   {
+    "id": 142,
+    "title": "Monster: The Lizzie Borden Story",
+    "genres": [
+      "Crime",
+      "Drama",
+      "History"
+    ],
+    "director": "Max Winkler",
+    "poster_url": "images/MonsterTheLizzieBordenStory/MonsterTheLizzieBordenStoryPoster.jpg",
+    "backdrop_url": "images/MonsterTheLizzieBordenStory/MonsterTheLizzieBordenStoryBackdrop.jpg",
+    "summary": "Trapped in a cruel Victorian-era household, Lizzie Borden kills her parents in a gory ax murder that shocks the nation.",
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 17,
+    "rating": {
+      "score": 7.1,
+      "vote_count": 254
+    },
+    "runtime": null,
+    "isTrending": true,
+    "releaseDate": "September 17, 2026",
+    "episodeRuntime": null,
+    "status": "ongoing",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "series"
+  },
+  {
+    "id": 131,
+    "title": "Spider-Noir",
+    "genres": [
+      "Science Fiction",
+      "Action",
+      "Adventure"
+    ],
+    "director": "Harry Bradbeer",
+    "poster_url": "images/SpiderNoir/SpiderNoirPoster.jpg",
+    "backdrop_url": "images/SpiderNoir/SpiderNoirBackdrop.jpg",
+    "summary": "Ben Reilly, an aging and down on his luck private investigator in 1930s New York, is forced to grapple with his past life as the city's one and only superhero.",
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 13,
+    "rating": {
+      "score": 8.3,
+      "vote_count": 934
+    },
+    "runtime": null,
+    "isTrending": true,
+    "releaseDate": "May 25, 2026",
+    "episodeRuntime": null,
+    "status": "ongoing",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "series"
+  },
+  {
+    "id": 119,
+    "title": "Star Wars: Maul – Shadow Lord",
+    "genres": [
+      "Science Fiction",
+      "Action",
+      "Adventure"
+    ],
+    "director": "Brad Rau",
+    "poster_url": "images/StarWarsMaulShadowLord/StarWarsMaulShadowLordPoster.jpg",
+    "backdrop_url": "images/StarWarsMaulShadowLord/StarWarsMaulShadowLordBackdrop.jpg",
+    "summary": "After the Clone Wars, Maul plots to rebuild his criminal syndicate on a planet untouched by the Empire.",
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 13,
+    "rating": {
+      "score": 8.5,
+      "vote_count": 254
+    },
+    "runtime": null,
+    "isTrending": true,
+    "releaseDate": "April 6, 2026",
+    "episodeRuntime": null,
+    "status": "ongoing",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "series"
+  },
+  {
+    "id": 158,
+    "title": "The Odyssey",
+    "genres": [
+      "Adventure",
+      "Drama",
+      "Fantasy"
+    ],
+    "director": "Christopher Nolan",
+    "poster_url": "images/TheOdyssey/TheOdysseyPoster.jpg",
+    "backdrop_url": "images/TheOdyssey/TheOdysseyBackdrop.jpg",
+    "summary": "Odysseus, the legendary King of Ithaca, embarks on a long and perilous journey home following the Trojan War. Throughout his voyage, he is forced to confront the whims of gods, mythological monsters, and trials that stretch both his cunning and his humanity to the breaking point.",
+    "countries": [
+      {
+        "name": "US",
+        "flag": "images/flags/US.png"
+      }
+    ],
+    "minAge": 13,
+    "rating": {
+      "score": 8,
+      "vote_count": 4673
+    },
+    "runtime": null,
+    "isTrending": true,
+    "releaseDate": "July 15, 2026",
+    "episodeRuntime": null,
+    "status": "released",
+    "trailerKey": "",
+    "seasonsData": null,
+    "mediaType": "movie"
+  },
+  {
     "id": 101,
     "title": "Run Away",
     "genres": [
@@ -571,38 +699,6 @@
     "mediaType": "series"
   },
   {
-    "id": 119,
-    "title": "Star Wars: Maul – Shadow Lord",
-    "genres": [
-      "Science Fiction",
-      "Action",
-      "Adventure"
-    ],
-    "director": "Brad Rau",
-    "poster_url": "images/StarWarsMaulShadowLord/StarWarsMaulShadowLordPoster.jpg",
-    "backdrop_url": "images/StarWarsMaulShadowLord/StarWarsMaulShadowLordBackdrop.jpg",
-    "summary": "After the Clone Wars, Maul plots to rebuild his criminal syndicate on a planet untouched by the Empire.",
-    "countries": [
-      {
-        "name": "US",
-        "flag": "images/flags/US.png"
-      }
-    ],
-    "minAge": 13,
-    "rating": {
-      "score": 8.5,
-      "vote_count": 254
-    },
-    "runtime": null,
-    "isTrending": true,
-    "releaseDate": "April 6, 2026",
-    "episodeRuntime": null,
-    "status": "ongoing",
-    "trailerKey": "",
-    "seasonsData": null,
-    "mediaType": "series"
-  },
-  {
     "id": 120,
     "title": "The Testaments",
     "genres": [
@@ -951,38 +1047,7 @@
     "seasonsData": null,
     "mediaType": "series"
   },
-  {
-    "id": 131,
-    "title": "Spider-Noir",
-    "genres": [
-      "Science Fiction",
-      "Action",
-      "Adventure"
-    ],
-    "director": "Harry Bradbeer",
-    "poster_url": "images/SpiderNoir/SpiderNoirPoster.jpg",
-    "backdrop_url": "images/SpiderNoir/SpiderNoirBackdrop.jpg",
-    "summary": "Ben Reilly, an aging and down on his luck private investigator in 1930s New York, is forced to grapple with his past life as the city's one and only superhero.",
-    "countries": [
-      {
-        "name": "US",
-        "flag": "images/flags/US.png"
-      }
-    ],
-    "minAge": 13,
-    "rating": {
-      "score": 8.3,
-      "vote_count": 934
-    },
-    "runtime": null,
-    "isTrending": true,
-    "releaseDate": "May 25, 2026",
-    "episodeRuntime": null,
-    "status": "ongoing",
-    "trailerKey": "",
-    "seasonsData": null,
-    "mediaType": "series"
-  },
+  
   {
     "id": 132,
     "title": "Cape Fear",
@@ -1291,38 +1356,6 @@
     "runtime": null,
     "isTrending": true,
     "releaseDate": "September 16, 2026",
-    "episodeRuntime": null,
-    "status": "ongoing",
-    "trailerKey": "",
-    "seasonsData": null,
-    "mediaType": "series"
-  },
-  {
-    "id": 142,
-    "title": "Monster: The Lizzie Borden Story",
-    "genres": [
-      "Crime",
-      "Drama",
-      "History"
-    ],
-    "director": "Max Winkler",
-    "poster_url": "images/MonsterTheLizzieBordenStory/MonsterTheLizzieBordenStoryPoster.jpg",
-    "backdrop_url": "images/MonsterTheLizzieBordenStory/MonsterTheLizzieBordenStoryBackdrop.jpg",
-    "summary": "Trapped in a cruel Victorian-era household, Lizzie Borden kills her parents in a gory ax murder that shocks the nation.",
-    "countries": [
-      {
-        "name": "US",
-        "flag": "images/flags/US.png"
-      }
-    ],
-    "minAge": 17,
-    "rating": {
-      "score": 7.1,
-      "vote_count": 254
-    },
-    "runtime": null,
-    "isTrending": true,
-    "releaseDate": "September 17, 2026",
     "episodeRuntime": null,
     "status": "ongoing",
     "trailerKey": "",
@@ -1804,38 +1837,6 @@
     "runtime": null,
     "isTrending": false,
     "releaseDate": "July 8, 2026",
-    "episodeRuntime": null,
-    "status": "released",
-    "trailerKey": "",
-    "seasonsData": null,
-    "mediaType": "movie"
-  },
-  {
-    "id": 158,
-    "title": "The Odyssey",
-    "genres": [
-      "Adventure",
-      "Drama",
-      "Fantasy"
-    ],
-    "director": "Christopher Nolan",
-    "poster_url": "images/TheOdyssey/TheOdysseyPoster.jpg",
-    "backdrop_url": "images/TheOdyssey/TheOdysseyBackdrop.jpg",
-    "summary": "Odysseus, the legendary King of Ithaca, embarks on a long and perilous journey home following the Trojan War. Throughout his voyage, he is forced to confront the whims of gods, mythological monsters, and trials that stretch both his cunning and his humanity to the breaking point.",
-    "countries": [
-      {
-        "name": "US",
-        "flag": "images/flags/US.png"
-      }
-    ],
-    "minAge": 13,
-    "rating": {
-      "score": 8,
-      "vote_count": 4673
-    },
-    "runtime": null,
-    "isTrending": false,
-    "releaseDate": "July 15, 2026",
     "episodeRuntime": null,
     "status": "released",
     "trailerKey": "",
