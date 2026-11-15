@@ -1,6 +1,16 @@
 *{ font-family: 'Josefin Sans'; }
 html{ scroll-behavior: smooth; }
 
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/druk-wide-trial');
+
+.font-druk {
+    font-family: 'Druk Wide Trial', sans-serif;
+    font-weight: 900;
+}
+.font-plex{
+    font-family: 'IBM Plex Mono', monospace;
+}
 /* Main Page Sidebar */
 .OpenSidebar {
     transition: all 0.2s ease;
@@ -84,13 +94,6 @@ html{ scroll-behavior: smooth; }
     transform: scale(1.1);
     filter: brightness(70%);
 }
-/* .moviesNav {
-    overflow: hidden;
-    max-height: 0;
-    opacity: 0;
+.slider-img{
+    transition: all 0.1s ease;
 }
-.seriesNav{
-    overflow: hidden;
-    max-height: 0;
-    opacity: 0;
-} */

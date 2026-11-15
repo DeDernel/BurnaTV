@@ -1,6 +1,8 @@
 
 import { MoviesPage , FilterOperation} from "./moviesPageUI.js";
 import * as UI from './ui.js';
+import { Detail } from "./detail.js";
+import { MovieRow } from "./components/movieRow.js";
 
 const page = document.body.dataset.page;
 
@@ -30,16 +32,22 @@ initApp();
 
 function initMainPage(){
     new UI.Sliders().init(movies);
-    new UI.MovieRow().init(movies);
-    // new UI.Casts().init(movies);
+
+    new MovieRow('.trending-now' , 'trends').init(movies);
+    new MovieRow('.upcoming' , 'upcoming').init(movies);
+
 }
 function initBrowsePage(){
     let filterLogic = new FilterOperation();
     filterLogic.init(movies);
     new MoviesPage(filterLogic).init(movies);
 }
+function initDetailPage(){
+    new Detail().init(movies);
+}
 let pages = {
     main: initMainPage,
-    browse: initBrowsePage
+    browse: initBrowsePage,
+    detail: initDetailPage
 }
 
