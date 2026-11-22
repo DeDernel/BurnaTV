@@ -39,19 +39,21 @@ html{ scroll-behavior: smooth; }
 }
 
 .openAnim{
-    animation: OpenDropAnim 0.5s ease forwards;
+    transform-origin: top center;
+    animation: OpenDropAnim 0.3s ease-out;
 }
 @keyframes OpenDropAnim {
-    from { transform: translateY(-10px);}
-    to { transform: translateY(0);}
+    from {opacity: 0; transform: scaleY(0.8);}
+    to {opacity: 1; transform: scaleY(1);}
 }
 
 .closeAnim{
-    animation: CloseDropAnim 0.5s ease forwards;
+    transform-origin: top center;
+    animation: CloseDropAnim 0.3s ease-out;
 }
 @keyframes CloseDropAnim {
-    from { transform: translateY(0);}
-    to { transform: translateY(-20px);}
+    from {opacity: 1; transform: scaleY(1);}
+    to {opacity: 0; transform: scaleY(0.8);}
 }
 
 

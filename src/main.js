@@ -1,8 +1,9 @@
 
-import { MoviesPage , FilterOperation} from "./moviesPageUI.js";
+import { MoviesPage , FilterOperation} from "./browse-page.js";
 import * as UI from './ui.js';
-import { Detail } from "./detail.js";
-import { MovieRow } from "./components/movieRow.js";
+import { Detail } from "./detail-page.js";
+import { MovieRow } from "./components/movie-row.js";
+import { Tab } from "./components/tab-creator.js";
 
 const page = document.body.dataset.page;
 
@@ -32,7 +33,7 @@ initApp();
 
 function initMainPage(){
     new UI.Sliders().init(movies);
-
+    new Tab('.hero-tabs' , 'Popular Actors & Actresses' , 'Star Gaze' , 'Browse & Discovery');
     new MovieRow('.trending-now' , 'trends').init(movies);
     new MovieRow('.upcoming' , 'upcoming').init(movies);
 

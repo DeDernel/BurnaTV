@@ -1,13 +1,14 @@
-import { MovieComponent } from "./components/movieCard.js";
+import { MovieComponent } from "./components/movie-card.js";
 
 
 export class MoviesPage{
     constructor(FilterClass){
-        this.param = new window.URLSearchParams(window.location.search);
+        
         this.filterLogic = FilterClass;
 
-        // this.filterLogic.currentFilterStatus.type = this.param.get('type');
-        // this.filterLogic.currentFilterStatus.filter = this.param.get('filter');
+        
+
+
 
         this.allContainer = document.querySelector('.allMS');
         this.movies = [];
@@ -233,6 +234,20 @@ export class FilterOperation{
             };
         this.data = [];
         this.timer =  null;
+
+        this.param = new window.URLSearchParams(window.location.search);
+        this.currentFilterStatus.type = this.param.get('type');
+        this.currentFilterStatus.filter = this.param.get('filter');
+        this.currentFilterStatus.genre = this.param.get('genre');
+        document.addEventListener('DOMContentLoaded' , () => {
+            this.applyFilter(this.currentFilterStatus);
+        });
+        
+
+
+
+        console.log(this.currentFilterStatus);
+        console.log(`type : ${this.param.get('type')} - filter : ${this.param.get('filter')} - ${this.param.get('genre')}`);
 
         this.searchBtn.addEventListener('click' , () => {
             this.applyFilter(this.currentFilterStatus);

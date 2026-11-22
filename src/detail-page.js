@@ -1,4 +1,4 @@
-import { MovieComponent } from './components/movieCard.js'
+import { MovieComponent } from './components/movie-card.js'
 
 export class Detail {
     constructor(){

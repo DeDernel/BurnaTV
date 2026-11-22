@@ -27,15 +27,82 @@
             <section class="w-fit flex items-center">
                 <!-- Toggle Menu -->
                 <i class="fa-solid fa-bars text-2xl px-5 cursor-pointer openMenu lg:hidden"></i>
+
                 <!-- Drawer Content -->
                 <div class="SideBar pl-2 gap-1 flex flex-col fixed bg-gray-900 border-r-2 border-purple-600 top-0 ClosedSidebar w-64 h-[100vh] z-50">
                     <!-- Close Menu -->
                     <span class="flex items-center justify-end">
                         <i class="fa-solid fa-xmark text-2xl p-4 mx-4 my-1 cursor-pointer closeMenu"></i>
                     </span>
+                    
+
+                    <section class="menu-group">
+                        <button class="menu-toggle flex items-center justify-between w-full text-lg pr-3">
+                            <div class="flex items-center gap-2">
+                                <i class="fa-solid fa-film"></i>
+                                <h2>Movies</h2>
+                            </div>
+                                <i class="fa-solid fa-angle-down arrow"></i>
+                        </button>
+                    
+                        <ul class="text-sm submenu hidden" aria-expanded="false">
+                            <li><a href="browse.html?type=movie&filter=trending">Trending Movies</a></li>
+                            <li><a href="browse.html?type=movie&filter=upcoming">Upcoming Movies</a></li>
+                            <li><a href="browse.html?type=movie&filter=topRated">Popular Movies</a></li>
+                            <li><a href="">Explore By Genre</a></li>
+                        </ul>
+                    </section>
+
+                    <section class="menu-group">
+                        <button class="menu-toggle flex items-center justify-between w-full text-lg pr-3">
+                            <div class="flex items-center gap-2">
+                                <i class="fa-solid fa-tv"></i>
+                                <h2>Series</h2>
+                            </div>
+                                <i class="fa-solid fa-angle-down arrow"></i>
+                        </button>
+                    
+                        <ul class="text-sm submenu hidden" aria-expanded="false">
+                            <li><a href="browse.html?type=series&filter=trending">Trending Series</a></li>
+                            <li><a href="browse.html?type=series&filter=upcoming">Upcoming Series</a></li>
+                            <li><a href="browse.html?type=series&filter=topRated">Popular Series</a></li>
+                            <li><a href="">Explore By Genre</a></li>
+                        </ul>
+                    </section>
+
+                    <section class="menu-group">
+                        <button class="menu-toggle flex items-center justify-between w-full text-lg pr-3">
+                            <div class="flex items-center gap-2">
+                                <i class="fa-solid fa-layer-group"></i>
+                                <h2>Collections</h2>
+                            </div>
+                                <i class="fa-solid fa-angle-down arrow"></i>
+                        </button>
+                    
+                        <ul class="text-sm submenu hidden" aria-expanded="false">
+                            <li><a href="browse.html?type=movie&genre=Drama">Best Crime Movies</a></li>
+                            <li><a href="">Oscar Winners</a></li>
+                            <li><a href="">Christopher Nolan Collection</a></li>
+                            <li><a href="">Best Movies of the 90s</a></li>
+                        </ul>
+                    </section>
 
 
-
+                    <section class="menu-group">
+                        <button class="menu-toggle flex items-center justify-between w-full text-lg pr-3">
+                            <div class="flex items-center gap-2">
+                                <i class="fa-solid fa-users "></i>
+                                <h2>People</h2>
+                            </div>
+                                <i class="fa-solid fa-angle-down arrow"></i>
+                        </button>
+                    
+                        <ul class="text-sm submenu hidden" aria-expanded="false">
+                            <li><a href="">Popular Actors</a></li>
+                            <li><a href="">Popular Actresses</a></li>
+                            <li><a href="">Popular Directors</a></li>
+                        </ul>
+                    </section>
 
 
 
@@ -85,38 +152,44 @@
         </nav>
 
         <!-- T Slider -->
-        <section class="slider-container touch-pan-y relative group flex h-[80dvh] md:h-[90dvh]">
+
+        <section class="slider-container m-4 touch-pan-y relative group flex h-[40dvh] md:h-[60dvh]">
                 <img fetchpriority="high"
                      decoding="async" 
-                     class="w-full slider-img object-cover" alt="">
-
-                <h1 class="text-gray-100 my-3 ml-4 absolute top-2"><i class="fa-solid fa-arrow-trend-up"></i> Trends | 2026</h1>
+                     class="w-full slider-img object-cover rounded-xl" alt="">
 
             <button aria-label="Next Slide"
-                class="cursor-pointer hidden forward bg-black/30 hover:bg-purple-600
-                transition-all duration-300 w-11 h-11 rounded-full
+                class="cursor-pointer forward bg-black hover:bg-purple-600
+                transition-all duration-300 w-16 h-16 rounded-xl
                 group-hover:flex items-center justify-center
-                absolute right-5 top-1/2 -translate-y-1/2 z-20 text-white">
-                    <i class="fa-solid fa-arrow-right text-xl"></i>
+                absolute -right-2 -bottom-2 z-20 text-white">
+                <i class="fa-solid fa-caret-right text-2xl"></i>
             </button>
             <button aria-label="Prev Slide"
-                class="cursor-pointer hidden back bg-black/30 hover:bg-purple-600
-                transition-all duration-300 w-11 h-11 rounded-full
+                class="cursor-pointer back bg-black hover:bg-purple-600
+                transition-all duration-300 w-16 h-16 rounded-xl
                 group-hover:flex items-center justify-center
-                absolute left-5 top-1/2 -translate-y-1/2 z-20 text-white">
-                    <i class="fa-solid fa-arrow-left text-xl"></i>
+                absolute -left-2 -bottom-2 z-20 text-white">
+                <i class="fa-solid fa-caret-left text-2xl"></i>
             </button>
                 
 
-                <div class="z-10 absolute md:left-10 lg:left-20 lg:top-1/3 bottom-0 w-2/3 slider-info-panel">
+                <div class="z-10 absolute md:left-10 lg:left-20 lg:top-1/3 bottom-0 h-full slider-info-panel">
                 </div>
                 
                 <div class="absolute inset-0 bg-gradient-to-t from-gray-950 via-gray-950/30 to-transparent pointer-events-none"></div>
                 
-        </section>
-        <div class="pagination-dots flex justify-center mb-10 mt-5">
+                <div class="pagination-dots absolute bottom-0 inset-x-0 flex justify-center">
             
-        </div>
+                </div>
+                <div class="slider-change-count bg-black/40 rounded-full absolute top-2 right-2">
+                    <div class="p-1 w-8 text-red-500 flex items-center justify-center rounded-full">
+                        <span class="timer-place">7</span>
+                    </div>
+                </div>
+        </section>
+
+        
     
     </div>
 
@@ -126,12 +199,15 @@
 
 
 
-    <main class="flex flex-col gap-5 max-w-[1300px] mx-auto">
-        <div class="trending-now px-4">
+    <main class="flex flex-col max-w-[1300px] mx-auto">
+        <ul class="hero-tabs text-white overflow-x-auto no-scrollbar flex gap-4 mx-5 mb-12">
+            
+        </ul>
+        <div class="trending-now px-2">
 
         </div>
         
-        <div class="upcoming px-4">
+        <div class="upcoming px-2">
 
         </div>
 
@@ -141,6 +217,9 @@
         </section>
     </main>
 
+    <div class="h-96 ">
+
+    </div>
     
     <div class="SidebarOverlay hidden absolute top-0 h-full w-full bg-black/40 z-40"></div>
     <script type="module" src="src/main.js"></script>

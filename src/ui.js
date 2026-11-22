@@ -1,4 +1,4 @@
-import { MovieComponent } from './components/movieCard.js';
+import { MovieComponent } from './components/movie-card.js';
 
 export class Sliders {
     constructor (){
@@ -6,6 +6,11 @@ export class Sliders {
         this.sliderDescription = document.querySelector('.slider-info-panel');
         this.sliderContainer = document.querySelector('.slider-container');
         this.paginationSlider = document.querySelector('.pagination-dots');
+
+        this.sliderCounter = document.querySelector('.slider-change-count');
+        this.counterTime = 7;
+        this.timePlace = document.querySelector('.timer-place');
+
 
         if(!this.sliderImage || !this.sliderContainer) return;
 
@@ -95,8 +100,13 @@ export class Sliders {
     startHeaderSlider() {
         clearInterval(this.changeSliderTime);
         this.changeSliderTime = setInterval(() => {
-            this.moveSlide(1);
-        }, 7000);
+            this.timePlace.textContent = this.counterTime;
+
+            this.counterTime--;
+            if(this.counterTime < 0){
+                this.moveSlide(1);
+            }
+        },1000);
     }
 
     renderTrendsSlider(){
@@ -120,11 +130,12 @@ export class Sliders {
                 this.sliderDescription.innerHTML = '';
                 this.renderTrendsSlider();
                 this.sliderImage.style.opacity = 1;
+                this.counterTime = 7;
             }
         }, 300);
     }
 }
-class Scroller{
+export class Scroller{
     constructor (Scroll){
         this.Container = Scroll;
     }
@@ -172,6 +183,58 @@ class Scroller{
             
         });
     }
+    
+    function SidebarDrawer(){
+        const groups = document.querySelectorAll('.menu-group');
+
+        function openMenu(group){
+            const sub = group.querySelector('.submenu');
+            const btn = group.querySelector('.menu-toggle');
+
+            groups.forEach(g => {
+                const gSub = g.querySelector('.submenu');
+                const gBtn = g.querySelector('.menu-toggle');
+
+                gSub.classList.remove('closeAnim' , 'openAnim');
+                gSub.classList.add('hidden');
+                
+                gBtn.setAttribute('aria-expanded' , 'false');
+            });
+
+            sub.classList.remove('hidden' , 'closeAnim');
+            sub.classList.add('openAnim');
+            btn.setAttribute('aria-expanded' , 'true');
+        }
+
+        function closeMenu(group){
+            const sub = group.querySelector('.submenu');
+            const btn = group.querySelector('.menu-toggle');
+
+            sub.classList.remove('openAnim');
+            sub.classList.add('closeAnim');
+            btn.setAttribute('aria-expanded' , 'false');
+
+            setTimeout(() => {
+                sub.classList.add('hidden');
+            },300);
+
+        }
+
+        groups.forEach(group => {
+            const btn = group.querySelector('.menu-toggle');
+            btn.addEventListener('click' , () => {
+                let isOpen = btn.getAttribute('aria-expanded') === 'true';
+
+                if(!isOpen){
+                    openMenu(group);
+                }else{
+                    closeMenu(group);
+                }
+            });
+        });
+
+    }
+    SidebarDrawer();
     activeSidebar();
 })();
 
